@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { Body } from './components/Body';
+import Navbar from './components/Navbar/Navbar';
+import { Footer } from './components/Footer';
+import './styles/App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Piletas } from './components/Piletas';
+import { Argentineta } from './components/Piletas/Argentineta';
+import { ItemDetail } from './components/Piletas/ItemDetail';
+
+import './styles/Piletas.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Body />} />
+        <Route path="/piletas" element={<Piletas />} />
+        <Route path="/ItemDetail" element={<ItemDetail />} />
+      </Routes>
+
+      <Footer/>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
