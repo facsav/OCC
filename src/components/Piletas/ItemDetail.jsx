@@ -84,7 +84,27 @@ export function ItemDetail(){
                     </div>
                     <div class="col-12 col-md-5" style={{marginTop: "1.5em;"}}>
                         <h3 style={{color: "transparent"}}>Argentineta</h3>
-                        <p id="descripcion">Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, <br/>metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br/><br/>Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus. Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. </p>
+                        <p id="descripcion"></p>
+                                {/* -----------------------------ICONOS ANIMADOS----------------------------- */}
+
+                        <div id="falopa">
+                            <div class="icono-container" onclick="toggleClickState(this)">
+                                <img src="../../ubicacion.png" alt="" class="iconos"/>
+                                <span class="def-iconos"><p>Miaaaaami</p></span>
+                            </div>
+
+                            <div class="icono-container" onclick="toggleClickState(this)">
+                                <img src="../../reloj.png" alt="" class="iconos"/>
+                                <span class="def-iconos"><p>Tres_Días</p></span>
+                            </div>
+
+                            <div class="icono-container" onclick="toggleClickState(this)">
+                                <img src="../../escuadra.png" alt="" class="iconos"/>
+                                <span class="def-iconos"><p>Recuadrado</p></span>
+                            </div>
+                        </div>
+                        
+
                     </div>
                 </div>
             </div>
