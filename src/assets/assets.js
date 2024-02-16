@@ -20,12 +20,6 @@ import adefinir from './images/piletas/Adefinir.png'
 import escaloneta from './images/piletas/Escaloneta.png'
 import eggs from './images/piletas/Eggs.png'
 
-// ARGENTINETA
-import decote from './images/piletas/Argentineta/decote.jpg'
-import jaquzzi from './images/piletas/Argentineta/jaquzzi.jpeg'
-import portadaARG from './images/piletas/Argentineta/portada.jpeg'
-
-
 
 
 
@@ -51,10 +45,6 @@ export default{
     'adefinir': adefinir,
     'escaloneta': escaloneta,
     'eggs': eggs,
-    // Argentineta
-    'decote': decote,
-    'jaquzzi': jaquzzi,
-    'portadaARG': portadaARG,
-    
+
 }
 
