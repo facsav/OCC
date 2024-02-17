@@ -8,10 +8,12 @@ export function ItemDetailCarrousel ({array}){
         // Cambia la fuente de la imagen de la portada
         portadaImg.src = nuevaImagen;
     }
+
+    console.log(array)
       
     return(
       <div className="lista-img">
-        {array.map((asset, index) => (
+        {array.map((asset, index) =>(
           <img src={asset} alt="" className="imagen-item" onClick={() => cambiarPortada(asset)}/>
         ))}
       </div>

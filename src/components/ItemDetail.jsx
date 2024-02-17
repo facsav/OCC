@@ -1,7 +1,6 @@
 import { ItemDetailCarrousel } from "./ItemDetailCarrousel";
 
 export function ItemDetail({titulo, descLarga, imgPortada, listaDeAssets}){
-    console.log("DALE LOCO", portada)
 
     const initSlider = () => {
         const imageList = document.querySelector(".slider .lista-img");
@@ -56,7 +55,7 @@ export function ItemDetail({titulo, descLarga, imgPortada, listaDeAssets}){
                         <div className="carrusel">
                             <div className="slider">
                                 {/* <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button> */}
-                                <ItemDetailCarrousel array={[listaDeAssets]} />
+                                <ItemDetailCarrousel array={listaDeAssets} />
                                 {/* <button id="next-slide" className="slide-button material-symbols-rounded">chevron_right</button> */}
                             </div>
                         </div>
