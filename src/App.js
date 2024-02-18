@@ -5,7 +5,7 @@ import './styles/App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Piletas } from './components/Piletas';
 import { Argentineta } from './components/Argentineta';
-import { ItemDetail } from './components/ItemDetail';
+
 
 import './styles/Piletas.css';
 

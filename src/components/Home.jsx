@@ -1,7 +1,8 @@
 import assets from "../assets/assets";
 import DarkMode from "./DarkMode";
 import { Carrusel } from "./carrusel";
-import { ContactUs } from "./contacto";
+import { ContactUs } from "./ContactUs";
+
 
 if (DarkMode){
     console.log("esta activo")
