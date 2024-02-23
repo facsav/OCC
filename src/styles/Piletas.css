@@ -58,45 +58,45 @@
 
 
 /* POOL DETAILS */
-
-#Portada{
-    width: auto;
-    height: auto;
+#contenedor-portada {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color:rgb(2, 10, 53);
 }
-#contenedor-portada{
-    overflow-x: auto;
-    overflow-y: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media(max-width:600px){
+  #contenedor-portada{
+    max-height: 65vh;
+  }
 }
 
 
-/* Estilo de la barra de desplazamiento */
+
+/* Ancho y color de la barra de desplazamiento */
 #contenedor-portada::-webkit-scrollbar {
-    width: 2px; /* Ancho de la barra de desplazamiento */
+  width: 6px;
+  height: 6px;
 }
 
-/* Estilo del "pulgar" o "scroll thumb" */
 #contenedor-portada::-webkit-scrollbar-thumb {
-    background-color: #D4F1F4; /* Color del pulgar */
-    border-radius: 6px; /* Bordes redondeados del pulgar */
+  background: blue;
+  border-radius: 6px;
 }
 
-/* Estilo de la barra de desplazamiento al pasar el mouse sobre ella */
+/* Estilo cuando se pasa el mouse sobre la barra de desplazamiento */
 #contenedor-portada::-webkit-scrollbar-thumb:hover {
-    background-color: #05445E; /* Cambiar color al pasar el mouse */
+  background-color: #e10c0c;
 }
 
 /* Estilo del fondo de la barra de desplazamiento */
 #contenedor-portada::-webkit-scrollbar-track {
-    background-color:none; /* Color del fondo de la barra de desplazamiento */
+  background-color: #ffffff;
 }
 
-/* Estilo de la esquina entre la barra de desplazamiento y el pulgar */
+/* Estilo de las esquinas de la barra de desplazamiento */
 #contenedor-portada::-webkit-scrollbar-corner {
-    background-color: none /* Color de la esquina */
+  background-color: #eee;
 }
+
 
 .carrusel{
     height: max-content;
@@ -106,12 +106,35 @@
 .lista-img{
     display: grid;
     gap: 18px;
-    grid-template-columns: repeat(9, 1fr);
     overflow-x: auto;
 }
-.lista-img::-webkit-scrollbar{
-    display: none;
+
+/* Ancho y color de la barra de desplazamiento */
+.lista-img::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
 }
+
+.lista-img::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 6px;
+}
+
+/* Estilo cuando se pasa el mouse sobre la barra de desplazamiento */
+.lista-img::-webkit-scrollbar-thumb:hover {
+  background-color: #e10c0c;
+}
+
+/* Estilo del fondo de la barra de desplazamiento */
+.lista-imga::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+/* Estilo de las esquinas de la barra de desplazamiento */
+.lista-img::-webkit-scrollbar-corner {
+  background-color: #eee;
+}
+
 .imagen-item{
     /* height: 80px; */
     width: auto;
@@ -145,8 +168,54 @@
 #descripcion{
     font-weight: 500;
     font-size: 14px;
+    margin-top: 2.5em;
+    white-space:pre-line;
+}
+/* -----------Iconos parrafos----------- */
+.iconos-p {
+  height: 22px;
+  width: auto;
+}
+.icono-container {
+  display: inline-flex;
+  margin: 0 5px;
+  cursor: pointer; 
 }
 
+.def-iconos {
+  font-weight: 500;
+  font-size: 14px;
+  transform: scaleX(0);
+  width: 0;
+  overflow: hidden;
+  display: inline-flex;
+  margin: 0 0 0 0.5em;
+  transform-origin: left;
+  animation-fill-mode: forwards;
+}
+
+.icono-container.clicked .def-iconos {
+  animation: aparicion 0.3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aparicion {
+  0% {
+      transform: scaleX(0);
+  }
+  33% {
+      transform: scaleX(0.25);
+      width: 3em;
+  }
+  66% {
+      transform: scaleX(0.5);
+      width: 5em;
+  }
+  100% {
+      transform: scaleX(1);
+      width: max-content;
+  }
+}
 /* Imagenes descriptivas */
 
 .piscina-description{

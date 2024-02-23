@@ -19,12 +19,35 @@ import lgbt from './images/piletas/LGBT.png'
 import adefinir from './images/piletas/Adefinir.png'
 import escaloneta from './images/piletas/Escaloneta.png'
 import eggs from './images/piletas/Eggs.png'
+import escuadra from './images/escuadra.png'
+import reloj from './images/reloj.png'
+import ubicacion from './images/ubicacion.png'
+import interior1 from './images/revestimientos/interior1.png'
+import interior2 from './images/revestimientos/interior2.png'
+import exterior from './images/revestimientos/exterior.png'
+import detallado from './images/revestimientos/detallado.png'
 
-
-
-
+import pileta1trabajos from './images/trabajos/pileta1.jpeg'
+import pileta2trabajos from './images/trabajos/pileta2.jpeg'
+import pileta3trabajos from './images/trabajos/pileta3.jpeg'
+import pileta4trabajos from './images/trabajos/pileta4.jpeg'
+import revestimientos1trabajos from './images/trabajos/rev1.jpg'
+import revestimientos2trabajos from './images/trabajos/rev2.jpg'
+import revestimientos3trabajos from './images/trabajos/rev3.jpg'
+import revestimientos4trabajos from './images/trabajos/rev4.jpg'
 
 export default{
+    'pileta1trabajos':pileta1trabajos,
+    'pileta2trabajos':pileta2trabajos,
+    'pileta3trabajos':pileta3trabajos,
+    'pileta4trabajos':pileta4trabajos,
+    'revestimientos1trabajos':revestimientos1trabajos,
+    'revestimientos2trabajos':revestimientos2trabajos,
+    'revestimientos3trabajos':revestimientos3trabajos,
+    'revestimientos4trabajos':revestimientos4trabajos,
+    'escuadra':escuadra,
+    'reloj':reloj,
+    'ubicacion':ubicacion,
     'logo' : logo,
     'logoWhite' : logoWhite,
     'casa': casa,
@@ -45,6 +68,9 @@ export default{
     'adefinir': adefinir,
     'escaloneta': escaloneta,
     'eggs': eggs,
-
+    'detallado':detallado,
+    'exterior':exterior,
+    'interior2':interior2,
+    'interior1':interior1,
 }
 

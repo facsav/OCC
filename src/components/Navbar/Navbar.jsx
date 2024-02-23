@@ -26,7 +26,7 @@ const Navbar = () => {
             <ul className="navbar-nav d-flex justify-content-md-end align-items-md-center">
               <NavItemWithImage imageSrc={assets.casa} alt="Casa" text="Home" showImageOnMobile={true} ruta='/' />
               <NavItemWithImage imageSrc={assets.info} alt="Info" text="Sobre nosotros" showImageOnMobile={true} />
-              <NavItemWithImage imageSrc={assets.bolso} alt="Bolso" text="Nuestros trabajos" showImageOnMobile={true} ruta='/piletas' />
+              <NavItemWithImage imageSrc={assets.bolso} alt="Bolso" text="Nuestros trabajos" showImageOnMobile={true} ruta='/NuestrosTrabajos' />
               <NavItemWithImage imageSrc={assets.telefono} alt="Teléfono" text="Contacto" showImageOnMobile={true} />
               <li>
                 <a className="nav-link" href="#">
