@@ -11,7 +11,13 @@ const data = {
             'ubicacion':'Miami-USA',
             'recuadre':'Sin secciones rectas',
             'demas_fotos':["/images/Redondeta/pileta 6.jpeg", "/images/Redondeta/union 2.jpeg", "/images/Redondeta/constr.jpeg",
-             "/images/Redondeta/constr 2.jpg", "/images/Redondeta/constr 3.jpg","/images/Redondeta/antes.jpg"]
+             "/images/Redondeta/constr 2.jpg", "/images/Redondeta/constr 3.jpg","/images/Redondeta/antes.jpg"],
+             "imgdesc1":'/images/Redondeta/union 2.jpeg',
+             "imgdesc2":'/images/Redondeta/constr 2.jpg',
+             "imgdesc3":'/images/Redondeta/antes.jpg',
+             "desc1":'En esta sección del revestimiento tenemos una concavidad tanto en la pared como en el faldón, es por eso que decidimos hacer hincapié en esta imagen donde puede apreciarse la delicadeza de los cortes en las venecitas, y la suavidad de las uniones.',
+             "desc2":'El proceso de construcción comienza en la zona superior de la piscina, se colocan las planchas cortadas de venecitas bajando por las paredes, luego colocamos el suelo y dejamos las uniones para el final, logrando un acabado prolijo.',
+             "desc3":'Esta imagen representa la falta de revestimiento en las piscinas, tanto por su espléndido acabado que otorga belleza y elegancia, como por la comodidad que da al suavizar las superficies al tacto, dejando de sentir la aspereza del cemento o la fibre de vidrio, ya que se desgastan con el tiempo'
         },
         {
             'name': 'Finlandesa',
@@ -23,7 +29,13 @@ const data = {
             'recuadre':'Reduadrada y Nivelada',
             'demas_fotos':["/images/Finlandesa/Pileta 3.jpeg","/images/Finlandesa/jacuzzi.jpeg","/images/Finlandesa/Detalle 1.jpeg",
             "/images/Finlandesa/adentro.jpeg","/images/Finlandesa/Detalle 2.jpeg","/images/Finlandesa/detalle 3.jpeg",
-            "/images/Finlandesa/escalera 1.jpeg","/images/Finlandesa/escalera 2.jpeg","/images/Finlandesa/escalera 3.jpeg"]
+            "/images/Finlandesa/escalera 1.jpeg","/images/Finlandesa/escalera 2.jpeg","/images/Finlandesa/escalera 3.jpeg"],
+            "desc1":' Esta majestuosa e inmensa piscina, se encuentra perfectamente nivelada desde la piscina hasta el jacuzzi en cada cm2, aunque el proceso de nivelación y recuadre puedan agregar días de trabajo, nos permiten llevar al límite nuestras habilidades  ofreciendo un acabado impresionante en cada sección. ',
+            "desc2":' Nuestra precisión no solo se muestra en nuestra habilidad para nivelar, si no también en el uso de herramientas de corte, logrando por ejemplo esta unión donde la venecita comienza en 2 cm y termina en un alto de tan solo 0,2 cm, con esto logramos uniones más suaves a la vista, pero por sobretodo al tacto. ',
+            "desc3":'Esta sección en la escalera es el reflejo de nuestra habilidad para la nivelación, tan solo con observar la rectitud en cada venecita, no hace falta agregar palabras. ',
+            "imgdesc1":'/images/Finlandesa/Pileta 3.jpeg',
+            "imgdesc2":'/images/Finlandesa/detalle 3.jpeg',
+            "imgdesc3":'/images/Finlandesa/Detalle 2.jpeg'
         },
         {
             'name': 'Argentineta',
@@ -33,7 +45,13 @@ const data = {
             'tiempo':'6 Días',
             'ubicacion':'Miami-USA',
             'recuadre':'Reduadrada y Nivelada',
-            'demas_fotos':["/images/Argentineta/portada.jpeg", "/images/Argentineta/decote.jpg", "/images/Argentineta/jaquzzi.jpeg"]
+            'demas_fotos':["/images/Argentineta/portada.jpeg", "/images/Argentineta/decote.jpg", "/images/Argentineta/jaquzzi.jpeg"],
+             "desc1":' La mejor forma de mostrar nuestra atención al detalle es mostrando esta imagen, donde se puede apreciar la perfecta nivelación de las venecitas, la suavidad del empalme entre la pared y el descanso o apreciar la perfecta curva que hacen sobre el banco.',
+             "desc2":'Este nivel de precisión lo mantenemos a lo largo y ancho de toda la piscina, incluso en inmensidades como esta.',
+             "desc3":'El borde atermico proporciona no solo elegancia, si no que otorga comodidad al tener una sección que nunca se encuentra caliente. Es por esto que cuidamos la colocación utilizando métodos de adherencia de primera calidad para asegurar una duración prolongada en el tiempo.',
+             "imgdesc1":'/images/Argentineta/jaquzzi.jpeg',
+             "imgdesc2":'/images/Argentineta/portada.jpeg',
+             "imgdesc3":'/images/Argentineta/Borde.jpeg'
         },
         {
             'name': 'Fuente',
@@ -43,7 +61,13 @@ const data = {
             'tiempo':'1 mes',
             'ubicacion':'Miami-USA',
             'recuadre':'Sin nivelar',
-            'demas_fotos':["/images/Fuente/fuente.jpeg","/images/Fuente/cote.jpg","/images/Fuente/centro.jpg"]
+            'demas_fotos':["/images/Fuente/fuente.jpeg","/images/Fuente/puente.png",'/images/Fuente/centro 2.png'],
+             "desc1":' Para proteger la integridad de los materiales, cuidando la fragilidad del marmo, las uniones entre el mármol y porcelanato en la sección central, son cortadas a 45° (proceso de ingletado) asegurando una unión sólida entre ambas superficies, asegurando resistencia y durabilidad.',
+             "desc2":' En esta imagen podemos ver la amplia variedad de materiales que son, la venecita, el mármol y el porcelanato. Todos son instalados por nosotros con el mismo cuidado y prolijidad, ya que contamos con la experiencia para manejar cualquier material a colocar con cualquier material de adherencia.',
+             "desc3":'Esta fuente inmensa ha sido una experiencia inolvidable, ya que es nuestro proyecto más grande y con mayor variedad de materiales.',
+             "imgdesc1":'/images/Fuente/detalle.jpeg',
+             "imgdesc2":'/images/Fuente/centro 2.png',
+             "imgdesc3":'/images/Fuente/fuente 2.jpeg'
         },
         {
             'name': 'Clasica',
@@ -54,10 +78,16 @@ const data = {
             'ubicacion':'Miami-USA',
             'recuadre':'Sin recuadrar',
             'demas_fotos':["/images/Clasica/detalle.jpeg","/images/Clasica/escalera.jpeg","/images/Clasica/proceso.jpeg",
-            "/images/Clasica/transicion.jpeg","/images/Clasica/Portada.jpeg","/images/Clasica/WhatsApp Image 2023-10-30 at 11.43.14 (1).jpeg"]
+            "/images/Clasica/transicion.jpeg","/images/Clasica/Portada.jpeg","/images/Clasica/WhatsApp Image 2023-10-30 at 11.43.14 (1).jpeg"],
+             "desc1":' El proceso de instalación se realiza comenzando por las paredes y el suelo, dejando para el final el empalme entre estos, logrando así una unión prolija, esto es muy importante en piscinas de faldón curvo.',
+             "desc2":'Esto puede apreciarse en la suavidad del acabado de esta unión, que además no presenta ningún relieve que puedas sentir más que los bordes suaves de la propia venecita.',
+             "desc3":'Puede apreciarse la inmensidad de esta piscina de casi 1000 pies cuadrados, es por eso que nos orgullecemos de resaltar la rapidez en la realización de la obra, siendo de tan solo 5 días.',
+             "imgdesc1":'/images/Clasica/proceso 2.png',
+             "imgdesc2":'/images/Clasica/detalle 2.png',
+             "imgdesc3":'/images/Clasica/detalle.jpeg'
         },
         {
-            'name': 'Lgbt',
+            'name': 'Multicolor',
             'desc_corta':'Trabajo realizado con cerecita y marmol',
             'desc_larga': `Esta piscina situada sobre el agua pantanosa de la zona contaba con un orificio de drenaje en el centro, es por eso que se puede observar en el proceso de revestimiento como se dejó dicha zona para el final. Ya que sin este sistema de drenaje existía el riesgo de levantamiento de la piscina. Es por eso que para finalizar el recubrimiento se selló con poliuretano y cemento fulminante este agujero, colocando rápidamente y en una sola pieza las venecitas faltante previamente cortadas a medida, y llenando la piscina para nivelar el agua de esta con la del agua aledaña a la zona, evitando así el riesgo de levantamiento. \nA pesar de la complejidad de la zona de trabajo, y nuestra atención en cada detalle, unión, banco y escalera, encuadrando y nivelando cada centímetro de esta piscina, en tan solo 6 días estaba lista para el deleite del cliente.\n\nProcedimiento: \nLas venecitas se cortan utilizando discos diamantados de 4”, utilizando esto y nuestra mano de obra especializada, aseguramos cortes limpios, prolijos y nunca una ruptura innecesaria. Luego se colocan utilizando pegamento poxilina o grau epoxi, garantizando la resistencia y durabilidad necesarios para afrontar los rigores del tiempo y uso diario. \nEl borde atermico se instala utilizando cal y como puente de adherencia klaukol, también puede reemplazarse por agua y cemento y el puente de adherencia taculu. Ambas opciones aseguran una conexión sólida y duradera en el tiempo entre el borde y la superficie de colocación.`,
             'portada': "/images/LGBT/Portada.jpeg",
@@ -65,20 +95,29 @@ const data = {
             'ubicacion':'Miami-USA',
             'recuadre':'Reduadrada y Nivelada',
             'demas_fotos':["/images/LGBT/Portada.jpeg","/images/LGBT/portada 2.jpeg","/images/LGBT/Porceso.jpg",
-            "/images/LGBT/proceso 2.jpeg", "/images/LGBT/detalle 4.jpeg", "/images/LGBT/Detalle.jpeg"]
+            "/images/LGBT/proceso 2.jpeg", "/images/LGBT/detalle 4.jpeg", "/images/LGBT/Detalle.jpeg"],
+             "desc1":'Cómo explicamos el agua brotaba constantemente así que durante todo el trabajo, prácticamente 1 semana entera, tuvimos una bomba extrayéndola. ',
+             "desc2":'Como se observa, a pesar de la complejidad las terminaciones son impecables, suaves y perfectamente rectas y paralelas. Cuando nos comprometemos con el detalle, cumplimos.',
+             "desc3":'Pueden ver como seguimos el patrón de procedimiento, es decir dejando siempre las uniones piso/pared para el final, a excepción de la zona central la cual quedó al descubierto hasta el final. Esta zona fue medida y cortada en una plancha de venecitas con la mayor precisión, así al momento de sellar el orificio era colocada de inmediato, encastrando mejor aún que una pieza de rompecabezas.',
+             "imgdesc1":'/images/LGBT/Porceso.jpg',
+             "imgdesc2":'/images/LGBT/detalle 4.jpeg',
+             "imgdesc3":'/images/LGBT/proceso 2.jpeg'
         },
         {
             'name': 'Adefinir',
             'desc_corta':'Trabajo realizado con cerecita y marmol',
-            'desc_larga': `Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
-            metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            
-            Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus. Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.`,
+            'desc_larga': `Sumérgete en esta piscina de 650 pies2, revestida con venecitas biseladas. Su borde atermico de 2x1pie proporciona elegancia y también mejora la seguridad y comodidad de tu experiencia. Nuestros años de experiencia perfeccionando el arte de la instalación nos han llevado a realizar este proceso en tan solo 2 días. \n\nProcedimiento:\nLas venecitas se cortan utilizando discos diamantados de 4”, utilizando esto y nuestra mano de obra especializada, aseguramos cortes limpios, prolijos y nunca una ruptura innecesaria. Luego se colocan utilizando pegamento poxilina o grau epoxi, el material de adherencia es a decisión del cliente, contamos con la capacitación para trabajar con lo que se desee. Ambos garantizan la resistencia y durabilidad necesarios para afrontar los rigores del tiempo y uso diario. \nEl borde atermico se instala utilizando cal y como puente de adherencia klaukol, también puede reemplazarse por agua y cemento y el puente de adherencia taculu. Ambas opciones aseguran una conexión sólida y duradera en el tiempo entre el borde y la superficie de colocación. Al igual que con la adherencia de las venecitas, esto es su completamente su decisión.`,
             'portada': "/images/Adefinir/Portada.jpeg",
             'tiempo':'2 Días',
             'ubicacion':'Miami-USA',
             'recuadre':'Sin nivelar',
-            'demas_fotos':["/images/Adefinir/Panora.jpeg","/images/Adefinir/Detalle.jpeg","/images/Adefinir/Detalle 2.jpeg"]
+            'demas_fotos':["/images/Adefinir/Panora.jpeg","/images/Adefinir/Detalle.jpeg","/images/Adefinir/Detalle 2.jpeg"],
+             "desc1":'A pesar de que en este trabajo la nivelación no fue realizada (a decisión del cliente), los acabados en la pisada de la escalera mantienen siempre finura y suavidad para su comodidad.',
+             "desc2":'Esto mismo se ve retratado en el faldón, donde cortando con máxima precisión logramos estas esquinas con una transición suave entre el suelo y la pared, las secciones realizadas en el corte de la plancha de venecitas puede alcanzar hasta los 2 mm.',
+             "desc3":'Estos bordes atérmicos son colocados no solo para que duren y afronten el rigor del tiempo y el clima, si no para la estética de la piscina, dando abrocha la elegancia siguiente la forma de este, que hábilmente logramos en la colocación.',
+             "imgdesc1":'/images/Adefinir/escalera.png',
+             "imgdesc2":'/images/Adefinir/union.png',
+             "imgdesc3":'/images/Adefinir/borde.png'
         },
         {
             'name': 'Escaloneta',
@@ -90,8 +129,13 @@ const data = {
             'recuadre':'Reduadrada y Nivelada',
             'demas_fotos':["/images/Escaloneta/comparativa 1.jpg", "/images/Escaloneta/proceso 1.jpg","/images/Escaloneta/Proceso 2.jpg",
             "/images/Escaloneta/proceso 3.jpg","/images/Escaloneta/detalle.jpeg","/images/Escaloneta/detalle 2.jpeg",
-            "/images/Escaloneta/detalle 3.jpeg","/images/Escaloneta/detalle 4.jpeg","/images/Escaloneta/transcision.jpeg",
-             ]
+            "/images/Escaloneta/detalle 3.jpeg","/images/Escaloneta/detalle 4.jpeg","/images/Escaloneta/transcision.jpeg"],
+             "desc1":'Cuando se trata de piscinas de faldón curvo, es importante dejar la unión entre el piso y las paredes para el final, de esta manera aseguramos una transición suave y prolija.',
+             "desc2":'Incluso en zonas donde las paredes y la unión con el piso son completamente curvas, logramos un detalle alucinante, consiguiendo suavidad en cada curva y transición.',
+             "desc3":'Cuando nuestra atención al detalle, con nuestra experiencia se suman al pedido del cliente de nivelar logramos un acabado perfecto. ',
+             "imgdesc1":'/images/Escaloneta/faldon.png',
+             "imgdesc2":'/images/Escaloneta/transicion 2.png',
+             "imgdesc3":'/images/Escaloneta/detalle 2.jpeg'
         },
         {
             'name': 'Celeste',
@@ -101,7 +145,13 @@ const data = {
             'tiempo':'5 Días',
             'ubicacion':'Miami-USA',
             'recuadre':'Reduadrada y Nivelada',
-            'demas_fotos':["/images/celeste/frente.jpg", "/images/celeste/escalera.jpeg", "/images/celeste/proceso.jpeg"]
+            'demas_fotos':["/images/celeste/frente.jpg", "/images/celeste/escalera.jpeg", "/images/celeste/proceso.jpeg"],
+             "desc1":'',
+             "desc2":'',
+             "desc3":'',
+             "imgdesc1":'',
+             "imgdesc2":'',
+             "imgdesc3":''
         },
         
     ]

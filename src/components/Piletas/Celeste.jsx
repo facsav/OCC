@@ -11,6 +11,12 @@ export function Celeste(){
         tiempo={data.pools[8].tiempo}
         recuadre={data.pools[8].recuadre}
         ubicacion={data.pools[8].ubicacion}
-        cantImgCarrusel={data.pools[8].demas_fotos.length} />
+        cantImgCarrusel={data.pools[8].demas_fotos.length}
+        desc1={data.pools[8].desc1}
+        desc2={data.pools[8].desc2}
+        desc3={data.pools[8].desc3}
+        imgdesc1={data.pools[8].imgdesc1}
+        imgdesc2={data.pools[8].imgdesc2}
+        imgdesc3={data.pools[8].imgdesc3}/>
     )
 }

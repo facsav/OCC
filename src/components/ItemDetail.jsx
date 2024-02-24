@@ -3,7 +3,7 @@ import assets from "../assets/assets";
 import React, { useEffect, useState } from 'react';
 
 const Icono = ({ imagen, nombre, onClick }) => {
-  
+
   const [clicked, setClicked] = useState(false);
 
   const toggleClickState = () => {
@@ -19,15 +19,9 @@ const Icono = ({ imagen, nombre, onClick }) => {
   );
 };
 
-export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiempo, recuadre, ubicacion, cantImgCarrusel }) {
+export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiempo, recuadre, ubicacion, cantImgCarrusel, desc1, desc2, desc3, imgdesc1, imgdesc2, imgdesc3}) {
   const [clickedIcons, setClickedIcons] = useState([]);
   const [portadaHeight, setPortadaHeight] = useState(0);
-  useEffect(() => {
-    const descripcion = document.getElementById('descripcion');
-    if (descripcion) {
-      setPortadaHeight(descripcion.offsetHeight * 0.8);
-    }
-  }, [imgPortada]);
   
   useEffect(() => {
     const initSlider = () => {
@@ -55,16 +49,15 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
 
     initSlider();
 
-    // Limpieza del evento al desmontar el componente
     return () => {
       window.removeEventListener("load", initSlider);
     };
 
     
-  }, []); // El segundo argumento es un array vacío, asegurándonos de que este efecto se ejecute solo una vez al montar el componente
+  }, []); 
 
+  //--------------------------------------------------- Logica scroll ----------------------------------
   useEffect(() => {
-    // Lógica para determinar si la imagen de portada es más ancha que alta
     const portadaImg = document.getElementById('Portada');
     const contenedorPortada = document.getElementById('contenedor-portada');
   
@@ -72,66 +65,81 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
       const esMasAnchaQueAlta = portadaImg.naturalWidth > portadaImg.naturalHeight;
       const esMasAltaQueAncha = portadaImg.naturalHeight > portadaImg.naturalWidth;
       const esIgual = portadaImg.naturalHeight == portadaImg.naturalWidth;
+      const descripcion = document.getElementById('descripcion');
   
       if (esMasAnchaQueAlta) {
-        // Si es más ancha, aplicar reglas para hacer scroll horizontal
+        //---- una opcion la altura de la portada
+
+        // if (window.innerWidth > 600){
+        // setPortadaHeight(descripcion.offsetHeight * 0.8);
+        // }else{
+        // setPortadaHeight(descripcion.offsetHeight * 1);
+        // }
+        //-------- segunda opcion
+        if (window.innerWidth > 600){
+          setPortadaHeight(60);
+          }else{
+          setPortadaHeight(40);
+          }
         contenedorPortada.style.overflowX = 'auto';
         contenedorPortada.style.overflowY = 'hidden';
-        portadaImg.style.height = parseInt(contenedorPortada.style.height) + 'px';
+        portadaImg.style.height = '100%';
         portadaImg.style.width = 'auto';
-        portadaImg.style.marginLeft = 'auto';
-        portadaImg.style.marginRight = 'auto';
+
       } else if (esMasAltaQueAncha) {
-        // Si es más alta, aplicar reglas para hacer scroll vertical
+        if (window.innerWidth > 600){
+        setPortadaHeight(70);
+        }else{
+        setPortadaHeight(52);
+        }
         contenedorPortada.style.overflowX = 'hidden';
         contenedorPortada.style.overflowY = 'auto';
-        portadaImg.style.width = parseInt(contenedorPortada.style.width) + 'px';
+        portadaImg.style.width = '100%';
         portadaImg.style.height = 'auto';
       } 
     };
-  
+    
     if (imgPortada.complete) {
-      // La imagen ya está cargada
       handleImageLoad();
     } else {
-      // La imagen aún no se ha cargado, agregamos un evento de carga
       portadaImg.addEventListener('load', handleImageLoad);
     }
-  
-    // Limpieza del evento al desmontar el componente
     return () => {
       portadaImg.removeEventListener('load', handleImageLoad);
     };
   }, [imgPortada]);
 
+  //---------------------------------------- Tamaño contenedor portada --------------------------------
+ 
+
+
+  //---------------------------------------- Logica cambio de imagen --------------------------------
   function cambiarPortada(nuevaImagen) {
-    // Puedes utilizar React para acceder al elemento en lugar de usar document.getElementById
     const portadaImg = document.getElementById('Portada');
     portadaImg.src = nuevaImagen;
   }
   const handleIconClick = (iconIndex) => {
-    // Manejar el clic de un ícono individual aquí si es necesario
   };
 
 
                   // No se si esto queda
-  const [zoom, setZoom] = useState(1);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  // const [zoom, setZoom] = useState(1);
+  // const [position, setPosition] = useState({ x: 0, y: 0 });
 
-  const handleMouseWheel = (event) => {
-    event.preventDefault(); // Evita el desplazamiento predeterminado
-    setZoom((prevZoom) => (event.deltaY > 0 ? prevZoom * 0.9 : prevZoom * 1.1));
-  };
+  // const handleMouseWheel = (event) => {
+  //   event.preventDefault(); 
+  //   setZoom((prevZoom) => (event.deltaY > 0 ? prevZoom * 0.9 : prevZoom * 1.1));
+  // };
 
-  const handleMouseMove = (event) => {
-    event.preventDefault(); // Evita el desplazamiento predeterminado
-    if (event.buttons === 1) {
-      setPosition((prevPosition) => ({
-        x: prevPosition.x + event.movementX,
-        y: prevPosition.y + event.movementY,
-      }));
-    }
-  };
+  // const handleMouseMove = (event) => {
+  //   event.preventDefault(); 
+  //   if (event.buttons === 1) {
+  //     setPosition((prevPosition) => ({
+  //       x: prevPosition.x + event.movementX,
+  //       y: prevPosition.y + event.movementY,
+  //     }));
+  //   }
+  // };
 
   return (
     <>
@@ -140,14 +148,14 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
           <div className="row">
             <div className="col-12 col-md-7" style={{ marginTop: '1.5em' }}>
               <h3>{titulo}</h3>
-              <div id="contenedor-portada" style={{ height: `${portadaHeight}px`}}>
-      <img
-        src={imgPortada}
-        alt=""
-        id="Portada"
-        className="portada-img"
-      />
-    </div>
+              <div id="contenedor-portada" style={{ height: `${portadaHeight}vh`}}>
+                <img
+                  src={imgPortada}
+                  alt=""
+                  id="Portada"
+                  className="portada-img"
+                />
+              </div>
               <div className="carrusel">
                 <div className="slider">
                   <button id="prev-slide" className="slide-button material-symbols-rounded">chevron_left</button>
@@ -169,6 +177,34 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
           </div>
         </div>
       </section>
+      <section>
+            <div class="container piscina-description">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src={imgdesc1} alt="" />
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <strong>{desc1}</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <strong>{desc2}</strong>
+                    </div>
+                    <div class="col-12 col-md-6">  
+                        <img src={imgdesc2} alt="" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src={imgdesc3} alt="" />
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <strong>{desc3}</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
     </>
   );
 }

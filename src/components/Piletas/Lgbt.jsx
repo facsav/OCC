@@ -11,6 +11,12 @@ export function Lgbt(){
         tiempo={data.pools[5].tiempo}
         recuadre={data.pools[5].recuadre}
         ubicacion={data.pools[5].ubicacion}
-        cantImgCarrusel={data.pools[5].demas_fotos.length} />
+        cantImgCarrusel={data.pools[5].demas_fotos.length}
+        desc1={data.pools[5].desc1}
+        desc2={data.pools[5].desc2}
+        desc3={data.pools[5].desc3} 
+        imgdesc1={data.pools[5].imgdesc1}
+        imgdesc2={data.pools[5].imgdesc2}
+        imgdesc3={data.pools[5].imgdesc3}/>
     )
 }

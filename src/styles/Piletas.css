@@ -61,15 +61,13 @@
 #contenedor-portada {
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color:rgb(2, 10, 53);
+  border-radius: 6px;
 }
 @media(max-width:600px){
   #contenedor-portada{
     max-height: 65vh;
   }
 }
-
-
 
 /* Ancho y color de la barra de desplazamiento */
 #contenedor-portada::-webkit-scrollbar {
@@ -78,23 +76,26 @@
 }
 
 #contenedor-portada::-webkit-scrollbar-thumb {
-  background: blue;
+  background: #C0F5FF;
   border-radius: 6px;
 }
 
 /* Estilo cuando se pasa el mouse sobre la barra de desplazamiento */
 #contenedor-portada::-webkit-scrollbar-thumb:hover {
-  background-color: #e10c0c;
+  background-color: #4B76E6;
 }
 
 /* Estilo del fondo de la barra de desplazamiento */
 #contenedor-portada::-webkit-scrollbar-track {
-  background-color: #ffffff;
+  background-color: #D4F1F4;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 /* Estilo de las esquinas de la barra de desplazamiento */
 #contenedor-portada::-webkit-scrollbar-corner {
   background-color: #eee;
+  border-radius: 3px;
 }
 
 
@@ -116,18 +117,18 @@
 }
 
 .lista-img::-webkit-scrollbar-thumb {
-  background: blue;
+  background: #C0F5FF;
   border-radius: 6px;
 }
 
 /* Estilo cuando se pasa el mouse sobre la barra de desplazamiento */
 .lista-img::-webkit-scrollbar-thumb:hover {
-  background-color: #e10c0c;
+  background-color: #4B76E6;
 }
 
 /* Estilo del fondo de la barra de desplazamiento */
 .lista-imga::-webkit-scrollbar-track {
-  background-color: #ffffff;
+  background-color: #D4F1F4;
 }
 
 /* Estilo de las esquinas de la barra de desplazamiento */
@@ -218,19 +219,25 @@
 }
 /* Imagenes descriptivas */
 
+
 .piscina-description{
-    margin-top: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
 }
 .piscina-description .row div{
-    display: grid;
-    align-items: center;
-    margin: 2em 0;
-    text-align: center;
+  display: grid;
+  align-items: center;
+  margin: 2em 0;
+  text-align: center;
 }
 .piscina-description img{
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+.piscina-description strong{
+  line-height: 32px;
 }
 
 

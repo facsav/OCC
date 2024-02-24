@@ -11,6 +11,12 @@ export function Redondeta(){
         tiempo={data.pools[0].tiempo}
         recuadre={data.pools[0].recuadre}
         ubicacion={data.pools[0].ubicacion}
-        cantImgCarrusel={data.pools[0].demas_fotos.length} />
+        cantImgCarrusel={data.pools[0].demas_fotos.length}
+        desc1={data.pools[0].desc1}
+        desc2={data.pools[0].desc2}
+        desc3={data.pools[0].desc3}
+        imgdesc1={data.pools[0].imgdesc1}
+        imgdesc2={data.pools[0].imgdesc2}
+        imgdesc3={data.pools[0].imgdesc3} />
     )
 }

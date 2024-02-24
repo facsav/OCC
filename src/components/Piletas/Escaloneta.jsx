@@ -11,6 +11,12 @@ export function Escaloneta(){
         tiempo={data.pools[7].tiempo}
         recuadre={data.pools[7].recuadre}
         ubicacion={data.pools[7].ubicacion}
-        cantImgCarrusel={data.pools[7].demas_fotos.length} />
+        cantImgCarrusel={data.pools[7].demas_fotos.length} 
+        desc1={data.pools[7].desc1}
+        desc2={data.pools[7].desc2}
+        desc3={data.pools[7].desc3}
+        imgdesc1={data.pools[7].imgdesc1}
+        imgdesc2={data.pools[7].imgdesc2}
+        imgdesc3={data.pools[7].imgdesc3}/>
     )
 }
