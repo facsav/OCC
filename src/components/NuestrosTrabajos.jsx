@@ -66,7 +66,7 @@ const NuestrosTrabajos = ({ navbarHeight }) => {
             }}
           >
             <div className="content text-center">
-              <h3 style={{color:'#C06500'}}>Piscinas</h3>
+              <h3 style={{color:'#FFFFFF'}}>Piscinas</h3>
             </div>
           </Tilt>
         </Link>
@@ -81,7 +81,7 @@ const NuestrosTrabajos = ({ navbarHeight }) => {
             }}
           >
             <div className="content text-center">
-              <h3 style={{color:'#05445E'}}>Revestimientos</h3>
+              <h3 style={{color:'#ffffff'}}>Revestimientos</h3>
             </div>
           </Tilt>
           </Link>

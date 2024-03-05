@@ -25,12 +25,24 @@ export function Footer(){
                                 <ul>
                                     <h5>Paginas</h5>
                                     <br />
-                                    <li>Home</li>
-                                    <li>Sobre Nosotros</li>
-                                    <li>Nuestros trabajos</li>
-                                    <li>Mármol</li>
-                                    <li>Revestimientos</li>
-                                    <li>Contacto</li>
+                                    <li>
+                                        <a href="/">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sobre Nosotros</a>
+                                    </li>
+                                    <li>
+                                        <a href="/NuestrosTrabajos">Nuestros trabajos</a>
+                                    </li>
+                                    <li>
+                                        <a href="/NuestrosTrabajos/Piletas">Piletas</a>
+                                    </li>
+                                    <li>
+                                        <a href="/NuestrosTrabajos/Revestimientos">Revestimientos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contacto</a>
+                                    </li>
                                 </ul>
                                 <ul>
                                     <h5>Contacto</h5>
@@ -75,12 +87,24 @@ export function Footer(){
                             <h5>Paginas</h5>
                             <ul>
                                 <br />
-                                <li>Home</li>
-                                <li>Sobre Nosotros</li>
-                                <li>Nuestros trabajos</li>
-                                <li>Mármol</li>
-                                <li>Revestimientos</li>
-                                <li>Contacto</li>
+                                <li>
+                                        <a href="/">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sobre Nosotros</a>
+                                    </li>
+                                    <li>
+                                        <a href="/NuestrosTrabajos">Nuestros trabajos</a>
+                                    </li>
+                                    <li>
+                                        <a href="/NuestrosTrabajos/Piletas">Piletas</a>
+                                    </li>
+                                    <li>
+                                        <a href="/NuestrosTrabajos/Revestimientos">Revestimientos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contacto</a>
+                                    </li>
                             </ul>
                             <h5>Contacto</h5>       
                             <ul>
