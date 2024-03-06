@@ -8,12 +8,48 @@ if (DarkMode){
 
 
 export const ContactUs = () => {
-    const form = useRef();
+  const form = useRef();
   const [statusMessage, setStatusMessage] = useState(null);
   const [isMessageVisible, setIsMessageVisible] = useState(false);
+  const [isEmailValid, setIsEmailValid] = useState(true);
+  const [isPhoneValid, setIsPhoneValid] = useState(true);
+
+  const validateEmail = (email) => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  };
+
+  const validatePhone = (phone) => {
+    return phone.length >= 10;
+  };
+
+  const validateFields = () => {
+    const emailInput = form.current['user_email'];
+    const phoneInput = form.current['user_phone'];
+
+    const isEmailFieldValid = validateEmail(emailInput.value);
+    const isPhoneFieldValid = validatePhone(phoneInput.value);
+
+    setIsEmailValid(isEmailFieldValid);
+    setIsPhoneValid(isPhoneFieldValid);
+
+    return isEmailFieldValid || isPhoneFieldValid;
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!validateFields()) {
+      setStatusMessage('Error: Completa por lo menos 1 campo requerido.');
+      setIsMessageVisible(true);
+
+      // Ocultar el mensaje después de 5 segundos
+      setTimeout(() => {
+        setIsMessageVisible(false);
+        setStatusMessage(null);
+      }, 5000);
+
+      return;
+    }
 
     emailjs
       .sendForm('service_hdk4vcf', 'template_vrxhv5m', form.current, {
@@ -42,6 +78,8 @@ export const ContactUs = () => {
 
   const resetForm = () => {
     form.current.reset();
+    setIsEmailValid(true);
+    setIsPhoneValid(true);
   };
 
   useEffect(() => {
@@ -52,6 +90,9 @@ export const ContactUs = () => {
     }, 5000);
   }, []);
 
+
+
+  
     return (
       <div>
         {statusMessage && (
@@ -75,12 +116,10 @@ export const ContactUs = () => {
                 <div style={{height:'100%'}} class="rightContact col-10 col-md-5 text-start d-grid align-items-center">
                     <div className="title_container">
                         <h3 class="">
-                            Informacion de Contacto
+                            Inf. de Contacto
                         </h3>
-
-                        <p>Fill up the form and out team 
-                            <br/>
-                            will get back to you within 24 hours.
+                    <hr />
+                        <p>Escribinos por cualquier consulta por<br/> el canal de tu preferencia, te <br/>responderemos en la brevedad.
                         </p>
                     </div>
 
@@ -91,7 +130,7 @@ export const ContactUs = () => {
                         </svg>
 
                         <span style={{margin:'10px'}}>
-                            +453 415 331
+                        +54 9 1122247366
                         </span>
 
                         </li>
@@ -101,7 +140,7 @@ export const ContactUs = () => {
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                         </svg>
                             <span style={{margin:'10px'}}>
-                                3saero@gmail.com
+                            occmarbletile@gmail.com
                             </span>
                         </li>
                         <br />
@@ -110,7 +149,7 @@ export const ContactUs = () => {
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                         </svg>
                         <span style={{margin:'10px'}}>
-                            98213 Thiel Turnpike Apt. 663
+                        Almirante Solier 473, Villa Sarmiento
                         </span>
                             
                         </li>
@@ -120,7 +159,7 @@ export const ContactUs = () => {
                 <div className="leftContact col-10 col-md-6">
                     <div className="d-grid justify-content-center align-items-center">
                         <form ref={form} onSubmit={sendEmail}>
-                            <p style={{marginLeft:'10px', marginTop:'1em'}} >O contactate con nosotros via mail</p>
+                            <p style={{marginLeft:'10px', marginTop:'1em'}} >O contactate directamente via mail:</p>
 
                             <div className="container">
 
@@ -138,35 +177,38 @@ export const ContactUs = () => {
                                 </div>
                                 
                                 <div className="row">
-                                    <div className="col-12 col-lg-6">
-                                        <label>Telefono</label>
-                                        <br />
-                                        <input type="tel" name="user_phone" id="input-3" placeholder="15-1234-5678" />
-                                    </div>
-                                    <div className="col-12 col-lg-6">
-                                        <label>Mail</label>
-                                        <br />
-                                        <input type="email" name="user_email" id="input-4" placeholder="nombre@email.com"/>
-                                    </div>
-                                </div>
-                                <br className="d-none d-md-block" />
-                                <div className="row">
-                                    <div className="col">
-                                        <label>Tu mensaje</label>
-                                        <br />
-                                        <textarea name="message" />
-                                    </div>
-                                </div>
+        <div className="col-12 col-lg-6">
+          <label>Telefono</label>
+          <br />
+          <input
+            type="tel"
+            name="user_phone"
+            id="input-3"
+            placeholder="15-1234-5678"
+            style={{ borderColor: isPhoneValid ? 'rgba(0, 0, 0, 0.267)' : 'red' }}
+          />
+          {!isPhoneValid && <p style={{ color: 'red' }}>Teléfono inválido</p>}
+        </div>
+        <div className="col-12 col-lg-6">
+          <label>Mail</label>
+          <br />
+          <input
+            type="email"
+            name="user_email"
+            id="input-4"
+            placeholder="nombre@email.com"
+            style={{ borderColor: isEmailValid ? 'rgba(0, 0, 0, 0.267)' : 'red' }}
+          />
+          {!isEmailValid && <p style={{ color: 'red' }}>Correo electrónico inválido</p>}
+        </div>
+      </div>
                                 <br className="d-none d-md-block" />
                                 <div className="row">
                                     <div className="col">
                                         <button id="boton2" className="btn btn-primary" type="submit" value="Send">Send</button>
                                     </div>
                                 </div>
-
                             </div>
-                            
-
                         </form>
                     </div>
                 </div>

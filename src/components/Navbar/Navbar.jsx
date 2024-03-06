@@ -11,7 +11,7 @@ const Navbar = () => {
       
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="www.google.com">
+          <a className="navbar-brand" href=" ">
             <img src={assets.logo} alt="OCC" width="50" height="50" />
           </a>
           <button

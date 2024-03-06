@@ -50,11 +50,12 @@ export const Carrusel = () => {
         <>
         <div class="scroller" data-direction={direction} data-speed="slow">
         <div class="scroller__inner">
-            <img src={assets.redondeta} alt=""/>
-            <img src={assets.finlandesa} alt=""/>
-            <img src={assets.fuente} alt=""/>
-            <img src={assets.lgbt} alt=""/>
-            <img src={assets.escaloneta} alt=""/>
+            <img src='/images/Argentineta/portada.jpeg' alt=""/>
+            <img src='/images/Fuente/fuente 2.jpeg' alt=""/>
+            <img src='/images/Interiores/Portada.jpg' alt=""/>
+            <img src='/images/Finlandesa/adentro.jpeg' alt=""/>
+            <img src='/images/Escaloneta/detalle 2.jpeg' alt=""/>
+            <img src='/images/Detallado/proceso.jpg' alt=""/>
         </div>
         </div>
          {/* Flecha izquierda */}

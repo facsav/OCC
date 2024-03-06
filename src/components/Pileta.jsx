@@ -1,19 +1,18 @@
-export function Pileta({img, titulo, texto, ruta}){
-
-    return(
-        <a href={ruta}>
-            <div class="piletas">
-                <img src={img} alt=""  width="100%" height="auto"/>
-                <div class="intro">
-                    <h4>{titulo}</h4>
-                    <p>{texto}</p>
-                </div>
-            </div>
-        </a>
-
-    )
-
-
-
-
-}
+export function Pileta({ img, titulo, texto, ruta, color }) {
+    const estiloTexto = {
+      color: color,
+    };
+  
+    return (
+      <a href={ruta}>
+        <div className="piletas">
+          <img src={img} alt="" width="100%" height="auto" />
+          <div className="intro">
+            <h4 style={estiloTexto}>{titulo}</h4>
+            <p style={estiloTexto}>{texto}</p>
+          </div>
+        </div>
+      </a>
+    );
+  }
+  

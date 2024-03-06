@@ -2,7 +2,7 @@ import assets from "../assets/assets";
 import DarkMode from "./DarkMode";
 import { Carrusel } from "./carrusel";
 import { ContactUs } from "./ContactUs";
-
+import React, { useState, useEffect } from 'react';
 
 if (DarkMode){
     console.log("esta activo")
@@ -10,25 +10,47 @@ if (DarkMode){
 
 
 export function Home (){
+    const [backgroundPosition, setBackgroundPosition] = useState(0);
+     const [showFirstImage, setShowFirstImage] = useState(true);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        // Alternar entre las dos imágenes
+        setShowFirstImage((prevShowFirstImage) => !prevShowFirstImage);
+      }, 5000);
+  
+      return () => clearInterval(interval); // Limpiar el intervalo al desmontar el componente
+    }, []);
+  
+    const sectionStyle = {
+      backgroundImage: `url(${showFirstImage ? assets.homeBanner : assets.homeBanner2})`,
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      backgroundColor: 'var(--background-color)',
+      paddingTop: '6rem',
+      height: '80vh',
+      color: 'var(--text-color)',
+      transition: 'background-image 1s ease-in-out', // Añadir transición
+    };
     return(
     <>
         <div style={{height:'8vh'}} ></div>
-        <section id="home" style={{backgroundImage:`url(${assets.homeBanner})`}}>
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col">
-                        <h1 className="d-md-none">
-                            Experiencia
-                            <br/>
-                            internacional
-                        </h1>
-                        <h3 className="d-md-none">en trabajos de precisión</h3>
-                    </div>
-
-                </div>
-            </div>
-            <img src={assets.homeBannerPhone} alt=""/>
-        </section>
+        <section id="home" style={sectionStyle}>
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col">
+            <h1 className="d-md-none">
+              Experiencia
+              <br />
+              internacional
+            </h1>
+            <h3 className="d-md-none">en trabajos de precisión</h3>
+          </div>
+        </div>
+      </div>
+      <img src={assets.homeBannerPhone} alt="" />
+    </section>
 
         <section id="home2">
             <div className="container">
@@ -36,7 +58,12 @@ export function Home (){
                     <div className="col">
                         <h2>¿A que nos dedicamos?</h2>
                         <div>
-                            <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+                            <p>
+                            En OCC, nos especializamos en la <b>perfección de revestimientos</b>, abarcando una amplia gama de superficies que van desde <b>paredes y suelos</b>, tanto internos como externos de hogares, hasta sofisticados revestimientos para <b>piscinas</b>. Nuestra destreza se refleja en la aplicación de <b>diversos métodos de adherencia</b>, como pegamento epoxi, Klaukol, cal entre otros, siempre garantizando la máxima durabilidad.
+Trabajamos con el material de su preferencia, adaptándonos hábilmente al entorno en el que realizaremos la instalación. Nos enorgullece destacar la <b>precisión y finura</b> excepcionales de nuestros acabados.
+En OCC, <b>no existen límites</b> cuando se trata de revestir superficies. Ya sea que esté planificando una renovación en su hogar o que sea un arquitecto buscando pericia en revestimientos, estamos aquí para superar sus expectativas. Contáctenos para cualquier consulta; en OCC, la consigna es clara: <b>¡no hay superficie que no pueda ser revestida!</b>
+
+                            </p>
                             <a className="btn btn-primary" href="">Nuestros Trabajos</a>
                         </div>
                     </div>

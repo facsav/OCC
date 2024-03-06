@@ -27,7 +27,7 @@
   .intro{
     color: white;
     position: absolute;
-    bottom: 1em;
+    bottom: 2em;
     backdrop-filter: blur(1px);
     width: 100%;
     padding: 5px;
@@ -35,6 +35,7 @@
     height: 75px;
     padding: 20px 5px 10px 5px;
     transition: .4s ease-in-out;
+    mix-blend-mode: difference;
   }
   .piletas:hover{
     cursor: pointer;
@@ -50,11 +51,6 @@
   .piletas:hover img{
     transform: scale(1.1) rotate(1deg);
   }
-
-  
-  
-
-
 
 
 /* POOL DETAILS */

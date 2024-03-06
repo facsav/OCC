@@ -5,8 +5,11 @@ import info from './images/info.svg'
 import bolso from './images/bolso.svg'
 import telefono from './images/telefono.svg'
 import homeBanner from './images/homeBanner.svg'
+import homeBanner2 from './images/homeBanner2.png'
 import homeBannerPhone from './images/homeBannerPhone.png'
+import homeBannerPhone2 from './images/homeBannerPhone2.png'
 import homeBannerPhoneDark from './images/homeBannerPhoneDark.png'
+import homeBannerPhoneDark2 from './images/homeBannerPhoneDark2.png'
 import footer from './images/FondoFooter.svg'
 import footerPhone from './images/FooterPhone.svg'
 // PILETAS
@@ -26,7 +29,6 @@ import interior1 from './images/revestimientos/interior1.png'
 import interior2 from './images/revestimientos/interior2.png'
 import exterior from './images/revestimientos/exterior.png'
 import detallado from './images/revestimientos/detallado.png'
-
 import pileta1trabajos from './images/trabajos/pileta1.jpeg'
 import pileta2trabajos from './images/trabajos/pileta2.jpeg'
 import pileta3trabajos from './images/trabajos/pileta3.jpeg'
@@ -37,6 +39,7 @@ import revestimientos3trabajos from './images/trabajos/rev3.jpg'
 import revestimientos4trabajos from './images/trabajos/rev4.jpg'
 
 export default{
+    'homeBanner2':homeBanner2,
     'pileta1trabajos':pileta1trabajos,
     'pileta2trabajos':pileta2trabajos,
     'pileta3trabajos':pileta3trabajos,
@@ -57,6 +60,9 @@ export default{
     'homeBanner': homeBanner,
     'homeBannerPhone': homeBannerPhone,
     'homeBannerPhoneDark': homeBannerPhoneDark,
+    'homeBanner2': homeBanner2,
+    'homeBannerPhone2': homeBannerPhone2,
+    'homeBannerPhoneDark2': homeBannerPhoneDark2,
     'footer': footer,
     'footerPhone': footerPhone,
     'redondeta': redondeta,
