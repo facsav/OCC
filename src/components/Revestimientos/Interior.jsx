@@ -11,6 +11,12 @@ export function Interior(){
         tiempo={data.coatings[0].tiempo}
         recuadre={data.coatings[0].recuadre}
         ubicacion={data.coatings[0].ubicacion}
-        cantImgCarrusel={data.coatings[0].demas_fotos.length}/>
+        cantImgCarrusel={data.coatings[0].demas_fotos.length}
+        desc1={data.coatings[0].desc1}
+        desc2={data.coatings[0].desc2}
+        desc3={data.coatings[0].desc3} 
+        imgdesc1={data.coatings[0].imgdesc1}
+        imgdesc2={data.coatings[0].imgdesc2}
+        imgdesc3={data.coatings[0].imgdesc3}/>
     )
 }

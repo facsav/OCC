@@ -11,7 +11,7 @@ export function Footer(){
                     <div className="col">
                         <div>
                             <img src={assets.logoWhite} height={'50px'} alt="" />
-                            <p>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                            <p>En OCC, <b>no existen límites</b> cuando se trata de revestir superficies. Ya sea que esté planificando una renovación en su hogar o que sea un arquitecto buscando pericia en revestimientos, estamos aquí para superar sus expectativas. Contáctenos para cualquier consulta; en OCC, la consigna es clara: <b>¡no hay superficie que no pueda ser revestida!</b></p>
                             <div>
                                 <svg width="124" height="35" viewBox="0 0 124 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M79.3231 17.7729C79.3231 8.14815 71.5688 0.346191 62.0046 0.346191C52.4362 0.348356 44.6819 8.14815 44.6819 17.775C44.6819 26.4711 51.0161 33.6799 59.2943 34.9874V22.8104H54.8998V17.775H59.2986V13.9325C59.2986 9.56609 61.8856 7.1545 65.8407 7.1545C67.7371 7.1545 69.7178 7.49438 69.7178 7.49438V11.7807H67.5336C65.3839 11.7807 64.7128 13.125 64.7128 14.504V17.7729H69.5144L68.748 22.8082H64.7107V34.9852C72.9889 33.6777 79.3231 26.4689 79.3231 17.7729Z" fill="white"/>
@@ -29,10 +29,10 @@ export function Footer(){
                                         <a href="/">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#">Sobre Nosotros</a>
+                                        <a href="/SobreNosotros">Nosotros</a>
                                     </li>
                                     <li>
-                                        <a href="/NuestrosTrabajos">Nuestros trabajos</a>
+                                        <a href="/NuestrosTrabajos">Trabajos</a>
                                     </li>
                                     <li>
                                         <a href="/NuestrosTrabajos/Piletas">Piletas</a>
@@ -47,12 +47,12 @@ export function Footer(){
                                 <ul>
                                     <h5>Contacto</h5>
                                     <br />
-                                    <li>Ladjajdjad</li>
-                                    <li>+132123141</li>
-                                    <li>Av. adada dafefa</li>
-                                    <li>Lorem ipsum </li>
-                                    <li>Lorem ipsum Lorem ipsum </li>
-                                    <li>Lorem ipsum Lorem ipsum </li>
+                                    <li>Whatsapp:</li>
+                                    <li>+54 9 1122247366</li>
+                                    <li>Email:</li>
+                                    <li>occmarbletile@gmail.com</li>
+                                    <li>Donde estamos:</li>
+                                    <li>Almirante Solier 473, Villa Sarmiento</li>
                                 </ul>
                             </div>
                         </div>
