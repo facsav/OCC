@@ -23,7 +23,7 @@ const data = {
         {
             'name': 'Finlandesa',
             'desc_corta':'Finura trabajada con venecitas biseladas, en piscina y jacuzzi.',
-            'color':'#05445E',
+            'color':'white',
             'desc_larga': `Embárcate en una experiencia de *lujo* con nuestra *majestuosa* piscina de *1100 pies cuadrados*, un santuario de *estilo* y *sofisticación* que redefine la elegancia. Este oasis se destaca por su tamaño imponente y la inclusión de un jacuzzi de altura. Todo el trabajo realizado con venecitas biseladas, dan una *textura* y *brillos* inigualables, sumado a la elección de colores resultan en esta obra de arte, donde nuestra *mano* de obra *especializada* en el detalle destacan en cada *unión* a lo largo y ancho de toda la piscina. \n\n_Procedimiento_: \nLas venecitas se cortan utilizando discos diamantados de 4”, utilizando esto y nuestra mano de obra *especializada*, aseguramos cortes *limpios* y *prolijos*, *cuidando* la *integridad* del material. Posteriormente adherimos las venecitas utilizando el material de *su preferencia*, como lo pueden ser los pegamentos grau epoxi, poxilina o klaukol para venecitas entre otros. \nEn la colocación de los bordes atérmicos ofrecemos de igual manera el servicio con el material de *su elección*, algunas opciones podrían ser utilizando cal y como puente de adherencia klaukol, o por otro lado agua y cemento, con el puente de adherencia taculu. Con ambas opciones *aseguramos* una conexión *sólida* y *duradera* en el tiempo entre el borde y la superficie de colocación.\n`,
             'portada': "/images/Finlandesa/adentro.jpeg",
             'tiempo':'8 Días',
@@ -59,7 +59,7 @@ const data = {
         {
             'name': 'Fuente',
             'desc_corta':'Esta majestuosa fuente utiliza porcelanato, marmol, simil madera y el borde atermico.',
-            'color':'#3255C1',
+            'color':'black',
             'desc_larga': `Bienvenido a la majestuosidad de nuestra fuente, un oasis de *4000 pies cuadrados* que combina la grandeza con la precisión *artesanal*. En esta obra maestra, las venecitas biseladas se combinan con el borde atérmico, con detalles integrados en mármol para las uniones, resaltando la *elegancia* y *funcionalidad*. Las secciones centrales, de porcelanato con apariencia de madera, se colocan con maestría por *ingletado*, creando un contraste armonioso.  \nLa dedicación a la perfección se refleja en las tres semanas de trabajo, donde cada detalle es cuidadosamente elaborado. \n\n_Procedimiento:_ \nLas venecitas se cortan utilizando discos diamantados de 4” que junto a nuestra *especializada mano* aseguramos cortes *suave* y *limpios*, cuidando la integridad del material al cortar bajo las condiciones adecuadas (como puede ser la temperatura correcta). \nLuego son colocadas utilizando pegamento poxilina, grau epoxi o klaukol para venecitas, al igual que los materiales a colocar el método de adherencia es a *su completa elección*, nosotros ofrecemos la *experiencia*, *capacitación* y colocación adecuada en el material elegido. Con esto se garantiza la *resistencia* y *durabilidad* necesarios para afrontar los rigores del tiempo y uso diario. \nEl borde atermico también presenta diversas opciones en su instalación, como puede ser la cal o agua y cemento, utilizando como puente de adherencia entre éstos y el borde klaukol o taculu respectivamente. Cualquier opción junto a *nosotros* aseguran una conexión *sólida* y *duradera* en el tiempo.\nLas secciones de porcelanato están selladas con mastic para mármol, garantizando una resistencia *duradera* al tiempo y a las condiciones ambientales. `,
             'portada': "/images/Fuente/fuente.jpeg",
             'tiempo':'1 mes',
@@ -74,7 +74,7 @@ const data = {
              "imgdesc3":'/images/Fuente/fuente 2.jpeg'
         },
         {
-            'name': 'Clasica',
+            'name': 'Piscina',
             'desc_corta':'Trabajo realizado con venecitas biseladas y un borde atermico de 12x4".',
             'color':'white',
             'desc_larga': `Explora la comodidad y el diseño con nuestra piscina de *900 pies cuadrados*, revestida con venecitas biseladas. El borde atermico de 4x12 pulgadas destaca por su *estilo moderno* y funcionalidad cuando no estás sumergido. El proceso de instalación, hábilmente realizado en *5 días*, garantiza un equilibrio perfecto entre *eficiencia* y *calidad*. \n\n_Procedimiento:_ \nLas venecitas se cortan utilizando discos diamantados de 4”, utilizando esto y nuestra mano de obra especializada, aseguramos cortes *limpios*, *prolijos* y nunca una ruptura innecesaria. Luego se colocan utilizando klaukol para venecitas, pegamento poxilina o grau epoxi a *su preferencia* o *disponibilidad*, contamos con la *experiencia* para garantizar la *resistencia* y *durabilidad* necesarios para afrontar los rigores del tiempo y uso diario con el material de su preferencia.\nAsí mismo el borde atermico se instala utilizando cal y como puente de adherencia klaukol, también puede reemplazarse por agua y cemento con puente de adherencia taculu. Donde ambas opciones aseguran una conexión *sólida* y *duradera* en el tiempo entre el borde y la superficie de colocación.`,
@@ -110,9 +110,9 @@ const data = {
              "imgdesc3":'/images/LGBT/proceso 2.jpeg'
         },
         {
-            'name': 'Clasicota',
+            'name': 'Clasica',
             'desc_corta':'Trabajo realizado con venecitas biseladas y un borde atermico de 2x1 pie.',
-            'color':'#75E6DA',
+            'color':'white',
             'desc_larga': `Sumérgete en esta piscina de *650 pies2*, revestida con venecitas biseladas. Su borde atermico de 2x1pie proporciona *elegancia* y también mejora la *seguridad* y *comodidad* de tu experiencia. Nuestros *años* de *experiencia* perfeccionando el *arte* de la instalación nos han llevado a realizar este proceso en tan solo *2 días*. \n\n_Procedimiento:_\nLas venecitas se cortan utilizando discos diamantados de 4”, utilizando esto y nuestra *mano* de obra *especializada*, aseguramos cortes limpios, prolijos y nunca una ruptura innecesaria. Luego se colocan utilizando pegamento poxilina o grau epoxi, el *material* de *adherencia* es a *decisión del cliente*, contamos con la *capacitación* para *trabajar* con lo que se desee. Ambos garantizan la *resistencia* y *durabilidad* necesarios para afrontar los rigores del tiempo y uso diario. \nEl borde atermico se instala utilizando cal y como puente de adherencia klaukol, también puede reemplazarse por agua y cemento y el puente de adherencia taculu. Ambas opciones aseguran una conexión sólida y duradera en el tiempo entre el borde y la superficie de colocación. Al igual que con la adherencia de las venecitas, esto es *su* completa *decisión*.`,
             'portada': "/images/Adefinir/Portada.jpeg",
             'tiempo':'2 Días',
@@ -129,7 +129,7 @@ const data = {
         {
             'name': 'Escaloneta',
             'desc_corta':'Obra realizada con venecitas biseladas y un borde atermico de 12x4".',
-            'color':'#75E6DA',
+            'color':'white',
             'desc_larga': `Sumérgete en esta piscina de *800 pies cuadrados*, una fusión de estilo y *comodidad* que redefine el lujo. El revestimiento de venecitas biseladas, proporciona una *textura* y brillos excepcionales. El borde atermico de 12 x 4 pulgadas agrega un toque distintivo y por sobretodo funcional a esta obra maestra acuática. La *atención* al *detalle* se traduce en tan solo *5 días* de trabajo para la finalización de esta obra. \n\n _Procedimiento:_ \nLas venecitas se cortan utilizando discos diamantados de 4”, utilizando esto y nuestra *mano* de obra *especializada*, aseguramos cortes *limpios*, *prolijos* y nunca una ruptura innecesaria. Luego se colocan utilizando pegamento poxilina, garantizando la resistencia y *durabilidad* necesarios para afrontar los rigores del tiempo y uso diario. \nEl borde atermico se instala utilizando cal y como puente de adherencia klaukol. Esto asegura una conexión sólida y *duradera* en el tiempo entre el borde y la superficie de colocación. \nTanto la adherencia de los bordes atérmicos como de las venecitas es a *su* total *elección*,  otras variantes en la colocación de las venecitas podrían ser grau epoxi o klaukol para venecitas, el puente de adherencia en los bordes es reemplazable por agua y cemento con taculu, en *OCC* contamos con la *capacitación* y *experiencia* para manipular el *material* de *su* preferencia. `,
             'portada': "/images/Escaloneta/detalle.jpeg",
             'tiempo':'5 Días',
@@ -148,18 +148,18 @@ const data = {
         {
             'name': 'Celeste',
             'desc_corta':'Trabajo realizado con cerecita y marmol',
-            'color':'#75E6DA',
+            'color':'white',
             'desc_larga': 'Sumérgete en esta piscina de *720 pies2*, revestida con venecitas biseladas. Su borde atermico de 1 metro cuadrado proporciona *elegancia* y también mejora la seguridad y *comodidad* de tu experiencia. Nuestros *años* de *experiencia* perfeccionando el *arte* de la instalación nos han llevado a realizar este proceso en tan solo *5 días*. \n\n _Procedimiento:_\n Las venecitas se cortan utilizando discos diamantados de 4”, utilizando esto y nuestra *mano* de obra *especializada*, aseguramos cortes *limpios*, *prolijos* y *nunca* una ruptura innecesaria. Luego se colocan utilizando pegamento poxilina o grau epoxi, el material de adherencia es a *decisión* del *cliente*, contamos con la *capacitación* para trabajar con el material de *su* preferencia. \n El borde atermico se instala utilizando cal y como puente de adherencia klaukol, también puede reemplazarse por agua y cemento y el puente de adherencia taculu. Ambas opciones aseguran una conexión *sólida* y *duradera* en el tiempo entre el borde y la superficie de colocación. Al igual que con la adherencia de las venecitas, esto es a *su* completa decisión. En la instalación de venecitas puede utilizarse tambien klaukol para venecitas, estas son algunas de las opciones, pero siempre estamos *disponibles* y listos para *adaptarnos* a *sus* preferencias.',
             'portada': "/images/celeste/frente.jpg",
             'tiempo':'5 Días',
             'ubicacion':'Miami-USA',
             'recuadre':'Reduadrada y Nivelada',
             'demas_fotos':["/images/celeste/frente.jpg", "/images/celeste/escalera.jpeg", "/images/celeste/proceso.jpeg"],
-             "desc1":'',
-             "desc2":'',
+             "desc1":'Como puede observarse a diferencia de las piscinas de faldon curvo, en esta realizamos primero el revestimiento de las 4 paredes hasta llegar al suector del piso mas alto. Luego continuamos con el suelo, y por ultimo la union faltante del piso con las paredes en la parte profunda de la piscina.',
+             "desc2":'El proceso de construcción en la escalera consta por las características de este, en recubrirla con el mismo material del borde atérmico, logrando así un contraste armónico entre el interior y exterior de la piscina. En esta sección hay que trabajar cuidadosa y meticulosamente ya que las venecitas están colocadas y podrían romperse fácilmente frente a un descuido en la manipulación de las baldosas.',
              "desc3":'',
-             "imgdesc1":'',
-             "imgdesc2":'',
+             "imgdesc1":'/images/celeste/proceso.jpeg',
+             "imgdesc2":'/images/celeste/escalera.jpeg',
              "imgdesc3":''
         },
         
