@@ -23,6 +23,15 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
   const [clickedIcons, setClickedIcons] = useState([]);
   const [portadaHeight, setPortadaHeight] = useState(0);
   
+  const parseText = (text) => {
+    const parsedText = text.replace(/\*(.*?)\*/g, (_, p1) => `<strong>${p1}</strong>`)
+                                 .replace(/_(.*?)_/g, (_, p1) => `<u>${p1}</u>`);
+
+    return <p dangerouslySetInnerHTML={{ __html: parsedText }} />;
+  };
+
+
+
   useEffect(() => {
     const initSlider = () => {
       const imageList = document.querySelector(".slider .lista-img");
@@ -147,7 +156,8 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-7" style={{ marginTop: '1.5em' }}>
-              <h3>{titulo}</h3>
+              <h3 id="titulo-pileta">{titulo}
+              <hr /></h3>
               <div id="contenedor-portada" style={{ height: `${portadaHeight}vh`}}>
                 <img
                   src={imgPortada}
@@ -165,8 +175,9 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
               </div>
             </div>
             <div className="col-12 col-md-5" style={{ marginTop: "1.5em;" }}>
-              <h3 style={{ color: "transparent" }}>{titulo}</h3>
-              <p id="descripcion">{descLarga}</p>
+              <h3 style={{ color: "transparent" }}>{titulo}
+              <hr /></h3>
+              <p id="descripcion">{parseText(descLarga)}</p>
               <div id="falopa">
                 {/* Usar el componente Icono para cada ícono */}
                 <Icono imagen={assets.ubicacion} nombre={ubicacion} onClick={() => handleIconClick(0)} />

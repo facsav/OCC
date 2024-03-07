@@ -11,6 +11,12 @@ export function Exterior(){
         tiempo={data.coatings[2].tiempo}
         recuadre={data.coatings[2].recuadre}
         ubicacion={data.coatings[2].ubicacion}
-        cantImgCarrusel={data.coatings[2].demas_fotos.length}/>
+        cantImgCarrusel={data.coatings[2].demas_fotos.length}
+        desc1={data.coatings[2].desc1}
+        desc2={data.coatings[2].desc2}
+        desc3={data.coatings[2].desc3} 
+        imgdesc1={data.coatings[2].imgdesc1}
+        imgdesc2={data.coatings[2].imgdesc2}
+        imgdesc3={data.coatings[2].imgdesc3}/>
     )
 }
