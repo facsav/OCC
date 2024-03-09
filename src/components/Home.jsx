@@ -60,11 +60,11 @@ export function Home (){
                         <div>
                             <p>
                             En OCC, nos especializamos en la <b>perfección de revestimientos</b>, abarcando una amplia gama de superficies que van desde <b>paredes y suelos</b>, tanto internos como externos de hogares, hasta sofisticados revestimientos para <b>piscinas</b>. Nuestra destreza se refleja en la aplicación de <b>diversos métodos de adherencia</b>, como pegamento epoxi, Klaukol, cal entre otros, siempre garantizando la máxima durabilidad.
-Trabajamos con el material de su preferencia, adaptándonos hábilmente al entorno en el que realizaremos la instalación. Nos enorgullece destacar la <b>precisión y finura</b> excepcionales de nuestros acabados.
-En OCC, <b>no existen límites</b> cuando se trata de revestir superficies. Ya sea que esté planificando una renovación en su hogar o que sea un arquitecto buscando pericia en revestimientos, estamos aquí para superar sus expectativas. Contáctenos para cualquier consulta; en OCC, la consigna es clara: <b>¡no hay superficie que no pueda ser revestida!</b>
+                            Trabajamos con el material de su preferencia, adaptándonos hábilmente al entorno en el que realizaremos la instalación. Nos enorgullece destacar la <b>precisión y finura</b> excepcionales de nuestros acabados.
+                            En OCC, <b>no existen límites</b> cuando se trata de revestir superficies. Ya sea que esté planificando una renovación en su hogar o que sea un arquitecto buscando pericia en revestimientos, estamos aquí para superar sus expectativas. Contáctenos para cualquier consulta; en OCC, la consigna es clara: <b>¡no hay superficie que no pueda ser revestida!</b>
 
                             </p>
-                            <a className="btn btn-primary" href="">Nuestros Trabajos</a>
+                            <a className="btn btn-primary" href="/nuestrosTrabajos">Nuestros Trabajos</a>
                         </div>
                     </div>
                 </div>

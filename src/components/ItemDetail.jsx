@@ -131,25 +131,6 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
   };
 
 
-                  // No se si esto queda
-  // const [zoom, setZoom] = useState(1);
-  // const [position, setPosition] = useState({ x: 0, y: 0 });
-
-  // const handleMouseWheel = (event) => {
-  //   event.preventDefault(); 
-  //   setZoom((prevZoom) => (event.deltaY > 0 ? prevZoom * 0.9 : prevZoom * 1.1));
-  // };
-
-  // const handleMouseMove = (event) => {
-  //   event.preventDefault(); 
-  //   if (event.buttons === 1) {
-  //     setPosition((prevPosition) => ({
-  //       x: prevPosition.x + event.movementX,
-  //       y: prevPosition.y + event.movementY,
-  //     }));
-  //   }
-  // };
-
   return (
     <>
       <section style={{ paddingTop: '15vh', height: '100vh', paddingBottom: '10vh', height: 'auto' }}>
@@ -199,10 +180,15 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    {/* ONLY ON PHONE */}
+                    <div class="col-12 col-md-6 d-md-none d-block">  
+                        <img src={imgdesc2} alt="" />
+                    </div>
+
+                    <div class="col-12 col-md-6  ">
                         <strong>{desc2}</strong>
                     </div>
-                    <div class="col-12 col-md-6">  
+                    <div class="col-12 col-md-6 d-md-block d-none">  
                         <img src={imgdesc2} alt="" />
                     </div>
                 </div>

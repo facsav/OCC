@@ -2,7 +2,7 @@ import { Body } from './components/Body';
 import Navbar from './components/Navbar/Navbar';
 import { Footer } from './components/Footer';
 import './styles/App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Switch } from 'react-router-dom';
 import { Piletas } from './components/Piletas';
 import { Argentineta } from './components/Piletas/Argentineta';
 import { Redondeta } from './components/Piletas/Redondeta';
@@ -47,6 +47,7 @@ function App() {
         <Route path="/NuestrosTrabajos/Detallado" element={<Detallado/>} />
         <Route path='/SobreNosotros' element={<Nosotros/>} />
       </Routes>
+      
 
       <Footer/>
     </BrowserRouter>

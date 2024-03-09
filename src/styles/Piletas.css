@@ -337,3 +337,40 @@
         width: 100vw;
     } 
 }
+
+
+#descripcion::after{
+  position: absolute;
+  background-image: url(/public/images/decoracion.png);
+  background-size: cover;
+  content: "";
+  width: 322px;
+  height: 202px;
+  left: 5vw;
+  top: 120vh;
+  z-index: -10;
+  opacity: 0.6;
+}  
+
+
+/* ARREGLO PORQUE ROMPIA EN FOLD BY FACU */
+@media(max-width:358px){
+
+  #descripcion::after{
+
+    /* ESTE ES EL ARREGLO BY FACU */
+    position:relative;
+    /* ESTE ES EL ARREGLO BY FACU */
+
+
+    background-image: url(/public/images/decoracion.png);
+    background-size: cover;
+    content: "";
+    width: 322px;
+    height: 202px;
+    left: 5vw;
+    top: 120vh;
+    z-index: -10;
+    opacity: 0.6;
+  }  
+} 
