@@ -20,6 +20,7 @@ import {Interior} from './components/Revestimientos/Interior';
 import {Exterior} from './components/Revestimientos/Exterior';
 import {Detallado} from './components/Revestimientos/Detallado';
 import {MasTrabajos} from './components/MasTrabajos';
+import { SobreNosotros } from './components/SobreNosotros';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path="/NuestrosTrabajos/Exterior" element={<Exterior/>} />
         <Route path="/NuestrosTrabajos/Detallado" element={<Detallado/>} />
         <Route path="/MasTrabajos" element={<MasTrabajos/>} />
+        <Route path='/SobreNosotros' element={<SobreNosotros/>} />
       </Routes>
       
 

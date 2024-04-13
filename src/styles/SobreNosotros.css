@@ -1,0 +1,54 @@
+#sobreNosotros{
+    height: auto;
+}
+
+#sobreNosotros .container{
+    padding: 10rem;
+}
+
+#sobreNosotros .row1{
+    height: auto;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+#sobreNosotros .imgStart {
+    display: flex;
+    justify-content: start;
+
+}
+#sobreNosotros .imgEnd {
+    display: flex;
+    justify-content: end;
+
+}
+
+
+@media (max-width: 1399px) {
+    #sobreNosotros .container{
+        padding: 2rem;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #sobreNosotros .imgStart {
+        justify-content: center;
+        padding-bottom: 4rem;
+    
+    }
+    #sobreNosotros .imgEnd {
+        justify-content: center;
+        padding-bottom: 4rem;
+    
+    }
+  }
+@media (max-width: 580px) {
+    #sobreNosotros .img400 img {
+        height: 350px;
+    }
+    #sobreNosotros .img300 img {
+        height: 200px;
+    }
+
+  }

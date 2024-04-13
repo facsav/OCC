@@ -37,6 +37,20 @@ import revestimientos1trabajos from './images/trabajos/rev1.jpg'
 import revestimientos2trabajos from './images/trabajos/rev2.jpg'
 import revestimientos3trabajos from './images/trabajos/rev3.jpg'
 import revestimientos4trabajos from './images/trabajos/rev4.jpg'
+//ABOUT US
+import abasto from './images/aboutUs/abasto.jpg'
+import eze from './images/aboutUs/eze.jpg'
+import miami from './images/aboutUs/miami.jpg'
+import miami2 from './images/aboutUs/miami2.jpg'
+import terminal from './images/aboutUs/terminal.jpg'
+import torres from './images/aboutUs/torres.jpg'
+import abastoPhone from './images/aboutUs/abastoPhone.jpg'
+import ezePhone from './images/aboutUs/ezePhone.jpg'
+import miamiPhone from './images/aboutUs/miamiPhone.jpg'
+import miami2Phone from './images/aboutUs/miami2Phone.jpg'
+import terminalPhone from './images/aboutUs/terminalPhone.jpg'
+import torresPhone from './images/aboutUs/torresPhone.jpg'
+
 
 export default{
     'homeBanner2':homeBanner2,
@@ -78,5 +92,17 @@ export default{
     'exterior':exterior,
     'interior2':interior2,
     'interior1':interior1,
+    'abasto': abasto,
+    'eze': eze,
+    'miami': miami,
+    'miami2': miami2,
+    'terminal': terminal,
+    'torres': torres,
+    'abastoPhone': abastoPhone,
+    'ezePhone': ezePhone,
+    'miamiPhone': miamiPhone,
+    'miami2Phone': miami2Phone,
+    'terminalPhone': terminalPhone,
+    'torresPhone': torresPhone
 }
 

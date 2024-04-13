@@ -130,7 +130,7 @@ export const ContactUs = () => {
                         </svg>
 
                         <span style={{margin:'10px'}}>
-                        <a href="tel:+54 9 1122247366">+54 9 11-2224-7366</a>
+                        <a style={{color:'white', textDecoration:'none'}} href="tel:+54 9 1122247366">+54 9 11-2224-7366</a>
                         </span>
 
                         </li>
@@ -140,7 +140,7 @@ export const ContactUs = () => {
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                         </svg>
                             <span style={{margin:'10px'}}>
-                            <a href="mailto:occmarbletile@gmail.com">occmarbletile@gmail.com</a>
+                            <a style={{color:'white', textDecoration:'none'}} href="mailto:occmarbletile@gmail.com">occmarbletile@gmail.com</a>
                             </span>
                         </li>
                         <br />
@@ -149,7 +149,7 @@ export const ContactUs = () => {
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                         </svg>
                         <span style={{margin:'10px'}}>
-                        <a href="https://maps.app.goo.gl/EtvzxhVFP5qsQPdt7">Almirante Solier 473, Villa Sarmiento</a>
+                        <a style={{color:'white', textDecoration:'none'}} href="https://maps.app.goo.gl/EtvzxhVFP5qsQPdt7">Almirante Solier 473, Villa Sarmiento</a>
                         </span>
                             
                         </li>
