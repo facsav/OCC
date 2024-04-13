@@ -106,7 +106,7 @@ export function SobreNosotros (){
                             </p>
                         </div>
                         <div className="col-12 col-lg-6 order-lg-2 order-1 imgEnd img300">
-                            <img src={assets.miami2} height='300px' alt='Imagen de Miami' />
+                            <img src={assets.miami} height='300px' alt='Imagen de Miami' />
                         </div>
                     </div>
                 </div>
