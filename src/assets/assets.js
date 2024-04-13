@@ -2,6 +2,7 @@ import logo from './images/logoAzul.svg'
 import logoWhite from './images/logo-white.svg'
 import casa from './images/casa.svg'
 import info from './images/info.svg'
+import star from './images/star.svg'
 import bolso from './images/bolso.svg'
 import telefono from './images/telefono.svg'
 import homeBanner from './images/homeBanner.svg'
@@ -70,6 +71,7 @@ export default{
     'casa': casa,
     'info': info,
     'bolso': bolso,
+    'star': star,
     'telefono': telefono,
     'homeBanner': homeBanner,
     'homeBannerPhone': homeBannerPhone,
