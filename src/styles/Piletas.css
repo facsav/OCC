@@ -55,6 +55,134 @@
   .piletas:hover img{
     transform: scale(1.1) rotate(1deg);
   }
+/*pruebas*/
+.container-trabajos{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 0 20px;
+}
+.fecha{
+  color: black;
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
+  transition: .4s ease-in-out;
+}
+.trabajos button{
+  position: absolute;
+  top: 50%;
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 50%;
+  color: black;
+  border: none;
+}
+.trabajos #trabajos-left{
+  left: 0;
+}
+.trabajos #trabajos-right{
+  right: 0;
+}
+@media(max-width:1200px){
+  .container-trabajos{
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media(max-width:857px){
+  .container-trabajos{
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width:571px){
+  .container-trabajos{
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+.trabajos {
+  width: 100%;
+  height: max-content;
+  position: relative;
+  margin: 20px 0;
+  padding: 0;    
+  background: none;
+  box-shadow: 5px 5px 20px rgba(0,0,0);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.trabajos img {
+  transition: transform 0.4s ease-in-out;
+}
+
+.trabajos.expanded {
+  position: fixed;
+  top: 57px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: initial;
+  overflow: visible;
+  max-height: max-content;
+}
+
+.trabajos.expanded img {
+  width: auto;
+  max-width: 74%;
+  max-height: 74%;
+}
+
+.flecha-left,
+.flecha-right {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.trabajos.expanded .flecha-left,
+.trabajos.expanded .flecha-right {
+  display: block;
+}
+
+.flecha-left {
+  left: 10px;
+}
+
+.flecha-right {
+  right: 10px;
+}
+
+.detalle {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.cerrar {
+  position: absolute;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
 
 
 /* POOL DETAILS */

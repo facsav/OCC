@@ -14,7 +14,6 @@ export function Piletas(){
             <Pileta img={assets.eggs} titulo= {data.pools[8].name} texto={data.pools[8].desc_corta} color={data.pools[8].color}ruta='/NuestrosTrabajos/Celeste' />
             <Pileta img={assets.clasica} titulo= {data.pools[4].name} texto={data.pools[4].desc_corta} color={data.pools[4].color}ruta='/NuestrosTrabajos/Clasica' />
             <Pileta img={assets.adefinir} titulo= {data.pools[6].name} texto={data.pools[6].desc_corta} color={data.pools[6].color}ruta='/NuestrosTrabajos/Adefinir' />
-
         </div>
 
     )
