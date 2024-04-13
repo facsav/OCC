@@ -31,7 +31,6 @@ export function Trabajos({ imgs, titulo, texto, ruta, color }) {
             <div className="fecha">
               <h4 style={estiloTexto}>{titulo}</h4>
             </div>
-            <button onClick={toggleExpansion} className="cerrar">&times;</button>
           </div>
         </>
       )}

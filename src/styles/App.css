@@ -62,7 +62,7 @@ body.dark {
 
 nav{
   box-shadow: 0px 4px 13.8px 0px rgba(0, 0, 0, 0.25);
-  z-index: 1000;
+  z-index: 500;
   position: fixed !important;
   width: 100%;
 }
@@ -408,7 +408,7 @@ margin-bottom: 10px;
     position: fixed;
     top: 80%;
     left: 70%;
-    z-index: 1000 !important;
+    z-index: 600 !important;
   }
   
   #modalTamaño{
