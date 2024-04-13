@@ -19,6 +19,8 @@ import { Revestimientos } from './components/Revestimientos';
 import {Interior} from './components/Revestimientos/Interior';
 import {Exterior} from './components/Revestimientos/Exterior';
 import {Detallado} from './components/Revestimientos/Detallado';
+import {Baño2} from './components/Revestimientos/Baño2';
+import {Baño3} from './components/Revestimientos/Baño3';
 import {MasTrabajos} from './components/MasTrabajos';
 import { SobreNosotros } from './components/SobreNosotros';
 
@@ -46,6 +48,8 @@ function App() {
         <Route path="/NuestrosTrabajos/Interior" element={<Interior/>} />
         <Route path="/NuestrosTrabajos/Exterior" element={<Exterior/>} />
         <Route path="/NuestrosTrabajos/Detallado" element={<Detallado/>} />
+        <Route path="/NuestrosTrabajos/Baño-2" element={<Baño2/>} />
+        <Route path="/NuestrosTrabajos/Baño-3" element={<Baño3/>} />
         <Route path="/MasTrabajos" element={<MasTrabajos/>} />
         <Route path='/SobreNosotros' element={<SobreNosotros/>} />
       </Routes>

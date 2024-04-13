@@ -50,10 +50,13 @@ import miamiPhone from './images/aboutUs/miamiPhone.jpg'
 import miami2Phone from './images/aboutUs/miami2Phone.jpg'
 import terminalPhone from './images/aboutUs/terminalPhone.jpg'
 import torresPhone from './images/aboutUs/torresPhone.jpg'
-
+import portadaBaño2 from './images/baño2 espejos.jpg'
+import portadaBaño3 from './images/portada baño2.jpg'
 
 export default{
     'homeBanner2':homeBanner2,
+    'portadabaño2':portadaBaño2,
+    'portadabaño3':portadaBaño3,
     'pileta1trabajos':pileta1trabajos,
     'pileta2trabajos':pileta2trabajos,
     'pileta3trabajos':pileta3trabajos,

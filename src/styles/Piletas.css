@@ -460,12 +460,11 @@
   }
   
   @media(max-width:768px){
-    #Portada{
+    #Portada, #Portada-video{
         height: auto ;
         width: 100vw;
     } 
 }
-
 
 #descripcion::after{
   position: absolute;
