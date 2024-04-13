@@ -29,7 +29,32 @@ const Navbar = () => {
             <ul className="navbar-nav d-flex justify-content-md-end align-items-md-center">
               <NavItemWithImage imageSrc={assets.casa} alt="Casa" text="Home" showImageOnMobile={true} ruta='/' />
               <NavItemWithImage imageSrc={assets.info} alt="Info" text="Sobre nosotros" showImageOnMobile={true} ruta='/SobreNosotros' />
-              <NavItemWithImage imageSrc={assets.bolso} alt="Bolso" text="Nuestros trabajos" showImageOnMobile={true} ruta='/NuestrosTrabajos' />
+              <NavItemWithImage
+                text="Nuestros trabajos"
+                ruta='/NuestrosTrabajos'
+                dropdownItems={[
+                  { text: 'Nuestros trabajos destacados', link: '/NuestrosTrabajos' },
+                  { text: 'Mas trabajos', link: '/MasTrabajos' },
+                ]}
+                extraClass="d-none d-lg-block"
+              />
+              <NavItemWithImage
+                imageSrc={assets.star}
+                alt="Estrella"
+                text="Nuestros trabajos"
+                showImageOnMobile={true}
+                ruta='/NuestrosTrabajos'
+                extraClass="d-lg-none "
+              />
+              <NavItemWithImage
+                imageSrc={assets.bolso}
+                alt="Bolso"
+                text="Mas trabajos"
+                showImageOnMobile={true}
+                ruta='/MasTrabajos'
+                extraClass="d-lg-none "
+              />
+
               <NavItemWithImage
                 imageSrc={assets.telefono}
                 alt="Teléfono"
