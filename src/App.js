@@ -23,7 +23,7 @@ import {Baño2} from './components/Revestimientos/Baño2';
 import {Baño3} from './components/Revestimientos/Baño3';
 import {MasTrabajos} from './components/MasTrabajos';
 import { SobreNosotros } from './components/SobreNosotros';
-
+import Reactselacome from './components/reactselacome';
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
       <Navbar />
 
       <Routes>
+        <Route path="/videosgay" element={<Reactselacome />} />
         <Route path="/" element={<Body />} />
         <Route path="/NuestrosTrabajos/Piletas" element={<Piletas />} />
         <Route path="/NuestrosTrabajos/Revestimientos" element={<Revestimientos />} />
