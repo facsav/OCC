@@ -22,11 +22,12 @@ export function Trabajos({ imgs, titulo, texto, ruta, color }) {
 
   return (
     <div className={`trabajos ${expanded ? 'expanded' : ''}`} onClick={toggleExpansion}>
-      <img src={imgs[indiceImagen]} alt="" width="100%" height="auto" />
+      <img src={imgs[indiceImagen]} alt="" />
       {expanded && (
         <>
           <button className="flecha-left" onClick={(e) => {e.stopPropagation(); cambiarImagen('izquierda')}}>&lt;</button>
           <button className="flecha-right" onClick={(e) => {e.stopPropagation(); cambiarImagen('derecha')}}>&gt;</button>
+          <button onClick={toggleExpansion} className="cerrar">&times;</button>
           <div className="detalle">
             <div className="fecha">
               <h4 style={estiloTexto}>{titulo}</h4>

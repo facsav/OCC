@@ -55,7 +55,16 @@
   .piletas:hover img{
     transform: scale(1.1) rotate(1deg);
   }
+
+
+
 /*pruebas*/
+.cont-mastrabajos .row h3{
+  color: #05445E;
+}
+.cont-mastrabajos .row h3 b{
+  color: #165e7c;
+}
 .container-trabajos{
   display: grid;
   justify-content: center;
@@ -73,22 +82,14 @@
 }
 .trabajos button{
   position: absolute;
-  width: 40px;
-  height: 40px;
   font-size: 32px;
-  text-align: center;
+  padding: 0 10px;
   top: 50%;
   background-color: rgb(255, 255, 255, 0.3);
   border-radius: 50%;
   color: black;
   border: none;
-  padding: 0;
-}
-.trabajos #trabajos-left{
-  left: 0;
-}
-.trabajos #trabajos-right{
-  right: 0;
+  border-radius: 50%;
 }
 @media(max-width:1200px){
   .container-trabajos{
@@ -107,26 +108,29 @@
 }
 .trabajos {
   width: 100%;
-  height: max-content;
+  height: 200px;
   position: relative;
   margin: 20px 0;
   padding: 0;    
-  background: none;
+  background: rgb(41, 41, 41);
   box-shadow: 5px 5px 20px rgba(0,0,0);
-  overflow: hidden;
   cursor: pointer;
   transition: transform 0.4s ease-in-out;
-  max-height: 200px;
   overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .trabajos img {
   transition: transform 0.4s ease-in-out;
+  width:auto;
+  height:100%;
 }
 
 .trabajos.expanded {
   position: fixed;
-  top: 0;
+  top: -1.5em;
   left: 0;
   right: 0;
   bottom: 0;
@@ -137,16 +141,14 @@
   align-items: center;
   cursor: initial;
   overflow: visible;
-  max-height: max-content;
+  height: 101vh;
+}
+.trabajos.expanded img{
+  height: 90%;
 }
 
-.trabajos.expanded img {
-  height: 102vh;
-  width: auto;
-}
-
-.flecha-left,
-.flecha-right {
+.trabajos .flecha-left,
+.trabajos .flecha-right {
   display: none;
   position: absolute;
   top: 50%;
@@ -158,7 +160,8 @@
 }
 
 .trabajos.expanded .flecha-left,
-.trabajos.expanded .flecha-right {
+.trabajos.expanded .flecha-right,
+.trabajos.expanded .cerrar {
   display: block;
 }
 
@@ -166,26 +169,50 @@
   left: 10px;
 }
 
-.flecha-right {
+.flecha-right, .cerrar {
   right: 10px;
 }
 
-.detalle {
+.trabajos .detalle {
   text-align: center;
   color: white;
   position: relative;
 }
 
-.cerrar {
+.trabajos .cerrar {
+  display: none;
   position: absolute;
-  right: 10px;
-  font-size: 24px;
-  background: none;
+  top: 10%;
+  transform: translateY(-50%) scale(0.8);
+  background-color: rgba(255, 255, 255, 0.7);
   border: none;
-  color: white;
+  color: black;
   cursor: pointer;
 }
-
+@media(max-width:991px){
+  .trabajos.expanded img{
+    width: 90%;
+    height: auto;
+  }
+  .trabajos .flecha-left,
+  .trabajos .flecha-right{
+  bottom: 50%;
+  transform: translateY(50px);
+  }
+  .flecha-left {
+    left: 30%;
+  }
+  .flecha-right {
+    right: 30%;
+  }
+  .trabajos .cerrar{
+    bottom: 50%;
+    transform: scale(1) translateY(-30%);
+    left: 0;
+    right: 0;
+    background: none;
+  }
+}
 
 /* POOL DETAILS */
 #contenedor-portada {
