@@ -20,7 +20,7 @@ const Icono = ({ imagen, nombre, onClick }) => {
   );
 };
 
-export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiempo, recuadre, ubicacion, cantImgCarrusel, desc1, desc2, desc3, imgdesc1, imgdesc2, imgdesc3}) {
+export function ItemDetail2({ titulo, descLarga, imgPortada, listaDeAssets, tiempo, recuadre, ubicacion, cantImgCarrusel, desc1, desc2, desc3, imgdesc1, imgdesc2, imgdesc3}) {
   const [clickedIcons, setClickedIcons] = useState([]);
   const [portadaHeight, setPortadaHeight] = useState(0);
   const [tipoContenido, setTipoContenido] = useState('imagen');
@@ -64,83 +64,6 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
 
     
   }, []); 
-  //--------------------------------------------------- Video/Imagen --------------------------------------- 
-  useEffect(() => {
-    const handleImageLoad = () => {
-      const portadaImg = document.getElementById('Portada');
-  
-      if (portadaImg) {
-        const extensionesVideo = ['.mp4', '.webm', '.ogg'];
-        const url = portadaImg.src.toLowerCase();
-  
-        if (extensionesVideo.some(ext => url.endsWith(ext))) {
-          setTipoContenido('video');
-          console.log('Es video');
-        } else {
-          setTipoContenido('imagen');
-          console.log('Es imagen');
-        }
-  
-        // Resto de tu lógica de ajuste de altura y ancho
-      }
-    };
-  
-    const portadaImg = document.getElementById('Portada');
-  
-    if (portadaImg.complete) {
-      handleImageLoad();
-    } else {
-      portadaImg.addEventListener('load', handleImageLoad);
-    }
-  
-    return () => {
-      portadaImg.removeEventListener('load', handleImageLoad);
-    };
-  }, [imgPortada]);
-  //--------------------------------------------------- Logica scroll ----------------------------------
-  useEffect(() => {
-    const portadaImg = document.getElementById('Portada');
-    const contenedorPortada = document.getElementById('contenedor-portada');
-  
-    const handleImageLoad = () => {
-      const esMasAnchaQueAlta = portadaImg.naturalWidth > portadaImg.naturalHeight;
-      const esMasAltaQueAncha = portadaImg.naturalHeight > portadaImg.naturalWidth;
-      const esIgual = portadaImg.naturalHeight == portadaImg.naturalWidth;
-      const descripcion = document.getElementById('descripcion');
-  
-      if (esMasAnchaQueAlta) {
-        if (window.innerWidth > 600){
-          setPortadaHeight(60);
-          }else{
-          setPortadaHeight(40);
-          }
-        contenedorPortada.style.overflowX = 'auto';
-        contenedorPortada.style.overflowY = 'hidden';
-        portadaImg.style.height = '100%';
-        portadaImg.style.width = 'auto';
-
-      } else if (esMasAltaQueAncha) {
-        if (window.innerWidth > 600){
-        setPortadaHeight(70);
-        }else{
-        setPortadaHeight(52);
-        }
-        contenedorPortada.style.overflowX = 'hidden';
-        contenedorPortada.style.overflowY = 'auto';
-        portadaImg.style.width = '100%';
-        portadaImg.style.height = 'auto';
-      } 
-    };
-    
-    if (imgPortada.complete) {
-      handleImageLoad();
-    } else {
-      portadaImg.addEventListener('load', handleImageLoad);
-    }
-    return () => {
-      portadaImg.removeEventListener('load', handleImageLoad);
-    };
-  }, [imgPortada]);
   //---------------------------------------- Logica cambio de imagen --------------------------------
   function cambiarPortada(nuevaImagen) {
     const portadaImg = document.getElementById('Portada');
@@ -155,15 +78,10 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-7" style={{ marginTop: '1.5em' }}>
-              <h3 id="titulo-pileta">{titulo} 
-              {/* - {ubicacion} */}
+              <h3 id="titulo-pileta">{titulo}
               <hr /></h3>
-              <div id="contenedor-portada" style={{ height: `${portadaHeight}vh`}}>
-                {tipoContenido === 'imagen' ? (
-                  <img src={imgPortada} alt="" id="Portada" className="portada-img" />
-                ) : (
-                  <ReproductorVideos />
-                )}
+              <div id="contenedor-portada-videos">
+                  <ReproductorVideos video={imgPortada} />
               </div>
 
               <div className="carrusel">
@@ -225,4 +143,4 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
   );
 }
 
-export default ItemDetail;
+export default ItemDetail2;

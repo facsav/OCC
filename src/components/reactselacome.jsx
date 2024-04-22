@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 
-export default function Reactselacome() { // Cambia export function Videos() por export default function Videos()
+export default function Reactselacome({video}) { // Cambia export function Videos() por export default function Videos()
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
@@ -26,6 +26,7 @@ export default function Reactselacome() { // Cambia export function Videos() por
         controls={false}
         preload="metadata"
         onClick={togglePlayPause}
+       className="portada-video"
       >
         <source src="/baños/baño-1.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -37,7 +38,7 @@ export default function Reactselacome() { // Cambia export function Videos() por
       {isPlaying ? '\u275A\u275A' : '\u25B6'}
       </button>
       <button className="mute-button" onClick={toggleMute}>
-      {isMuted ? <span role="img" aria-label="Mute">&#128266;</span> : <span role="img" aria-label="Unmute" style={{ textDecoration: 'line-through' }}>&#128266;</span>}
+      {isMuted ? <span role="img" aria-label="Unmute" style={{ textDecoration: 'line-through' }}>&#128266;</span> : <span role="img" aria-label="Mute">&#128266;</span>}
       </button>
     </div>
   );
