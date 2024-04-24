@@ -168,9 +168,9 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
 
               <div className="carrusel">
                 <div className="slider">
-                  <button id="prev-slide" className="slide-button material-symbols-rounded">chevron_left</button>
+                  <button id="prev-slide" className="slide-button material-symbols-rounded">&lt;</button>
                   <ItemDetailCarrousel array={listaDeAssets} cantImgCarrusel={cantImgCarrusel}/>
-                  <button id="next-slide" className="slide-button material-symbols-rounded">chevron_right</button>
+                  <button id="next-slide" className="slide-button material-symbols-rounded">&gt;</button>
                 </div>
               </div>
             </div>

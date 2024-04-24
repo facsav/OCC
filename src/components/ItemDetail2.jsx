@@ -1,6 +1,7 @@
 import { ItemDetailCarrousel } from "./ItemDetailCarrousel";
+import { ItemDetailCarrousel2 } from "./ItemDetailCarrousel2";
 import assets from "../assets/assets";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import ReproductorVideos from "./reactselacome";
 
 const Icono = ({ imagen, nombre, onClick }) => {
@@ -65,34 +66,44 @@ export function ItemDetail2({ titulo, descLarga, imgPortada, listaDeAssets, tiem
     
   }, []); 
   //---------------------------------------- Logica cambio de imagen --------------------------------
-  function cambiarPortada(nuevaImagen) {
-    const portadaImg = document.getElementById('Portada');
-    portadaImg.src = nuevaImagen;
-  }
+  
   const handleIconClick = (iconIndex) => {
   };
+  const [videoPortada, setVideoPortada] = useState(imgPortada);
+  const imgRef = useRef(null);
+  useEffect(() => {
+    imgRef.current = document.getElementById('Portada');
+  }, []);
 
+  const cambiarPortada = (nuevaImagen) => {
+    if (imgRef.current !== null) {
+      imgRef.current.src = nuevaImagen;
+      setVideoPortada(nuevaImagen);
+    }
+  };
   return (
     <>
       <section style={{ paddingTop: '15vh', height: '100vh', paddingBottom: '10vh', height: 'auto' }}>
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-7" style={{ marginTop: '1.5em' }}>
-              <h3 id="titulo-pileta">{titulo}
-              <hr /></h3>
-              <div id="contenedor-portada-videos">
-                  <ReproductorVideos video={imgPortada} />
-              </div>
-
-              <div className="carrusel">
-                <div className="slider">
-                  <button id="prev-slide" className="slide-button material-symbols-rounded">chevron_left</button>
-                  <ItemDetailCarrousel array={listaDeAssets} cantImgCarrusel={cantImgCarrusel}/>
-                  <button id="next-slide" className="slide-button material-symbols-rounded">chevron_right</button>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-5" style={{ marginTop: "1.5em;" }}>
+          <div className="col-12 col-md-7" style={{ marginTop: '1.5em' }}>
+      <h3 id="titulo-pileta">{titulo}<hr /></h3>
+      <div id="contenedor-portada-videos">
+        <ReproductorVideos video={videoPortada} />
+      </div>
+      <div className="carrusel">
+        <div className="slider">
+          <button id="prev-slide" className="slide-button material-symbols-rounded">&lt;</button>
+          <ItemDetailCarrousel2
+            array={listaDeAssets}
+            cantImgCarrusel={cantImgCarrusel}
+            cambiarPortada={cambiarPortada}
+          />
+          <button id="next-slide" className="slide-button material-symbols-rounded">&gt;</button>
+        </div>
+      </div>
+    </div>
+    <div className="col-12 col-md-5" style={{ marginTop: "1.5em;" }}>
               <h3 style={{ color: "transparent" }}>{titulo}
               <hr /></h3>
               <p id="descripcion">{parseText(descLarga)}</p>
