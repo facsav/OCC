@@ -5,14 +5,14 @@ const data = {
         {
             'name': 'Interior',
             'desc_corta':'Trabajo realizado con marmol crema marfil',
-            'desc_larga': 'Embellece el interior de tu hogar con la distinción del mármol Crema Marfil en este revestimiento de piso excepcional. Cada habitación, un lienzo de elegancia, se transforma con la riqueza y calidez del mármol, sin pulir para resaltar su belleza natural.\nLa nivelación, una obra de arte podría pasar una hoja de afeitar entre baldosas sin notar la menor protuberancia, cuidamos los materiales de colocación tanto que no realizamos un pulido para conseguir la suavidad deseada, esta la conseguimos con nuestra especializada y prolija mano. Luego la unión entre habitaciones se realiza con maestría bajo las puertas, creando una transición fluida y armoniosa pero sobre todo discreta.\nLa instalación se realiza con cuidado y dedicación. Desde el barrido inicial hasta la esponja húmeda, cada paso es crucial para lograr un acabado impecable, pero más importante para una correcta adhesión. La fijación se lleva a cabo con Klaukol, cal reforzada y puente de adherencia Klaukol, asegurando una conexión robusta y duradera.\n',
+            'desc_larga': 'Revestimiento interno de *mármol* color Crema Marfil. Cuidamos el brillo propio del material *sin realizar un pulido*, cada baldosa es colocada y nivelada a la perfección, *a mano*, pudiendo pasar una hoja de afeitar en cada transición *sin* encontrar *relieve alguno*.\n\n _Instalacion:_\n 1. *Tratado de la zona*, consta de un barrido de una esponja húmeda.\n2. *Centrado* (centro x centro).\n3. *Colocación* de Klaukol, cal reforzada y como puente de adherencia entre éstos y la pieza a colocar klaukol de nuevo, asegurando una conexión robusta y duradera.\n4. *Transición* entre habitaciones.\n\n * Ante cualquier consulta sobre materiales, forma de adherencia o superficies, escribanos, estamos para asesorarlo.*',
             'portada': "/images/Interiores/portada.jpg",
             'tiempo':'1 Día x habitación',
             'ubicacion':'Miami-USA',
             'recuadre':'CentroxCentro, Nivelacion externa',
             'demas_fotos':["/images/Interiores/portada.jpg","/images/Interiores/detalle.jpg","/images/Interiores/proceso.jpg",
              "/images/Interiores/detalle 2.jpg","/images/Interiores/detalle 3.jpg",'/images/Interiores/pared.jpg' ],
-             "desc1":'La instalación es una obra maestra en sí misma, con un enfoque meticuloso que abraza la perfección. Comenzando centro x centro, cada baldosa se coloca con precisión en el corazón de la habitación, asegurando una disposición simétrica que nivelamos con respecto al suelo exterior,llevando altura tal como se ve en la foto. Además esta metodología de trabajo lleva a una mayor prolijidad, ya que las uniones entre el revestimiento de cada habitación se realiza debajo de las puertas, logrando asi una transición suave y oculta, y que cada habitación esté perfectamente centrada.',
+             "desc1":'El centrado se realiza en función de 2 paredes (centro x centro), luego nivelamos con respecto al suelo del exterior, de esta manera toda la casa queda a la misma altura. Luego las uniones entre habitaciones se realizan debajo de la puerta, de esta manera de un lado u otro siempre se ve la perfección.',
              "desc2":'Avanzamos desde el centro de la habitación dejando para el final las uniones con la pared, ya que aquí hay que cortar las piezas, si las piezas completas ya están colocadas, se logra un mejor acabado al cortar a la medida precisa. Además mientras la obra avanza recibimos las secciones que son terminadas para cuidar la integridad del material y evitar rayones que arruinan estas obras fantásticas.',
              "desc3":'Esta sección es la máxima representación de la calidad de nuestro trabajo. El círculo con la estrella que se ve consta de una sola pieza hecha a medida, por otro lado se puede observar que esta está colocada sobre la intersección de 4 baldosas, las cuales hábilmente cortamos tomando la medida precisa del círculo estrellado, es tan preciso este corte que no puede distinguirse si el círculo pertenece a las baldosas o si es una pieza individual.',
              "imgdesc1":'/images/Interiores/origenes.jpg',
@@ -22,19 +22,16 @@ const data = {
         {
             'name': 'Detallado',
             'desc_corta':'Preguntarle a Pablo el material',
-            'desc_larga': `Este suelo es una muestra de nuestra especialidad para el detalle. Este elegante patrón no es prefabricado, colocamos cada baldosa rectangular, de 12x6 pulgadas, con la extrema prolijidad y precisión necesarios para formar los espacios donde al finalizar la instalación colocamos las baldosas cuadradas que como pueden observarse calzan a la perfección en estos, estas son de 3x3 pulgadas. Este proceso no solo nos otorga un acabado más prolijo y más suave si no más eficiente en la colocación. \n
-            El proceso llevado a cabo consta de un barrido inicial de la zona, luego se humedece para pasar a la adhesión del revestimiento utilizando Klaukol, luego cal reforzada y por último como puente de adherencia entre la cal y las baldosas se reutiliza Klaukol. \n
-            La suavidad de nuestras colocaciones pueden ser constatadas mediante el uso de hojas de afeitar que deslizan suavemente entre las uniones de cada pieza de este perfecto rompecabezas. 
-            `,
+            'desc_larga': `_Caracteristicas:_\nBaldosas rectangulares de 12x6 pulgadas, cuadrados internos de 3x3. Colocado *sin pulir* para lograr un acabado más estético, cuidando el material, y logrando un acabado sumamente suave tan solo con nuestras *expertas manos.* Estas habitaciones en su totalidad se lograron en tan solo 10 días. \n\n _Instalacion:_\n 1. *Tratado de la zona*, consta de un barrido de una esponja húmeda.\n2. *Centrado* (centro x centro).\n3. *Colocación* de Klaukol, cal reforzada y como puente de adherencia entre éstos y la pieza a colocar klaukol de nuevo, asegurando una conexión robusta y duradera.\n4. *Transición* entre habitaciones.\n\n * Ante cualquier consulta sobre materiales, forma de adherencia o superficies, escribanos, estamos para asesorarlo.*`,
             'portada': "/images/Detallado/portada.jpg",
             'tiempo':'10 Días',
             'ubicacion':'Miami-USA',
             'recuadre':'CentroxCentro, Nivelacion externa',
             'demas_fotos':["/images/Detallado/proceso.jpg","/images/Detallado/proceso 1.jpg","/images/Detallado/detalle 2.jpg"],
-            "desc1":'',
+            "desc1":'El proceso de instalación consta de colocar todas las baldosas rectangulares, cuidando milimétricamente las uniones ya que al terminar con este proceso, quedan los espacios de 3x3” donde calzan perfectamente los cuadrados de 3x3”, el más mínimo error haría que estos no entren o quedarán uniones toscas. Este proceso no solo nos otorga un acabado más prolijo y más suave si no más eficiente en la colocación. ',
             "desc2":'',
             "desc3":'',
-            "imgdesc1":'',
+            "imgdesc1":'/images/Detallado/proceso.jpg',
             "imgdesc2":'',
             "imgdesc3":''
         },
@@ -59,7 +56,7 @@ const data = {
         {
             'name': 'Baño 1',
             'desc_corta':'Trabajo realizado con en marmol y simil madera',            
-            'desc_larga': 'Sumérgete en la innovación y diseño de nuestro revestimiento de suelo atermico, una obra maestra que va más allá de la estética convencional. La colocación meticulosa en las escaleras redefine la experiencia de transitar, donde cada paso es firme y seguro.\nPero no nos detenemos allí. Las columnas cilíndricas, elementos arquitectónicos clave, se transforman en esculturas de diseño. Comenzamos con una columna metálica pintada con producto epoxi, seguida de la aplicación estratégica de arena para una adhesión óptima. Luego, la columna o el molde se colocan sobre el epoxi y se rellenan con cemento blanco, creando un contraste visualmente impactante.\nLa instalación en toda la obra del revestimiento consta del mismo material, así que el método de adhesión descrito a continuación puede ser extendido; este consta de un barrido y luego se humedece la superficie luego  utilizando Klaukol, sobre este cal reforzada y por último como puente de adherencia  repetimos el Klaukol, esto asegura una conexión duradera y firme en el tiempo. \nCada detalle, desde la colocación de las baldosas hasta la creación de columnas, se realiza con maestría. Todo se nivelado y recuadrado para garantizar una cohesión estética perfecta. Este revestimiento de suelo atérmico no solo ofrece funcionalidad y seguridad, sino que también se convierte en una expresión de arte y diseño en cada rincón de tu espacio. Sumérgete en la belleza funcional, donde cada elemento cuenta su propia historia visual.',
+            'desc_larga': 'Revestimiento interno de *mármol* color Crema Marfil. Cuidamos el brillo propio del material *sin realizar un pulido*, cada baldosa es colocada y nivelada a la perfección, *a mano*, pudiendo pasar una hoja de afeitar en cada transición *sin* encontrar *relieve alguno*.\n',
             'portada': "/images/Baños/baño2/baño2 espejos.jpg",
             'tiempo':'8 Días',
             'ubicacion':'Miami-USA',
