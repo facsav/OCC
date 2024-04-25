@@ -28,13 +28,13 @@ export function Trabajos({ imgs, titulo, texto, ruta, color }) {
           <button className="flecha-left" onClick={(e) => {e.stopPropagation(); cambiarImagen('izquierda')}}>&lt;</button>
           <button className="flecha-right" onClick={(e) => {e.stopPropagation(); cambiarImagen('derecha')}}>&gt;</button>
           <button onClick={toggleExpansion} className="cerrar">&times;</button>
-          <div className="detalle">
-            <div className="fecha">
-              <h4 style={estiloTexto}>{titulo}</h4>
-            </div>
-          </div>
         </>
       )}
+      <div className="detalle">
+            <div className="fecha">
+              <h4 style={estiloTexto}><a href={ruta} target="_blank">{titulo}</a></h4>
+            </div>
+          </div>
     </div>
   );
 }

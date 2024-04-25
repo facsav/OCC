@@ -72,14 +72,7 @@
   gap: 15px;
   padding: 0 20px;
 }
-.fecha{
-  color: black;
-  position: absolute;
-  bottom: 1em;
-  width: 100%;
-  text-align: center;
-  transition: .4s ease-in-out;
-}
+
 .trabajos button{
   position: absolute;
   font-size: 32px;
@@ -121,7 +114,23 @@
   justify-content: center;
   align-items: center;
 }
-
+.trabajos .detalle {
+  text-align:center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.fecha{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transition: .4s ease-in-out;
+}
+.detalle a{
+  text-decoration: none;
+  color: var(--darkBlue);
+  text-shadow: 1px 1px 15px var(--greenBlue);
+}
 .trabajos img {
   transition: transform 0.4s ease-in-out;
   width:auto;
@@ -146,7 +155,6 @@
 .trabajos.expanded img{
   height: 90%;
 }
-
 .trabajos .flecha-left,
 .trabajos .flecha-right {
   display: none;
@@ -157,27 +165,17 @@
   color: black;
   cursor: pointer;
 }
-
 .trabajos.expanded .flecha-left,
 .trabajos.expanded .flecha-right,
 .trabajos.expanded .cerrar {
   display: block;
 }
-
 .flecha-left {
   left: 10px;
 }
-
 .flecha-right, .cerrar {
   right: 0;
 }
-
-.trabajos .detalle {
-  text-align: center;
-  color: white;
-  position: relative;
-}
-
 .trabajos .cerrar {
   display: none;
   position: fixed;

@@ -17,7 +17,7 @@ export function MasTrabajos(){
                   'https://lh3.googleusercontent.com/pw/AP1GczOtzxM7gMAW4jkyXT2YVn922XtCXh3MZRbHxuAIewrPNwVV6LSEM5POebsOPNKKBHUT2F2mDIiky8kaVQSvUGC7-THwSBwzSPbqIn6yCwZsAHWx9s45ss0iuKxHevjiD75ZjvPHYwHqaGoD4dWY2ekRZg=w1140-h641-s-no-gm',
                   'https://lh3.googleusercontent.com/pw/AP1GczNgE4F0txWA-0HfGfjfeBKNO0j3v_iFGzSaFZKuFlgG5BcXQSAlwXrRcTJfPwxrRdMgGZ932RIBETbofnYqhtkMVtCeE3WdufJGmeZd_fVt3rpG-EuFFQsm31iHSwmhYIrLC9Imf0-7pmKj1P7sUS96FA=w1140-h641-s-no-gm',
                   'https://lh3.googleusercontent.com/pw/AP1GczPaIsjzY5JjCI-1N6JJzcJey7YWHHqrjNoUp78inp6SHpiUFT0AKDeBD0sayebmEu6dOHABlOKo-f8eHIfFTb2Pm7Sfa40FQCdoKMQQxsFj-D_KN3JXuBtn7wCRkMTGPcW_4tbE3RB6WHha1TNUQ5icZQ=w1140-h641-s-no-gm'
-                ]} titulo= {data.pools[0].name} />
+                ]} titulo="Islamorada" ruta="https://www.google.com/maps/place/Islamorada,+Florida,+EE.+UU./@24.929625,-80.639252,12z/data=!3m1!4b1!4m6!3m5!1s0x88d7377ccd9df6ef:0xa7d154af283bfc9!8m2!3d24.9242943!4d-80.6278364!16zL20vMHJwMWw?entry=ttu" />
                 <Trabajos imgs={[
                   'https://lh3.googleusercontent.com/pw/AP1GczN68cRLiMW0FW8Xnds_H1ntPnuqLu39dF6OP7obBqllXIU7-b7BzscNyIGDCokadZ39toVMxOyfF_JTVgMzX1p9qJQGOPYzy-mCNa2Zav8kTOOY078mD9o2ZKhRpktmjokNBvHVTUb1Uu5llXiNpLbnxw=w1140-h641-s-no-gm',
                   'https://lh3.googleusercontent.com/pw/AP1GczM7o6s6xnMg3ABQKs-W0tPQKaGt_uyld10tnBU6ZJ8bFr79-slzblxTjmAyuZDylt0_WeN1I_yLz4FekghSVF3hkB48p6M8gn-4QQoxQOhPcKkt9Hlu8nljvOHw7Enu-xQW1EoRv4wU6moSd98qLly43Q=w1140-h641-s-no-gm',
@@ -26,39 +26,39 @@ export function MasTrabajos(){
                   'https://lh3.googleusercontent.com/pw/AP1GczOipSzVqlc-iy7OpPmO7yI9BARlvpVzQuGMLzw2n4-qc3xhC3IJsCq2eLi2z1vps66pNjo9aBU8cJFmsZnWwUkDctMKKpw0LgE_MOJ5Yue4AVmeTZOwNC7BEAU4Cv6HDP1O2jvTB9Z1pzLRpJz3BvClcA=w1140-h641-s-no-gm',
                   'https://lh3.googleusercontent.com/pw/AP1GczMjVH_byX106Dbove5RJdj_h9dZ1xcoT4RGAR3eU9cf-RPpTnl3wMiCQY3ljiLwv1gQs8R-ItHfb28vXCj12UWT4BTegOp10r5mUPA0ZWdpdHrU744w9WQWxiaKSytsdHYxC4mba6PMKGFNMAR3CDSAbw=w1140-h641-s-no-gm',
                   'https://lh3.googleusercontent.com/pw/AP1GczOtTjAwPBOe16v_vk2obogBtxOKdC1rtrYepd4tz14pHSOHnRX7MGL5_1n-kb6x7G-Gi5-tLWUxK48ZKjpAJsHLBu0nHfDzWq-oyuczvziwoTa3ifiKF8iFuxPPKckDja2WO1Db7iekLEXssP3em-Wz1A=w1140-h641-s-no-gm'
-                ]} titulo= {data.pools[0].name} />
+                ]} titulo="Naples" ruta="https://www.google.com/maps/place/Naples,+Florida,+EE.+UU./@26.2231495,-81.8438983,10.72z/data=!4m6!3m5!1s0x88dae19b73c2d7ad:0x673f5318d72c9aaa!8m2!3d26.1420358!4d-81.7948103!16zL20vMHJrNzE?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczMAFUBhxkNDWYxNAAQ8yxErl_wWMRb2wmRq13HRFQ6vTaetq4Q6gkxYaCXrvoQDAIYFnyC3kLGEQ3AfEy1cx5VXxfuIQH1M_5U5aZjPUNNs30SZj9WDTdDawL0Q2WWeIGaGzjK0nkNj-mtdCECGqaFN8g=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczOrocqYdyv7dJvORrE5q39t0GmDtLDuxNUgfhfvaALRmQdVQXH5mDewXwYe88CDDk9OfQug7fbJEmWux9ON5dIurlTW2EqFacsgkwo1EU0GIybHuYy6Gome_XYfcV1xyvQl8QVQb73q0EjqXLfXsOtsbA=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Islamorada" ruta="https://www.google.com/maps/place/Islamorada,+Florida,+EE.+UU./@24.929625,-80.639252,12z/data=!3m1!4b1!4m6!3m5!1s0x88d7377ccd9df6ef:0xa7d154af283bfc9!8m2!3d24.9242943!4d-80.6278364!16zL20vMHJwMWw?entry=ttu" />
               <Trabajos imgs={[
                 '/Marmol/t2 (1).jpg'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Miramar" ruta="https://www.google.com/maps/place/Miramar,+Florida,+EE.+UU./@25.9760691,-80.323403,12z/data=!3m1!4b1!4m6!3m5!1s0x88d9a698bf50e1f7:0x3ba9f9e721e3bcfa!8m2!3d25.9860762!4d-80.3035602!16zL20vMHJqOXI?entry=ttu" />
               <Trabajos imgs={[
                 '/Marmol/t3 (1).jpg','/Marmol/t3 (2).jpg'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Boca Ratón" ruta="https://www.google.com/maps/place/Boca+Rat%C3%B3n,+Florida,+EE.+UU./@26.3728294,-80.1173655,13z/data=!3m1!4b1!4m6!3m5!1s0x88d923c2ef36fb27:0xd23ea6eeca6095c9!8m2!3d26.3683064!4d-80.1289321!16zL20vMGM1djI?entry=ttu" />
               <Trabajos imgs={[
                 '/Marmol/t4 (1).jpg','/Marmol/t4 (2).jpg','/Marmol/t4 (3).jpg','/Marmol/t4 (4).jpg','/Marmol/t4 (5).jpg'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Cocoa Beach" ruta="https://www.google.com/maps/place/Cocoa+Beach,+Florida+32931,+EE.+UU./@28.328635,-80.6246245,13z/data=!3m1!4b1!4m6!3m5!1s0x88de1cc253486439:0xa5d8170cdab472c6!8m2!3d28.3200067!4d-80.6075513!16zL20vMHJobHk?entry=ttu" />
               <Trabajos imgs={[
                 '/Marmol/t5 (1).jpg','/Marmol/t5 (2).jpg','/Marmol/t5 (3).jpg','/Marmol/t5 (4).jpg'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Naples" ruta="https://www.google.com/maps/place/Naples,+Florida,+EE.+UU./@26.2231495,-81.8438983,10.72z/data=!4m6!3m5!1s0x88dae19b73c2d7ad:0x673f5318d72c9aaa!8m2!3d26.1420358!4d-81.7948103!16zL20vMHJrNzE?entry=ttu" />
               <Trabajos imgs={[
                 '/Marmol/t6 (1).jpg','/Marmol/t6 (3).jpg','/Marmol/t6 (4).jpg'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Islamorada" ruta="https://www.google.com/maps/place/Islamorada,+Florida,+EE.+UU./@24.929625,-80.639252,12z/data=!3m1!4b1!4m6!3m5!1s0x88d7377ccd9df6ef:0xa7d154af283bfc9!8m2!3d24.9242943!4d-80.6278364!16zL20vMHJwMWw?entry=ttu" />
               <Trabajos imgs={[
                 '/Marmol/t7 (1).jpg','/Marmol/t7 (2).jpg',
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Miramar" ruta="https://www.google.com/maps/place/Miramar,+Florida,+EE.+UU./@25.9760691,-80.323403,12z/data=!3m1!4b1!4m6!3m5!1s0x88d9a698bf50e1f7:0x3ba9f9e721e3bcfa!8m2!3d25.9860762!4d-80.3035602!16zL20vMHJqOXI?entry=ttu" />
               <Trabajos imgs={[
                 '/Marmol/t8 (1).jpg','/Marmol/t8 (2).jpg','/Marmol/t8 (5).jpg','/Marmol/t8 (6).jpg','/Marmol/t8 (7).jpg','/Marmol/t8 (8).jpg','/Marmol/t8 (9).jpg'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Colorado Springs" ruta="https://www.google.com/maps/place/Colorado+Springs,+Colorado,+EE.+UU./@38.8756844,-104.7583595,11z/data=!3m1!4b1!4m6!3m5!1s0x8713412ea1e6d22b:0x418eeb92f5e86b13!8m2!3d38.8338816!4d-104.8213634!16zL20vMDF2c2w?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczNxEEYCgk2T-7bVQ_5qblk47xpa4rUvCjsHXeF95On02Sq747na8OfYrWM2xCA6Qq7EWFyXxCXDKWQdG8cpfOL1CUs1FOIUlD1L52D63rGuVpvj4h7vDUxe3jEFonYrAfvfWeW4l8kH5HJ2navGnysjXQ=w855-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNxEEYCgk2T-7bVQ_5qblk47xpa4rUvCjsHXeF95On02Sq747na8OfYrWM2xCA6Qq7EWFyXxCXDKWQdG8cpfOL1CUs1FOIUlD1L52D63rGuVpvj4h7vDUxe3jEFonYrAfvfWeW4l8kH5HJ2navGnysjXQ=w855-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczM_s9JLqugaaz0d7NmmPKnqOPkaaDB8I85vQ_YGFNcvceZwynfPIbvEnJFLKMToaY5p7hfZSM086nisIsmA3loXqSwIMTrR7T3kRtebrCnh0FZarVyZ-L4PxoiAtAtRi9TXSYKJ-F_3O3cXyCD6DNjfnA=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczP-QT08Vs3TgomOn5QNNghLLKP1IO3aoWX2kstGQeKUav2UbXENQyh3wLUs6MEfZvhpHTz6W5oEvRZLF4HdkerbdGhOt96zP7Y2TraWukdpzV1WYDLtl-jNC0RxJmVneukk71_wPPYtHlLdKwhPwoQV6w=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNc96aWk0Re-y0skmkgl_boq75n5dpjsS8YS5TP0-CHzemkp0PFO9hk55qBk0cG0pI2x91r2DnqJS7wRU0trwGVwUL3FqfRH3gWXZakJ8V3kHqyYRJDshUJ9FdpSVZjlfXP9zlg6zdPDMEJczuGC57EJw=w481-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Boca Ratón" ruta="https://www.google.com/maps/place/Boca+Rat%C3%B3n,+Florida,+EE.+UU./@26.3728294,-80.1173655,13z/data=!3m1!4b1!4m6!3m5!1s0x88d923c2ef36fb27:0xd23ea6eeca6095c9!8m2!3d26.3683064!4d-80.1289321!16zL20vMGM1djI?entry=ttu" />
             </div>
           </div>
           <div className="row">
@@ -69,7 +69,7 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczOjMeiD9V8MDPWL0Sg_LjxXFlcTnTa_IsuOqgPGEPAmhY1aK8Trj22EmmCcaW_KlLieuvu-w8X9l6g8VkV38RPtUAZWhmSxMe8hGIY_Wd98ow_fX7U5kWpJ6f1MA7XWBPm4AG9shI-xAKy6T288vbNRcQ=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczOGpMe9mC1eif0RRHaguM2aVcLy0GclV_K25vpFY7i3VynLQEVmc2JI2oqzBi1ERS9gpsVPwwfyirBUDM35oR5z0oBrEGHg6cLK8ZJHiACu2nWJm1--bkzZ-ttV6WWzcYlBwm_cPfpnDtDhnTS8f7bpeQ=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNjNKAXuc_0ys-0PojIfUpa94J193Nf2gAD4pqRYF3_2BTNfThieCALN6j8iMWLdjTM6VSBR8rXvWkcCSDm9sHQ06qGgtaMFA5KdxHQNe_kDT2TxZGfTiGs-GHol_5WrZdFlW8XSqbnnzI3YTdpj3ZqMA=w855-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Islamorada" ruta="https://www.google.com/maps/place/Islamorada,+Florida,+EE.+UU./@24.929625,-80.639252,12z/data=!3m1!4b1!4m6!3m5!1s0x88d7377ccd9df6ef:0xa7d154af283bfc9!8m2!3d24.9242943!4d-80.6278364!16zL20vMHJwMWw?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczN7DVS0bjKXSpujRKp4ry0heEpoXoaYMm7Rn5z5ytOT6LVNjtLSQSeoFm8K6wF__ciTJEwJ70DxthIHK1b_JgdmJ7I7PrtBEWvIYXLtQAT8p_FjGOSZmUWDoy-th20u1qiXOc1uPRZWP_rVwD_gCrkpPA=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczO1gcYzpaEDloz44XZryPlEvWPgFQp0q6tu9oNv7hhqQmJhDxFcjPZTgSw4rF4tNaaGm0W8bhzZ0e2uhI2Ea4T4bwUvNiXuQmbKX4lANv1WIqyYkIRYsKNt5JOeNi-WdmV5c6YVE4VB-e_fySvCC25ghQ=w481-h641-s-no-gm',
@@ -78,7 +78,7 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczMFsv0wST4DpOPSiGopNpQvnBj-BohDxTnfPV9FSIeeyd0u4i8Kk5oJbKT4R5h30vqjkMBJCCbZHQH8HsjI-NtbWAMsoSAg4ABKCmfLPC2ObThCqwX3bSitPcUkxCFRLqYYgZ6yTIgN-9rEwf-AWnEcsw=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczN-8JWWnkoORFV89v3TmXUi_Um4dOilGAgNzfGRagU50tvRStk9PgZ-YoD4GC8JyP9sb56Sv1Z1-B1hKvRtgpEBjvscFvH-F_a3RLKnJVUfoKnE_7oLonJo9fVQcJyr36h0dCENXhfdMP66SOnSrGOKyQ=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczOnkkGisZe2lX6_A996tYd79mb-os69pUN1-gwpbky8MB_EyS5aq4-V2DzUSUL36mOwHnG73u4Bf6HXZO_sV_43zbIQppyIQhEJa5KCnCD3Ek-J0uq1NYEmicFlNEAsFBhk6zDWpF8mq1nUnIxcxFPNFA=w481-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Aspen" ruta="https://www.google.com/maps/place/Aspen,+Colorado+81611,+EE.+UU./@39.1984815,-106.8367246,14z/data=!3m1!4b1!4m6!3m5!1s0x8740397cf7413c7d:0xc12b42dc782cf672!8m2!3d39.1910983!4d-106.8175387!16zL20vMGQxcW4?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczMOU2LmnNA8ndk5_wTduOlVeRg5HbHyMmm1NrA2UQT1kw-oh11bjF_7aFRtxYNFhWiG19DRbsqdSmMcwc5CZqAJyJhVaduf5MRaR0rsu_WDnGGORZ9yDsJRZiYnA3Y3lM54OPKfubMq-cl7cY96oIFeeA=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczN86t8ye5AdkVtERcWP4m427P300PA5TqX2JgjTf7ttDO1YrxG7IpgxWI9Apq4y24BlG--rF4MQv5_odYNTh4i_ypHZVv-cnMssXBjd12ygwlgu5ovdSEVGLxxAmPDczIOH3sgqVXrTNe0SM22pbDBhgQ=w855-h641-s-no-gm',
@@ -87,22 +87,22 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczPe_upFTybP6EaK7UUGQzNluRvRW6v71qMTZFCVdXlCuH_jtRYrNNp_D7lCEm5BmN2bZ8GL_dCskjCTDplFr_7oP9gKm9its8IUEL79hwcotH8JL8HUjLxQXdcPQn0JlalId3pw67g_Q1ZCBC2OWWgDmw=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNL6biiijJlrY_osDHYLtCOdXRN9rzOqNBV1COMUolmiVrfkb5OPzrWNScmsRzpGyoQhJmOq5Bv9TFZDg0w8gStv2q8_O50E2JjNeBT0QbvQ73VsLqUU3KDRAphVQ4VeF2W9vm7Dh5gNHTbwDnYHu1nQg=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPGFrrgsb0jmWjNOe-GQtvxIRhFJpw7yBKYyd9KBa2H6zot-fIadVRGN4NHLsCX7GzUVwBMw-xSw6FjNu0-UWFYWzMuZA-JA1OREfiHETyn3CJiZ_k0eqSI0rpmPMGT0gVZWVpx3lN5iGVCWI_aCss13w=w481-h641-s-no-gm'
-                ]} titulo= {data.pools[0].name} />
+                ]} titulo="Boca Ratón" ruta="https://www.google.com/maps/place/Boca+Rat%C3%B3n,+Florida,+EE.+UU./@26.3728294,-80.1173655,13z/data=!3m1!4b1!4m6!3m5!1s0x88d923c2ef36fb27:0xd23ea6eeca6095c9!8m2!3d26.3683064!4d-80.1289321!16zL20vMGM1djI?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczP5RWDXMGbK6lXOxL5VWEC8OoAj8Rmpd6SbRJHRyndMEfnjwc6HnRG26JqEcaCYdDPvqWKea4swYfjhYumcYMufR7dGpJvcpEuAe8SllX4wKklgpTQ-g6mk-rWMu-OJxkZvUW2pcoT-49lKXkk39FToQQ=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczN_uSfCTvnp_36bAMetpolWVsxmgTep6Tv2gCOhMGQuQP3MI31j0pBgGM8BtWIdMHDK6C0ytPxoIkgzu25othM1PMznAUvdq-5GkM5GNMqA7mRJOQcjXycbS0ne2lQBJAaBC43hmCy9KJgwywb3C7X07Q=w855-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczO3iJRH-_rm0VmsdFr0d4nJV2GyOg-Vtt0LQiPMBnOE84HHfwZJWsGvH2uxTmGzt3qX7rJ-8LTLwJ_deIJhoh0BEwcNgzKpzYifiFTSFLjGgSyVq-2l0-9rum3PQ919CFjX_41M-0JAPFeJIlkCEO4zSw=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Miramar" ruta="https://www.google.com/maps/place/Miramar,+Florida,+EE.+UU./@25.9760691,-80.323403,12z/data=!3m1!4b1!4m6!3m5!1s0x88d9a698bf50e1f7:0x3ba9f9e721e3bcfa!8m2!3d25.9860762!4d-80.3035602!16zL20vMHJqOXI?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczOWr-l05aXTcdXJR4LQdEc2i4zPzkpCUGJgdUCaMh5VqdAvNanY0n_0OByx2DJmcGTQI0lBOmi3PIGBWq7wkdj3DjRahyejVuA0JsfCAz5XnTitpcohb0UogA33IC24VUFlEtR6pwavxoIes1kPWXGlsA=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczP5HGIjwWtz9gAbN7XvJO4yNsVKsaPVndcpdaHC4Cirom7E7iFYq_v6KWSse0P8eiepjlmBFlHdjGdGeHyE13Bvn6oqUUmEtJiynv0EesLLe17lbSkVYxudM3kuOvk_0zuICCjL0_5pS3woRiLtivARXg=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Naples" ruta="https://www.google.com/maps/place/Naples,+Florida,+EE.+UU./@26.2231495,-81.8438983,10.72z/data=!4m6!3m5!1s0x88dae19b73c2d7ad:0x673f5318d72c9aaa!8m2!3d26.1420358!4d-81.7948103!16zL20vMHJrNzE?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczMoiG6InNdfyjy2G4xc78d8it0NJeMs5t9vrVXckC2cwp0QChykPUeMXDzUyJslaWw-9mHKbBTD0Rv36-BHav1G_8HNQCtvYkodwMFh-XwF4vu92A3aPeQsjqgub80M0DRJ1ZBsmzdp5Hf5WVvB0Ygjuw=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMnLG3S2ipyKFbLjl0a1EUkLbFTeOET3fMuPR1vc10uZRnyEXPjg1DGyimPf3tv5BMZBYn-cPRwdP-8meHiFSfDQ4IxQ4-ahioxHexYRfHm3rN3PbBRN5kzrf2vJsQf0lc6G7bOF0jMtPbZN4h-FKH1Lw=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMkA7OLzbXcQ-saBkKft-v_i3eLrCEALNsWuQQooQfoqRqguTVAs4z_PW_ErYRk0ebAuwA7GlcF_oIbPA3Fyo2TB0aZo9Y2w20ukIqjUCgl5vNSF6P1RNOx8t_iWg3QXv-xVbGXuhKRgwcCSMLJPNj4-w=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPliF3CSPZ50GKQm0h-py3yP89zuWwnJY-GSn5Y1XHc_tLlnS-IPAsCrG_GtVzzaWwM5aV_dIZ4BhhZE-ruHStkopcga56jQNAkwiNXfTFlXfPAFWeKo1XfOy19kMNA5XzbSpTi4eM5ZrqKDMA8R-7NfA=w1140-h641-s-no-gm'
-                ]} titulo= {data.pools[0].name} />
+                ]} titulo="Colorado Springs" ruta="https://www.google.com/maps/place/Colorado+Springs,+Colorado,+EE.+UU./@38.8756844,-104.7583595,11z/data=!3m1!4b1!4m6!3m5!1s0x8713412ea1e6d22b:0x418eeb92f5e86b13!8m2!3d38.8338816!4d-104.8213634!16zL20vMDF2c2w?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczP8Unt-StOiwFHVZ1J4eiaKu1T21nl_oLPHFEds7DrlCweg9HDNrGCz_FckMAPrLtED8iBW42tHGLj7d2J9x9XscqquRL8DgUZprcV-FAgK7VrEDe9PmXPw3PoO-UCrZrA6UPTxYZlI0sQCrCq5fa6feQ=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczOO5jcv6pyl_GdADhBwMtDgUvGHQMfBd1VWxYt85yTR8WTJQ_KHZUvXhWQHxACB5K5xhc48CeAYOFhQeMsqJWtxVQHvNE4KXquwu8v-WIPlrFbPhn9oI4cKZdnYCFelMaKjhQCiczFIxujvpEhCWna5Vg=w361-h641-s-no-gm',
@@ -113,16 +113,16 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczNoEQd5_Oo4VQrJ_EqCM3_rgfnzrB4byYULrIKyCwaIVzAL9lagfJP1rms4WW9_RduQj4CGQ_dlEeYa8LDj36zYmyqzXaDVWz54XFSJRamGPj8Wl1OnNi7r0KBsEdMMQqUtCF6gZeg34AZjsPKKKWOd0g=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMqKYnxa5kh2xI4zH3NTA514tE0CP-KSSZPK9ENqo_ss3oDqWiZz1xgT10_iw_pI710NPOJ9woGhCG2kFRWVoBm2awTNXywonMpl57aLT2SJJ5t2GK8p-pg4zfZnC6bTlu-9yYjwzHNK6-KB6UPH2Bb6Q=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMDgZ33-yi6gaFwtBYcw-qDKKc-ikpO_99rj2kGZPObptSyK1rDRuViESEm3UP9Ec1SDeiZWOr436oK_AY6Za4Bo9X-ub7zQZrzBsBW6f-RJ_GCSrNrTw1n5w2rMDcjNwkTbPKZxtH-XJl9Q09PeodaJw=w1140-h641-s-no-gm'
-            ]} titulo= {data.pools[0].name} />
+            ]} titulo="Cocoa Beach" ruta="https://www.google.com/maps/place/Cocoa+Beach,+Florida+32931,+EE.+UU./@28.328635,-80.6246245,13z/data=!3m1!4b1!4m6!3m5!1s0x88de1cc253486439:0xa5d8170cdab472c6!8m2!3d28.3200067!4d-80.6075513!16zL20vMHJobHk?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczOzSYAOjQ9bsyEFN9F7V7i11PPOg0mztPOLoDJIkJQ_y3KwX43-PNkKTdJ_6aqyO1AlsKlmn8TlLUlzrxlDGksXnwppYulaSiuxPydXimYat4EYZnZdzueYVXzN76qz1dcwH2EG1pUeAGbkzLQ5f0hrUA=w360-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Miramar" ruta="https://www.google.com/maps/place/Miramar,+Florida,+EE.+UU./@25.9760691,-80.323403,12z/data=!3m1!4b1!4m6!3m5!1s0x88d9a698bf50e1f7:0x3ba9f9e721e3bcfa!8m2!3d25.9860762!4d-80.3035602!16zL20vMHJqOXI?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczMC0iG4lJEejXPWhS7m1sEUo66fOCB66SV15LmlbkjRNypjLxcm4CRvucC7R-RKdHpi-XxsPiAez4UZXmC4JtKtK6Hy_Is0cxyyvat2LQjgzBLLeD03jGctbDyQIeF1rElXUZ3e9m0iZsXYtPHuZxU66A=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczO5g2Tlx7FN5N_QbK9zeQghMys3NlYg9xfdtqG7ufmF_0LqHA1Njj77ALH5-J9H7LlYZNZEYHOD9WsdFbLmEnj10IoZ5uHgruGjuiLrnxiseyy4GUTCbpYBb8xSeLEPINDujStKwdnLVqlhSTDzFYslJg=w360-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPwasuvrLa7_RhIueK4Peg9LmnChoyTa9WZU8Zq5wTAvIn6gmMs0RDVGP2WEGSMG2BfJ3fRfqgimxjAve1bGK0Non0vXi0NyouodeliHoJXVPXC0-nA7PWeXXHfeWS_svqKZCQ89MfdYVHwgLwkuMg4uQ=w360-h641-s-no-gm'
 
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Islamorada" ruta="https://www.google.com/maps/place/Islamorada,+Florida,+EE.+UU./@24.929625,-80.639252,12z/data=!3m1!4b1!4m6!3m5!1s0x88d7377ccd9df6ef:0xa7d154af283bfc9!8m2!3d24.9242943!4d-80.6278364!16zL20vMHJwMWw?entry=ttu" />
             </div>
           </div>
           <div className="row">
@@ -133,7 +133,7 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczPtoUYHlf5c0JCriIuqoWMSHv_ixBvKskMStHHtoDpWicaLsYXRIaio3vvsvMAW8kB8KcZlS-7RbBKmOvkSpn6UnFAj580hXBdUWdZBBhEkkRhCV1w7U71hodH0G5s_Gm9hYVLRjcy04vLyUorgIO7PVg=w855-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMRvq8OjXBTpeWnElcgagOkmA-4dMyiawAGVzM9p7JDgfwKvHK3wAtAFQFJfciPkNAQvFvU3FjeKa5aJlq1bWYKLIr1fS6xcrJ8jw1tGDgp_0LByjFjLzDEHZViPLb7howbAYe9JCJLf5yXPw1VWq1gHQ=w855-h641-s-no-gm'
 
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Aspen" ruta="https://www.google.com/maps/place/Aspen,+Colorado+81611,+EE.+UU./@39.1984815,-106.8367246,14z/data=!3m1!4b1!4m6!3m5!1s0x8740397cf7413c7d:0xc12b42dc782cf672!8m2!3d39.1910983!4d-106.8175387!16zL20vMGQxcW4?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczNxxIYhCz7KDNA7vMxGJih9RY01-Qyo1pAJSyyu55ZhSZ9BDsRBn1__4c__c7Sl8SXNLMUIbWhUxtBe7VcBlz2G1GXEaUiAe3P5PRqiZUHEq0px37qz0ttmvb9UcUHuycM1_-12AxZZrF6j9tMb_tHKKQ=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNOW75hIFTuGxTspfgOm15g_AFd42m7aXZ70935b2tvO5ape0n0MUNYzveP4gX1-EsSba4fIi9zMZoE1kKkL1sVfKqdR-8eteoLdDfsILeXV_LMQmc5g6qwfEwH_pa4KPb5EuOC5ZpYyrH2XFjudeHnCw=w1140-h641-s-no-gm',
@@ -143,7 +143,7 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczNEDpzSV1LZanARMdbhzC31aXP449-iDuqMvfg1MxHDqW_HipSXSZ4S3CB9Lk3VQE-JjXL3kawVXMBc5pXs9Sz_t5mh2KrijzwTcAu4yDJdSV8VxrdEtqZMIXQhl1D_Lb7CSZWKSTlXuE_MLtcly-dr5Q=w361-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPBjVq6Gf5vQlsGnAdwKQm5tXjIfUAZHx4K4q2gQYc81vzUbjApGBQEK1Rq7fXXFCTO_P8nsyc0P0KAD0ZnlhWefbL1vyKcim7GSPOpiWrQhSOyhfx9Cvvj5n70zkQKEWpKgmAKlkgVtY1FoeX4sGT74w=w361-h641-s-no-gm'
 
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Miramar" ruta="https://www.google.com/maps/place/Miramar,+Florida,+EE.+UU./@25.9760691,-80.323403,12z/data=!3m1!4b1!4m6!3m5!1s0x88d9a698bf50e1f7:0x3ba9f9e721e3bcfa!8m2!3d25.9860762!4d-80.3035602!16zL20vMHJqOXI?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczNfwQZgXXx6_wRoZAtDl52-qUVuXvAByBotuDcbcA3mTr4Mbh9GKbZWDt1ayOWHvZwP9_xPNG8q_Y6vl5FOwMBWVoDwFhfLdQYITTPKpQ2NW7S70TVa2S4ni5QLGbz06YxY7lhhJhbIAlBwowm3Fj_6pw=w855-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPjZgTi_VC-Ts1-PT0wL7PZ-heVGBijolF0X-Mh0DZY8DvuUka_gqUJDMg-g4YrOUg909_c9A7pMvL9igF-myuz28jL3mUu3oAZhXgwYsvQuHh6YJyecghIkOt9NxKAY27Q23W3stkXBo5BUWZTEufmqA=w481-h641-s-no-gm',
@@ -151,13 +151,13 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczPRVvtNE6Uu204ukplyPn1IV5GAj-0ddfeGyez8HZKQTx5X1zDSSVUamSvUWlxu1NSaY8T5yCe7qO9JHP8qTwnt2E_iGenWKbODDo5bePDI4oq8654eeumiTRpmVlkG0c4eGL-EPZQH05tQPJIP4PVW5w=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNmhq346XD2NvznntfwD3DCjmppyBRhpR13usN2phBosC0KRMcRo1nr9s9zbN5pW-jONzwmCglogWuFiV7ybZJN_OijvCGk-BADnXOlOuSAWwU7FHsM9cNCLUFWoH2t5Ho8nw_etS9_FNgCZVKZ132Y7w=w481-h641-s-no-gm'
 
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Islamorada" ruta="https://www.google.com/maps/place/Islamorada,+Florida,+EE.+UU./@24.929625,-80.639252,12z/data=!3m1!4b1!4m6!3m5!1s0x88d7377ccd9df6ef:0xa7d154af283bfc9!8m2!3d24.9242943!4d-80.6278364!16zL20vMHJwMWw?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczOh_jmVwWP7pZK2VE7iHMBvzy3MWoabeukyth8l5yd6MZhrhcwtlYOCDOI97R3NqUCCNAiNQrSsMmWSrV8peZHR7OD8rlGCXitN8jqOrKGTPeOo3Kxo3MdeL8AdJ4_O62onoTKju-fHy5S7E3IY6Xtn1g=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPisZLjwXZRrsD7hZrLVQqJVyMWQmtgtffKr6InKGcyXrt0GGgXp52aCqY2hkPm8tv8P3Io_lCDCGDRULFfdJGblahS5wSaPvxhK65ZjwpSMQOBonGhfEpaMN2bZ2Tpvp_Hel5hefTEFMPb7saoBCgIDQ=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPsG0lvplcSYyKyvGIO6ZC-ZlCHkvmwFPWrS4MMJ_e5Cu7Igg6SorPm1KJJlD-f7zok0evPB4TOiuMF8d_axPGz8ywbaSvhKAqGbZicYb7WTsAvoFfJnDB0lZ0cvCFOgKVT5y4BAcEuilKhECKwkDHQ7A=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPsG0lvplcSYyKyvGIO6ZC-ZlCHkvmwFPWrS4MMJ_e5Cu7Igg6SorPm1KJJlD-f7zok0evPB4TOiuMF8d_axPGz8ywbaSvhKAqGbZicYb7WTsAvoFfJnDB0lZ0cvCFOgKVT5y4BAcEuilKhECKwkDHQ7A=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Naples" ruta="https://www.google.com/maps/place/Naples,+Florida,+EE.+UU./@26.2231495,-81.8438983,10.72z/data=!4m6!3m5!1s0x88dae19b73c2d7ad:0x673f5318d72c9aaa!8m2!3d26.1420358!4d-81.7948103!16zL20vMHJrNzE?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczNg8Awz4WMZQIcP5_6VXT2Yhi3czv4crlrskhZNJ2dpvJn_L7a5augBSQSlxiDt_dJn8rKY4ES4XlVRaLJosXNH6Rn8dOSW4K0LiTMuVgDnyN-oFCiQ_fdgaG_hbayh_PpuIXQz2hiW7KBiQpQVDk_6_g=w361-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMkBEnduOVyGnqtwf4SUqzA9wjqGmHtEIgydULZ9xDlDD8OpqYhyrIWWVTrht2s30eeiIHkUaGwmU8AXvLWOEZG2Pn31oSSAIs-keJ3YHzTQf5Zgd6vT7-0Cvq2GWOHnHedWJ0KJz6fPSY1_2WQbTjMIQ=w361-h641-s-no-gm',
@@ -165,7 +165,7 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczPHttsu3BK-w7TbIi_jRXMCxK6n6TE5KlS298i3DDB5RpnRao_61a_pxl_POSEcsdVgG1LIuGiMiX7V1HtMv7_rIEj87PaHZpJgQXyfCz9z8sJ3cHWEAoeSO5qqS-wBs7Mp6PCz1hFVDidB8T8c4IQnpg=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMXi_buwV-aAYQsuWFtLv4wU6tcosJDTvRV196hyZtw9XAJgRm6Nqby8FN-yILA3HoUy0yiNAr1Mxz-vrDJEakhpW6yN4MTXjp__TbKrsWCspGz-a3_TyAXNSJX21xzU1WuYtWPn_NVvjt8V7ZMonz6Xg=w361-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMbWuaBf2P9_ostmZzYD8jYp_3j-Vw0ADvpwEbuSFXRO0bSk9jKYNptSBovwkX19RRxm0ur6pKndQ659qs0ynWioDGIUAiNdNR_vkPlQolEmWVMHBdU2Lh16FDSZ4Os3hOJ-KnIDc7Q68ehwvXVjHpSKA=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Cocoa Beach" ruta="https://www.google.com/maps/place/Cocoa+Beach,+Florida+32931,+EE.+UU./@28.328635,-80.6246245,13z/data=!3m1!4b1!4m6!3m5!1s0x88de1cc253486439:0xa5d8170cdab472c6!8m2!3d28.3200067!4d-80.6075513!16zL20vMHJobHk?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczOEa8cVmnN6B_49W9kujpWBiMgDE-jU_G1xZUAaOPqew3iWr8vqDBoP7JPK4sIeoihOtMhot8Vd3Pp4hJ1goGBCaP9wEj-Lr4EVrW_dV5lbsbMfUiV1lmQr1Et3G01pbqMT-ZExkEz0TYGWqpPVsPzd5Q=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNNPPvYuelzPRnGOt2lSG9hD2vkCNKs14CNjTFZTb_K3Nu7eRC16ngeg1YFzqZTF0ZAReulbpNAAwW_xamu8uA4ifA2kkAVj3azIeX_z_I_NySeyGtW-YV7oJIp3sO-r7J-VYANsAHjUQn-1dgxgei06w=w1140-h641-s-no-gm',
@@ -176,7 +176,7 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczOI_O56u7M3O3n7Qn9UdPQaH1orpptJC9IQcnhO4XpG81hvRFGK6-SbXcnKdVgeQ755dubYFlsodiXbbb5xg_OT7nAf9HwW3A-Or-CQS2FoJrGWW_GY_AJiSuWSB-a6oEng5_f_X69O2rIrBAgY9c_HlQ=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMMhUq5bHpDM_OVa7FuPK5TKYRGTJeUZxxVnJDYz76TMaT5l1BKGPJnrjHWVDEKTTZDrXAQLa77CNRuHP_JD4zM0Qzy-jGXqjFtuwHJ178-0bEKTYtYCpHNpAsVAg8UqZb4XRaRYUwHFyCGpiLH5mFHmw=w1140-h641-s-no-gm'
 
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Naples" ruta="https://www.google.com/maps/place/Naples,+Florida,+EE.+UU./@26.2231495,-81.8438983,10.72z/data=!4m6!3m5!1s0x88dae19b73c2d7ad:0x673f5318d72c9aaa!8m2!3d26.1420358!4d-81.7948103!16zL20vMHJrNzE?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczOIKv8hoAvaosxH-03zGCIj8lQpX9qEqFJC5Lrudv-BTE5TUX9oKL20-naIAvXJdaFnu7VKXRWnnzqg4Mk5qv3NhzjIEeXNno-FvgyrjDwzGQsf_W9nm_0cZHVooVBNFIjZSz5azNxgslnCXvi7-zfbhA=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNIAPjCiDlVq2Od1VdRK7GcpsF7hM0Q1ym5RIe1XdaPJSgpQn0sYvj8AWstzxelQULwNtlpDxfPzplXvKVuu-wAsG2zCy2CT0aYT5KOAdQDezWUyxM5V_XmNAVCVenK49LopAhkqsA9g2qsxeFAwl4GdQ=w1140-h641-s-no-gm',
@@ -186,18 +186,18 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczPMpre-8ssCR2nzOU52fUrIR9CX54DmrC2e5KE-nqVuLHa1Qmguf9okI5daffj-WrvTfYru1x4klRMdVYwiVoQ2O0HWKsKTYxeLDBzEoFfnC1JCLkH29e1Ap-GJIPVLGc_xYzr7rFsXim7I6oZLANwZjA=w361-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNoYGVgz83EM1XO1HqnTecJLfCLGGLzd0M-XkND4ezqSEH_2NNTt-BhmDNActaCKKrWvQealQtS4zU4l7T9sybNlH99lwQm44DFauD2k78TIwzqEMoiCrmhDkwm_XRVCbI1UI4Hqyb36Ar9h8c-992SAA=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczOBTfj_z733kXJNQPap2AvhOB0MEDJFi_ZwzDphReWb73pYkxXKf7tqmFntSNKjkgCh0iLJy9An9jpiQXEkSP7tHbSid8Y1bHvDmEoQ23yRAjlZLxuaSxbUC3Gor9T0zHg9kcKGP2r7cny1CywA_jvrbg=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Miramar" ruta="https://www.google.com/maps/place/Miramar,+Florida,+EE.+UU./@25.9760691,-80.323403,12z/data=!3m1!4b1!4m6!3m5!1s0x88d9a698bf50e1f7:0x3ba9f9e721e3bcfa!8m2!3d25.9860762!4d-80.3035602!16zL20vMHJqOXI?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczPOg31EAgVA6xtX-9XxKcyKXTCubjB4zKswdZ2gqR8ABJL-gDtYxULLzCZ98BLK2oL0qxpA9lOhAFiPBe7l3Qg5rO6ZpS6f1VcfC3fxYpVMfxCDjTm5QpqLYk4TCz1veVZEQmyLwcOZOcOas3PKhWlCUw=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczN9FlwlMTkNmMaDVF7eogoBOQ-VcVfgcsp841SAiWysz-DGZxcx3SjoLRTSTyuH72C6QmdbFLT0dbk95BMOh_do-6nAsLvjsAQG9OmhmUWeIKGpvpTtYc5B1Hi_5b4QbD5pE77K7N6N19LTX0bsHv3fhg=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPOg31EAgVA6xtX-9XxKcyKXTCubjB4zKswdZ2gqR8ABJL-gDtYxULLzCZ98BLK2oL0qxpA9lOhAFiPBe7l3Qg5rO6ZpS6f1VcfC3fxYpVMfxCDjTm5QpqLYk4TCz1veVZEQmyLwcOZOcOas3PKhWlCUw=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPotQx8ghzgN_0drFggWlZdQqbD96RpdqXef6LiwhgcpJE-1Ni3QorWkgcopK-vXb2S8N5b0AUuP8n07X7C1HJ5Cv6YHW72AGGtO2DNWkjTs0ppv1dLnlz8V0PBrNKKljLdQ_-kqj4xIVmTq-llzkzgTA=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Colorado Springs" ruta="https://www.google.com/maps/place/Colorado+Springs,+Colorado,+EE.+UU./@38.8756844,-104.7583595,11z/data=!3m1!4b1!4m6!3m5!1s0x8713412ea1e6d22b:0x418eeb92f5e86b13!8m2!3d38.8338816!4d-104.8213634!16zL20vMDF2c2w?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczMS6XcN9iuW83yEZ6jTQNnA2wSvvjDPihZ8V98gJsikOPyGZPN1IowbX8-bTB07KFdoN5HhlgTbz_l7BqbKPEXRz2He4D-X1eM18ySZJ4xR5JKbSrocB51K6z37sNkT6ikXYEoYf8p0wuF-Bg7ouLKViw=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczOUKkOhny9Cip6fW--1NwANM-HWPmlQF_STVxBEXrTwDzPB9ObV8W8Lf_u1eytvr3JnBmdat2n3SUe5NcKEl3X9CeHgcr0CIgPn5UibP51Uq0mMj9uMxsCvw9A0s18CITFdkWqOQa8aYIKH_pLcsTDolg=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPoF8phxkwGRGAi5c259eBaElLoS9XqwpenFqXbYJIkk3ydxN7kxd3aRfNu1MO0X2y7WRyokjJamg9BaVprOzQuG4FzZfpP02bFbRGLOmslifTauFe33EaUfB5QGHDmTugrEVlEpolcplkSCcvV4mYOhw=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Aspen" ruta="https://www.google.com/maps/place/Aspen,+Colorado+81611,+EE.+UU./@39.1984815,-106.8367246,14z/data=!3m1!4b1!4m6!3m5!1s0x8740397cf7413c7d:0xc12b42dc782cf672!8m2!3d39.1910983!4d-106.8175387!16zL20vMGQxcW4?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczOiOPhdqj7PrY5TLOWaD1EK_F-TAN5arOVhYYMEqIdMTb3C6h8Dot57rINzhrRypyOzfxq0BVutUAS9h1a1I6PsUQYxUkFbFXJ3VcEAvCJemBTCMisg22zscBOiul1DtDqZZaXrMn386Ouv-vKTyAxQfw=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNDSXvMIBBt91Geq-Gon3FPClMaMo79KOGPVoh9UFi3Zld8uckmAeVHKWEOfxwzV07AxzCdVdLJMzauNOGNhPOJFEJaJm6afRXamb1F0C19vQccZnymJYXN9NYDgfvBilymzU3pXImKLtGQBGjnwaxyag=w1140-h641-s-no-gm',
@@ -205,13 +205,13 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczP3WtUWQ0t929G_t2cNG_ET5PAjTdTU_1YG1xms-dISKH61gxtGmloZVXqHv-kfpUeHX1NLrlOXOf8dZuW-aZFXm7XinXbN9rspbfbGT7MGu2EmpqNLiFV9E7qxCepT8-0Bp0mpJ_CqkHiZAJxkHkekcQ=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNxAgDTuP4b32WOco7o_EIH-WQ65iWXM8S1VJnNA8Rh9hTvG4DOi4Mkf95ZWQsl_f9mVofbvVcvQArkRGTRtPSFrStz9WTh5NNaL37NQu2bCv3AimaWEU1mhvKVotD1Sqmk2esnmyNnX5cTYzxBS631lw=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNxAgDTuP4b32WOco7o_EIH-WQ65iWXM8S1VJnNA8Rh9hTvG4DOi4Mkf95ZWQsl_f9mVofbvVcvQArkRGTRtPSFrStz9WTh5NNaL37NQu2bCv3AimaWEU1mhvKVotD1Sqmk2esnmyNnX5cTYzxBS631lw=w1140-h641-s-no-gm'
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Miramar" ruta="https://www.google.com/maps/place/Miramar,+Florida,+EE.+UU./@25.9760691,-80.323403,12z/data=!3m1!4b1!4m6!3m5!1s0x88d9a698bf50e1f7:0x3ba9f9e721e3bcfa!8m2!3d25.9860762!4d-80.3035602!16zL20vMHJqOXI?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczM2urbCpf8-6I1qOSGveRUcgs5Lv7WH4VulNlczPU2XAoA6UzOWOmLacy_l1eUR2zsNcRAwvS6M5FfiqtKxvdYqSoXbkwiiDOZK-aZ8Q1-98mU7oFKuqbPDTJO_S9bNzzn1Dqh7f4Rm4XLZSl2VBA741g=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNsR7LytDng7tB1f-J8zfuKddhxQ3PDSCiepZglG02juvZ_EZM2yYVALCG8-kXeuArKzoFmMj7DZjbVfJKFIOsF5nEdbvJP_TTDNpEFU6RO9MpxwDXYbSc8US9B5YkWAX58rDbsXKwT-2V6i2NRMCUUdg=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNDUdUVQNVFOo1ZK8xtLnGF6eK-M-2YQUxPLOQuTv_LuTsDd0FJRYTtpCxMlPsWxgbmNQR6WDOo0E54I4gvNzg8d-f1rqWkCzViid4A7PIgCIo6gBsCgsRNtOnBy0JpaeI8bgbq497AIJVkNW7D9dcxcw=w361-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczPp-TiqPPeaGekL73kC1II2Jgn1q1EPAMpRRPejPuN9dGfupHH1GjBwuLyj3tObw1lOtrquwtOkU0wDNCcnRAACTGXLMWAaPVpA4FbatxpBh6snJppJBHzLZ7YHAliTdazNtkrBHkmmOoHpIyw_zbQGGg=w1140-h641-s-no-gm',
-              ]} titulo= {data.pools[0].name} />
+              ]} titulo="Islamorada" ruta="https://www.google.com/maps/place/Islamorada,+Florida,+EE.+UU./@24.929625,-80.639252,12z/data=!3m1!4b1!4m6!3m5!1s0x88d7377ccd9df6ef:0xa7d154af283bfc9!8m2!3d24.9242943!4d-80.6278364!16zL20vMHJwMWw?entry=ttu" />
             </div>
           </div>
         </div>
