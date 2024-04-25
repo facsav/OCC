@@ -305,7 +305,9 @@ h2{
 .contact .title_container{
   margin-left: 25px;
 }
-
+.title_container b{
+  color: var(--lightBlue);
+}
 label{
   color: var(--darkBlue);
 }

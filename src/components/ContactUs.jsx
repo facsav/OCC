@@ -119,7 +119,13 @@ export const ContactUs = () => {
                             Inf. de Contacto
                         </h3>
                     <hr />
-                        <p>Escribinos por cualquier consulta por<br/> el canal de tu preferencia, te <br/>responderemos en la brevedad.
+                        <p><br />Ante cualquier <b>consulta</b> no dude <br />
+                        en <b>escribirnos</b>, ofrecemos <br />
+                        <b>asesoramiento gratuito</b>,
+                         en cualquier <br />momento del dia.
+                        En <b>OCC</b> ofrecemos <br />
+                        nuestro <b>conocimiento</b> <br />
+                        y <b>experiencia</b> en todo momento.
                         </p>
                     </div>
 

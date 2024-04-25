@@ -52,18 +52,18 @@ export function MasTrabajos(){
               <Trabajos imgs={[
                 '/Marmol/t8 (1).jpg','/Marmol/t8 (2).jpg','/Marmol/t8 (5).jpg','/Marmol/t8 (6).jpg','/Marmol/t8 (7).jpg','/Marmol/t8 (8).jpg','/Marmol/t8 (9).jpg'
               ]} titulo="Colorado Springs" ruta="https://www.google.com/maps/place/Colorado+Springs,+Colorado,+EE.+UU./@38.8756844,-104.7583595,11z/data=!3m1!4b1!4m6!3m5!1s0x8713412ea1e6d22b:0x418eeb92f5e86b13!8m2!3d38.8338816!4d-104.8213634!16zL20vMDF2c2w?entry=ttu" />
-              <Trabajos imgs={[
+              </div>
+          </div>
+          <div className="row">
+            <h3>Revestimientos en <b>Porcelanato</b></h3>
+            <div className="container-trabajos col"><Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczNxEEYCgk2T-7bVQ_5qblk47xpa4rUvCjsHXeF95On02Sq747na8OfYrWM2xCA6Qq7EWFyXxCXDKWQdG8cpfOL1CUs1FOIUlD1L52D63rGuVpvj4h7vDUxe3jEFonYrAfvfWeW4l8kH5HJ2navGnysjXQ=w855-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNxEEYCgk2T-7bVQ_5qblk47xpa4rUvCjsHXeF95On02Sq747na8OfYrWM2xCA6Qq7EWFyXxCXDKWQdG8cpfOL1CUs1FOIUlD1L52D63rGuVpvj4h7vDUxe3jEFonYrAfvfWeW4l8kH5HJ2navGnysjXQ=w855-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczM_s9JLqugaaz0d7NmmPKnqOPkaaDB8I85vQ_YGFNcvceZwynfPIbvEnJFLKMToaY5p7hfZSM086nisIsmA3loXqSwIMTrR7T3kRtebrCnh0FZarVyZ-L4PxoiAtAtRi9TXSYKJ-F_3O3cXyCD6DNjfnA=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczP-QT08Vs3TgomOn5QNNghLLKP1IO3aoWX2kstGQeKUav2UbXENQyh3wLUs6MEfZvhpHTz6W5oEvRZLF4HdkerbdGhOt96zP7Y2TraWukdpzV1WYDLtl-jNC0RxJmVneukk71_wPPYtHlLdKwhPwoQV6w=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNc96aWk0Re-y0skmkgl_boq75n5dpjsS8YS5TP0-CHzemkp0PFO9hk55qBk0cG0pI2x91r2DnqJS7wRU0trwGVwUL3FqfRH3gWXZakJ8V3kHqyYRJDshUJ9FdpSVZjlfXP9zlg6zdPDMEJczuGC57EJw=w481-h641-s-no-gm'
               ]} titulo="Boca Ratón" ruta="https://www.google.com/maps/place/Boca+Rat%C3%B3n,+Florida,+EE.+UU./@26.3728294,-80.1173655,13z/data=!3m1!4b1!4m6!3m5!1s0x88d923c2ef36fb27:0xd23ea6eeca6095c9!8m2!3d26.3683064!4d-80.1289321!16zL20vMGM1djI?entry=ttu" />
-            </div>
-          </div>
-          <div className="row">
-            <h3>Revestimientos en <b>Porcelanato</b></h3>
-            <div className="container-trabajos col">
+            
             <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczM2B8pGfY3gdIjpXXkzV7Of28mfwjWaazAj22mJ7Mp-AxtgFbULrE24DM5EcOqsGa7saln60Tr1z_SQfbCEYHGF2CHoWcXx8maXChzvsg6CjTRglChzVgzTWcnrUYQweiqSWH1jv7NEn_hpguLiY2SO5A=w481-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczOjMeiD9V8MDPWL0Sg_LjxXFlcTnTa_IsuOqgPGEPAmhY1aK8Trj22EmmCcaW_KlLieuvu-w8X9l6g8VkV38RPtUAZWhmSxMe8hGIY_Wd98ow_fX7U5kWpJ6f1MA7XWBPm4AG9shI-xAKy6T288vbNRcQ=w481-h641-s-no-gm',
