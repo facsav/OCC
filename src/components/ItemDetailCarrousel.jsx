@@ -4,7 +4,6 @@ export function ItemDetailCarrousel ({array, cantImgCarrusel}){
     function cambiarPortada(nuevaImagen) {
         // Obtén el elemento de la portada
         var portadaImg = document.getElementById('Portada');
-      
         // Cambia la fuente de la imagen de la portada
         portadaImg.src = nuevaImagen;
     }
