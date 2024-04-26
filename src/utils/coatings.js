@@ -54,41 +54,6 @@ const data = {
             "imgdesc3":'/images/Exteriores/Finiquitado.jpg'
         },
         {
-            'name': 'Baño 1',
-            'desc_corta':'Trabajo realizado con en marmol y simil madera',            
-            'desc_larga': 'Revestimiento interno de *mármol* color Crema Marfil. Cuidamos el brillo propio del material *sin realizar un pulido*, cada baldosa es colocada y nivelada a la perfección, *a mano*, pudiendo pasar una hoja de afeitar en cada transición *sin* encontrar *relieve alguno*.\n',
-            'portada': "/images/Baños/baño2/baño2 espejos.jpg",
-            'tiempo':'8 Días',
-            'ubicacion':'Miami-USA',
-            'recuadre':'CentroxCentro, Nivelacion externa',
-            'demas_fotos':["/images/Baños/baño2/baño2 panoramica.jpg","/images/Baños/baño2/baño2 portada.jpg","/images/Baños/baño2/baño2 ventana.jpg",
-            "/images/Baños/baño2/baño2 esquina.jpg", "/images/Baños/baño2/baño2 espejos.jpg","/images/Baños/baño2/baño2 ducha.jpg",
-            "/images/Baños/baño2/baño2 bañera.jpg","/images/Baños/baño2/baño2 bacha.jpg","/images/Baños/baño2/baño2 detalle.jpg"],
-            "desc1":'En las escaleras, adoptamos un enfoque cuidadoso: primero la colocación de las baldosas de la pedada, seguida de una nivelación precisa que garantiza una superficie uniforme y cómoda. El frentin, agregado después, se convierte en un detalle que resalta la elegancia de cada escalón. Luego las uniones son llenadas y selladas utilizando cemento blanco.',
-            "desc2":'La instalación comienza centro x centro, cada baldosa se coloca con precisión en el corazón del ambiente, asegurando una disposición simétrica que evaluaremos en conjunto con la pedada de las escaleras, logrando así la mayor comodidad al transitar el espacio.',
-            "desc3":'Esta prolijidad descrita tanto en las escaleras, en el suelo y en las columnas, es respetado incluso  en estos balcones individuales de cada ventanal, que tienen no solo un borde semi curvo si no un interior a 45° que en conjunto resaltan la elegancia de la obra. La nivelación de estas secciones es clave ya que al momento de nivelar los pisos internos de la casa, es el exterior el que sirve de punto de partida y referencia.',
-            "imgdesc1":'/images/Exteriores/escalera trasera.jpg',
-            "imgdesc2":'/images/Exteriores/Comienzo.jpg',
-            "imgdesc3":'/images/Exteriores/Finiquitado.jpg'
-        },
-        {
-            'name': 'Baño 2',
-            'desc_corta':'Trabajo realizado con en marmol y simil madera',            
-            'desc_larga': 'Sumérgete en la innovación y diseño de nuestro revestimiento de suelo atermico, una obra maestra que va más allá de la estética convencional. La colocación meticulosa en las escaleras redefine la experiencia de transitar, donde cada paso es firme y seguro.\nPero no nos detenemos allí. Las columnas cilíndricas, elementos arquitectónicos clave, se transforman en esculturas de diseño. Comenzamos con una columna metálica pintada con producto epoxi, seguida de la aplicación estratégica de arena para una adhesión óptima. Luego, la columna o el molde se colocan sobre el epoxi y se rellenan con cemento blanco, creando un contraste visualmente impactante.\nLa instalación en toda la obra del revestimiento consta del mismo material, así que el método de adhesión descrito a continuación puede ser extendido; este consta de un barrido y luego se humedece la superficie luego  utilizando Klaukol, sobre este cal reforzada y por último como puente de adherencia  repetimos el Klaukol, esto asegura una conexión duradera y firme en el tiempo. \nCada detalle, desde la colocación de las baldosas hasta la creación de columnas, se realiza con maestría. Todo se nivelado y recuadrado para garantizar una cohesión estética perfecta. Este revestimiento de suelo atérmico no solo ofrece funcionalidad y seguridad, sino que también se convierte en una expresión de arte y diseño en cada rincón de tu espacio. Sumérgete en la belleza funcional, donde cada elemento cuenta su propia historia visual.',
-            'portada': "/images/Baños/baño3/baño3 transicion.jpg",
-            'tiempo':'8 Días',
-            'ubicacion':'Miami-USA',
-            'recuadre':'CentroxCentro, Nivelacion externa',
-            'demas_fotos':["/images/Baños/baño3/baño3 detalle.jpg","/images/Baños/baño3/baño3 ducha.jpg","/images/Baños/baño3/baño3 espejo.jpg",
-            "/images/Baños/baño3/baño3 espejo2.jpg","/images/Baños/baño3/baño3 panoramica.jpg","/images/Baños/baño3/baño3 transicion.jpg"],
-            "desc1":'En las escaleras, adoptamos un enfoque cuidadoso: primero la colocación de las baldosas de la pedada, seguida de una nivelación precisa que garantiza una superficie uniforme y cómoda. El frentin, agregado después, se convierte en un detalle que resalta la elegancia de cada escalón. Luego las uniones son llenadas y selladas utilizando cemento blanco.',
-            "desc2":'La instalación comienza centro x centro, cada baldosa se coloca con precisión en el corazón del ambiente, asegurando una disposición simétrica que evaluaremos en conjunto con la pedada de las escaleras, logrando así la mayor comodidad al transitar el espacio.',
-            "desc3":'Esta prolijidad descrita tanto en las escaleras, en el suelo y en las columnas, es respetado incluso  en estos balcones individuales de cada ventanal, que tienen no solo un borde semi curvo si no un interior a 45° que en conjunto resaltan la elegancia de la obra. La nivelación de estas secciones es clave ya que al momento de nivelar los pisos internos de la casa, es el exterior el que sirve de punto de partida y referencia.',
-            "imgdesc1":'/images/Exteriores/escalera trasera.jpg',
-            "imgdesc2":'/images/Exteriores/Comienzo.jpg',
-            "imgdesc3":'/images/Exteriores/Finiquitado.jpg'
-        },
-        {
             'name': 'Baños',
             'desc_corta':'Trabajo realizado con en marmol y simil madera',            
             'desc_larga': 'Bienevenidos a la majestuosidad de nuestros baños trabajados sobre marmol, y porcelanato. Estas obras inmensas representan a la perfeccion nuestra calificada mano para trabajar materiales delicados y lograr acabados increibles.',
@@ -103,8 +68,43 @@ const data = {
             "imgdesc1":'',
             "imgdesc2":'',
             "imgdesc3":'',
-
-        }
+        },
+        {
+            'name': 'Interior 2',
+            'desc_corta':'Trabajo realizado con marmol crema marfil',
+            'desc_larga': 'Revestimiento interno de *mármol* color Crema Marfil. Cuidamos el brillo propio del material *sin realizar un pulido*, cada baldosa es colocada y nivelada a la perfección, *a mano*, pudiendo pasar una hoja de afeitar en cada transición *sin* encontrar *relieve alguno*.\n\n _Instalacion:_\n 1. *Tratado de la zona*, consta de un barrido de una esponja húmeda.\n2. *Centrado* (centro x centro).\n3. *Colocación* de Klaukol, cal reforzada y como puente de adherencia entre éstos y la pieza a colocar klaukol de nuevo, asegurando una conexión robusta y duradera.\n4. *Transición* entre habitaciones.\n\n * Ante cualquier consulta sobre materiales, forma de adherencia o superficies, escribanos, estamos para asesorarlo.*',
+            'portada': "/images/Interior 2/portada.jpg",
+            'tiempo':'1 Día x habitación',
+            'ubicacion':'Miami-USA',
+            'recuadre':'CentroxCentro, Nivelacion externa',
+            'demas_fotos':["/images/Interior 2/barrido.jpg","/images/Interior 2/sellado.jpg","/images/Interior 2/sellado listo.jpg",
+            "/images/Interior 2/procedimiento (11).jpg","/images/Interior 2/procedimiento (6).jpg","/images/Interior 2/acabado (3).jpg",
+            "/images/Interior 2/acabado (4).jpg","/images/Interior 2/acabado (2).jpg","/images/Interior 2/acabado (1).jpg",],
+             "desc1":'',
+             "desc2":'',
+             "desc3":'',
+             "imgdesc1":"/images/Interior 2/corte.png",
+             "imgdesc2":'',
+             "imgdesc3":''
+        },
+        {
+            'name': 'Interior 3',
+            'desc_corta':'Trabajo realizado con marmol crema marfil',
+            'desc_larga': 'Revestimiento interno de *mármol* color Crema Marfil. Cuidamos el brillo propio del material *sin realizar un pulido*, cada baldosa es colocada y nivelada a la perfección, *a mano*, pudiendo pasar una hoja de afeitar en cada transición *sin* encontrar *relieve alguno*.\n\n _Instalacion:_\n 1. *Tratado de la zona*, consta de un barrido de una esponja húmeda.\n2. *Centrado* (centro x centro).\n3. *Colocación* de Klaukol, cal reforzada y como puente de adherencia entre éstos y la pieza a colocar klaukol de nuevo, asegurando una conexión robusta y duradera.\n4. *Transición* entre habitaciones.\n\n * Ante cualquier consulta sobre materiales, forma de adherencia o superficies, escribanos, estamos para asesorarlo.*',
+            'portada': "/images/Interior 3/portada.jpg",
+            'tiempo':'1 Día x habitación',
+            'ubicacion':'Miami-USA',
+            'recuadre':'CentroxCentro, Nivelacion externa',
+            'demas_fotos':["/images/Interior 3/inicio.jpg","/images/Interior 3/inicio2.jpg","/images/Interior 3/proceso (1).jpg",
+            "/images/Interior 3/proceso (2).jpg","/images/Interior 3/proceso (3).jpg","/images/Interior 3/brillo (1).jpg",
+            "/images/Interior 3/brillo (2).jpg","/images/Interior 3/brillo (5).jpg","/images/Interior 3/brillo.jpg"],
+             "desc1":'El centrado se realiza en función de 2 paredes (centro x centro), luego nivelamos con respecto al suelo del exterior, de esta manera toda la casa queda a la misma altura. Luego las uniones entre habitaciones se realizan debajo de la puerta, de esta manera de un lado u otro siempre se ve la perfección.',
+             "desc2":'Avanzamos desde el centro de la habitación dejando para el final las uniones con la pared, ya que aquí hay que cortar las piezas, si las piezas completas ya están colocadas, se logra un mejor acabado al cortar a la medida precisa. Además mientras la obra avanza recibimos las secciones que son terminadas para cuidar la integridad del material y evitar rayones que arruinan estas obras fantásticas.',
+             "desc3":'Esta sección es la máxima representación de la calidad de nuestro trabajo. El círculo con la estrella que se ve consta de una sola pieza hecha a medida, por otro lado se puede observar que esta está colocada sobre la intersección de 4 baldosas, las cuales hábilmente cortamos tomando la medida precisa del círculo estrellado, es tan preciso este corte que no puede distinguirse si el círculo pertenece a las baldosas o si es una pieza individual.',
+             "imgdesc1":'/images/Interiores/origenes.jpg',
+             "imgdesc2":'/images/Interiores/proteccion.jpg',
+             "imgdesc3":'/images/Interiores/portada 2.2.jpg'
+        },
     ]
 };
 

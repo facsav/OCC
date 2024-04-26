@@ -28,6 +28,8 @@ import reloj from './images/reloj.png'
 import ubicacion from './images/ubicacion.png'
 import interior1 from './images/revestimientos/interior1.png'
 import interior2 from './images/revestimientos/interior2.png'
+import interiorn2 from './images/revestimientos/interiorn2.jpg'
+import interior3 from './images/revestimientos/interior3.jpg'
 import exterior from './images/revestimientos/exterior.png'
 import detallado from './images/revestimientos/detallado.png'
 import pileta1trabajos from './images/trabajos/pileta1.jpeg'
@@ -108,6 +110,8 @@ export default{
     'miamiPhone': miamiPhone,
     'miami2Phone': miami2Phone,
     'terminalPhone': terminalPhone,
-    'torresPhone': torresPhone
+    'torresPhone': torresPhone,
+    'interiorn2':interiorn2,
+    'interior3':interior3
 }
 

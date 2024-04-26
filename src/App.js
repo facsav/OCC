@@ -17,6 +17,8 @@ import NuestrosTrabajos from './components/NuestrosTrabajos';
 import './styles/Piletas.css';
 import { Revestimientos } from './components/Revestimientos';
 import {Interior} from './components/Revestimientos/Interior';
+import {Interior2} from './components/Revestimientos/Interior2';
+import {Interior3} from './components/Revestimientos/Interior3';
 import {Exterior} from './components/Revestimientos/Exterior';
 import {Detallado} from './components/Revestimientos/Detallado';
 import {Baño2} from './components/Revestimientos/Baño2';
@@ -48,6 +50,8 @@ function App() {
         <Route path="/NuestrosTrabajos/Celeste" element={<Celeste/>} />
         <Route path="/NuestrosTrabajos" element={<NuestrosTrabajos />} />
         <Route path="/NuestrosTrabajos/Interior" element={<Interior/>} />
+        <Route path="/NuestrosTrabajos/Interior2" element={<Interior2/>} />
+        <Route path="/NuestrosTrabajos/Interior3" element={<Interior3/>} />
         <Route path="/NuestrosTrabajos/Exterior" element={<Exterior/>} />
         <Route path="/NuestrosTrabajos/Detallado" element={<Detallado/>} />
         <Route path="/NuestrosTrabajos/Baño-2" element={<Baño2/>} />
