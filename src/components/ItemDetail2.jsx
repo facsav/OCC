@@ -72,15 +72,17 @@ export function ItemDetail2({ titulo, descLarga, imgPortada, listaDeAssets, tiem
   const [videoPortada, setVideoPortada] = useState(imgPortada);
   const imgRef = useRef(null);
   useEffect(() => {
-    imgRef.current = document.getElementById('Portada');
+    imgRef.current = document.getElementById('portada');
   }, []);
 
   const cambiarPortada = (nuevaImagen) => {
-    if (imgRef.current !== null) {
-      imgRef.current.src = nuevaImagen;
-      setVideoPortada(nuevaImagen);
-    }
+    setVideoPortada(nuevaImagen);
   };
+
+  const prueba =()=>{
+    console.log(videoPortada)
+    setVideoPortada('/baños/baño-2.mp4')
+  }
   return (
     <>
       <section style={{ paddingTop: '15vh', height: '100vh', paddingBottom: '10vh', height: 'auto' }}>
@@ -89,7 +91,7 @@ export function ItemDetail2({ titulo, descLarga, imgPortada, listaDeAssets, tiem
           <div className="col-12 col-md-7" style={{ marginTop: '1.5em' }}>
       <h3 id="titulo-pileta">{titulo}<hr /></h3>
       <div id="contenedor-portada-videos">
-        <ReproductorVideos video={videoPortada} />
+        <ReproductorVideos key={videoPortada} video={videoPortada} />
       </div>
       <div className="carrusel">
         <div className="slider">
