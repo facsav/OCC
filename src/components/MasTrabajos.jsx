@@ -28,10 +28,6 @@ export function MasTrabajos(){
                   'https://lh3.googleusercontent.com/pw/AP1GczOtTjAwPBOe16v_vk2obogBtxOKdC1rtrYepd4tz14pHSOHnRX7MGL5_1n-kb6x7G-Gi5-tLWUxK48ZKjpAJsHLBu0nHfDzWq-oyuczvziwoTa3ifiKF8iFuxPPKckDja2WO1Db7iekLEXssP3em-Wz1A=w1140-h641-s-no-gm'
                 ]} titulo="Naples" ruta="https://www.google.com/maps/place/Naples,+Florida,+EE.+UU./@26.2231495,-81.8438983,10.72z/data=!4m6!3m5!1s0x88dae19b73c2d7ad:0x673f5318d72c9aaa!8m2!3d26.1420358!4d-81.7948103!16zL20vMHJrNzE?entry=ttu" />
               <Trabajos imgs={[
-                'https://lh3.googleusercontent.com/pw/AP1GczMAFUBhxkNDWYxNAAQ8yxErl_wWMRb2wmRq13HRFQ6vTaetq4Q6gkxYaCXrvoQDAIYFnyC3kLGEQ3AfEy1cx5VXxfuIQH1M_5U5aZjPUNNs30SZj9WDTdDawL0Q2WWeIGaGzjK0nkNj-mtdCECGqaFN8g=w1140-h641-s-no-gm',
-                'https://lh3.googleusercontent.com/pw/AP1GczOrocqYdyv7dJvORrE5q39t0GmDtLDuxNUgfhfvaALRmQdVQXH5mDewXwYe88CDDk9OfQug7fbJEmWux9ON5dIurlTW2EqFacsgkwo1EU0GIybHuYy6Gome_XYfcV1xyvQl8QVQb73q0EjqXLfXsOtsbA=w1140-h641-s-no-gm'
-              ]} titulo="Islamorada" ruta="https://www.google.com/maps/place/Islamorada,+Florida,+EE.+UU./@24.929625,-80.639252,12z/data=!3m1!4b1!4m6!3m5!1s0x88d7377ccd9df6ef:0xa7d154af283bfc9!8m2!3d24.9242943!4d-80.6278364!16zL20vMHJwMWw?entry=ttu" />
-              <Trabajos imgs={[
                 '/Marmol/t2 (1).jpg'
               ]} titulo="Miramar" ruta="https://www.google.com/maps/place/Miramar,+Florida,+EE.+UU./@25.9760691,-80.323403,12z/data=!3m1!4b1!4m6!3m5!1s0x88d9a698bf50e1f7:0x3ba9f9e721e3bcfa!8m2!3d25.9860762!4d-80.3035602!16zL20vMHJqOXI?entry=ttu" />
               <Trabajos imgs={[
@@ -133,7 +129,7 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczPtoUYHlf5c0JCriIuqoWMSHv_ixBvKskMStHHtoDpWicaLsYXRIaio3vvsvMAW8kB8KcZlS-7RbBKmOvkSpn6UnFAj580hXBdUWdZBBhEkkRhCV1w7U71hodH0G5s_Gm9hYVLRjcy04vLyUorgIO7PVg=w855-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMRvq8OjXBTpeWnElcgagOkmA-4dMyiawAGVzM9p7JDgfwKvHK3wAtAFQFJfciPkNAQvFvU3FjeKa5aJlq1bWYKLIr1fS6xcrJ8jw1tGDgp_0LByjFjLzDEHZViPLb7howbAYe9JCJLf5yXPw1VWq1gHQ=w855-h641-s-no-gm'
 
-              ]} titulo="Aspen" ruta="https://www.google.com/maps/place/Aspen,+Colorado+81611,+EE.+UU./@39.1984815,-106.8367246,14z/data=!3m1!4b1!4m6!3m5!1s0x8740397cf7413c7d:0xc12b42dc782cf672!8m2!3d39.1910983!4d-106.8175387!16zL20vMGQxcW4?entry=ttu" />
+              ]} titulo="Villa Luzuriaga" ruta="https://www.google.com/maps/place/Villa+Luzuriaga,+Provincia+de+Buenos+Aires/@-34.6708761,-58.6067322,13z/data=!4m6!3m5!1s0x95bcc7aec0d3a34f:0xa091619d748665e1!8m2!3d-34.6589017!4d-58.5867124!16s%2Fg%2F120t9s4x?entry=ttu" />
               <Trabajos imgs={[
                 'https://lh3.googleusercontent.com/pw/AP1GczNxxIYhCz7KDNA7vMxGJih9RY01-Qyo1pAJSyyu55ZhSZ9BDsRBn1__4c__c7Sl8SXNLMUIbWhUxtBe7VcBlz2G1GXEaUiAe3P5PRqiZUHEq0px37qz0ttmvb9UcUHuycM1_-12AxZZrF6j9tMb_tHKKQ=w1140-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczNOW75hIFTuGxTspfgOm15g_AFd42m7aXZ70935b2tvO5ape0n0MUNYzveP4gX1-EsSba4fIi9zMZoE1kKkL1sVfKqdR-8eteoLdDfsILeXV_LMQmc5g6qwfEwH_pa4KPb5EuOC5ZpYyrH2XFjudeHnCw=w1140-h641-s-no-gm',
@@ -159,6 +155,7 @@ export function MasTrabajos(){
                 'https://lh3.googleusercontent.com/pw/AP1GczPsG0lvplcSYyKyvGIO6ZC-ZlCHkvmwFPWrS4MMJ_e5Cu7Igg6SorPm1KJJlD-f7zok0evPB4TOiuMF8d_axPGz8ywbaSvhKAqGbZicYb7WTsAvoFfJnDB0lZ0cvCFOgKVT5y4BAcEuilKhECKwkDHQ7A=w1140-h641-s-no-gm'
               ]} titulo="Naples" ruta="https://www.google.com/maps/place/Naples,+Florida,+EE.+UU./@26.2231495,-81.8438983,10.72z/data=!4m6!3m5!1s0x88dae19b73c2d7ad:0x673f5318d72c9aaa!8m2!3d26.1420358!4d-81.7948103!16zL20vMHJrNzE?entry=ttu" />
               <Trabajos imgs={[
+                '/images/piscinaCocoa.jpg',
                 'https://lh3.googleusercontent.com/pw/AP1GczNg8Awz4WMZQIcP5_6VXT2Yhi3czv4crlrskhZNJ2dpvJn_L7a5augBSQSlxiDt_dJn8rKY4ES4XlVRaLJosXNH6Rn8dOSW4K0LiTMuVgDnyN-oFCiQ_fdgaG_hbayh_PpuIXQz2hiW7KBiQpQVDk_6_g=w361-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczMkBEnduOVyGnqtwf4SUqzA9wjqGmHtEIgydULZ9xDlDD8OpqYhyrIWWVTrht2s30eeiIHkUaGwmU8AXvLWOEZG2Pn31oSSAIs-keJ3YHzTQf5Zgd6vT7-0Cvq2GWOHnHedWJ0KJz6fPSY1_2WQbTjMIQ=w361-h641-s-no-gm',
                 'https://lh3.googleusercontent.com/pw/AP1GczONDROgjrIvba4XwYnDaVE_B3xM36eWTO7EaNWtQcsm46NJA4Ov9W-YdcyV82ZGCodftUxJ69CNxPzer3AAaWMWTZcmHM7QCC2wSYUvjUVm9h9HSlkvFmeLf8BMgQmQ40wgxuPgFV6_kECV1b_kVkTpcw=w1140-h641-s-no-gm',
