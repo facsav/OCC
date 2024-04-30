@@ -1,6 +1,7 @@
 import assets from "../assets/assets"
 import { Trabajos } from "./Trabajos"
 import data from "../utils/pools";
+import { useEffect } from "react";
 
 export function MasTrabajos(){
   // Seguimiento publicidad

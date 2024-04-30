@@ -1,6 +1,6 @@
 import assets from "../assets/assets";
 import '../styles/SobreNosotros.css'
-
+import { useEffect } from "react";
 export function SobreNosotros (){
 // Seguimiento publicidad
 useEffect(() => {
