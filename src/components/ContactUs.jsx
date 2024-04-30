@@ -165,7 +165,7 @@ export const ContactUs = () => {
                 <div className="leftContact col-10 col-md-6">
                     <div className="d-grid justify-content-center align-items-center">
                         <form ref={form} onSubmit={sendEmail}>
-                            <p style={{marginLeft:'10px', marginTop:'1em', color:'#05445E'}} >O contactate directamente via mail:</p>
+                            <p style={{marginLeft:'10px', marginTop:'1em', color:'#05445E'}} >O contactese directamente via mail:</p>
 
                             <div className="container">
 
