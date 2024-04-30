@@ -53,6 +53,25 @@ const NuestrosTrabajos = ({ navbarHeight }) => {
   useEffect(() => {
     setBackgroundImageSecond(`url(${imagesSecond[currentIndexSecond]})`);
   }, [currentIndexSecond]);
+  // Seguimiento publicidad
+  useEffect(() => {
+    // Agrega aquí el código del script del Google Tag Manager
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-16497254972';
+    document.head.appendChild(script);
+    if (typeof window !== 'undefined' && typeof window.dataLayer !== 'undefined') {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16497254972');
+  }
+
+    return () => {
+        // Elimina el script del DOM al desmontar el componente
+        document.head.removeChild(script);
+    };
+}, []);
   return (
     <div className="container" id="cont-trabajos">
       <div className="row">
