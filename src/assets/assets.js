@@ -40,21 +40,37 @@ import revestimientos1trabajos from './images/trabajos/rev1.jpg'
 import revestimientos2trabajos from './images/trabajos/rev2.jpg'
 import revestimientos3trabajos from './images/trabajos/rev3.jpg'
 import revestimientos4trabajos from './images/trabajos/rev4.jpg'
-//ABOUT US
-import abasto from './images/aboutUs/abasto.jpg'
-import eze from './images/aboutUs/eze.jpg'
-import miami from './images/aboutUs/miami.jpg'
-import miami2 from './images/aboutUs/miami2.jpg'
-import terminal from './images/aboutUs/terminal.jpg'
-import torres from './images/aboutUs/torres.jpg'
-import abastoPhone from './images/aboutUs/abastoPhone.jpg'
-import ezePhone from './images/aboutUs/ezePhone.jpg'
-import miamiPhone from './images/aboutUs/miamiPhone.jpg'
-import miami2Phone from './images/aboutUs/miami2Phone.jpg'
-import terminalPhone from './images/aboutUs/terminalPhone.jpg'
-import torresPhone from './images/aboutUs/torresPhone.jpg'
 import portadaBaño2 from './images/baño2 espejos.jpg'
 import portadaBaño3 from './images/portada baño2.jpg'
+
+//ABOUT US
+
+//Primer carrousel
+import abasto from './images/aboutUs/abasto.jpg'
+import torreAbasto from './images/aboutUs/torreAbasto.jpg'
+import torreAbasto2 from './images/aboutUs/torreAbasto2.jpg'
+//Segundo carrousel
+import reservaUrbana1 from './images/aboutUs/reservaUrbana1.jpg'
+import eze from './images/aboutUs/eze.jpg'
+import reservaUrbana2 from './images/aboutUs/reservaUrbana2.jpg'
+//Tercer carrousel
+import miami2 from './images/aboutUs/miami2.jpg'
+import fisherIsland from './images/aboutUs/fisherIsland.jpg'
+import cocoWalk from './images/aboutUs/cocoWalk.jpg'
+//Cuarto carrousel
+import torres from './images/aboutUs/torres.jpg'
+import torres2 from './images/aboutUs/torres2.jpg'
+//Quinto carrousel
+import terminal from './images/aboutUs/terminal.jpg'
+import construccion from './images/aboutUs/construccion.jpg'
+//Sexto carrousel
+import miami from './images/aboutUs/miami.jpg'
+import construccionPileta from './images/aboutUs/construccionPileta.jpg'
+import piletaFinalCarrousel from './images/aboutUs/piletaFinalCarrousel.jpg'
+
+
+
+
 
 export default{
     'homeBanner2':homeBanner2,
@@ -105,13 +121,19 @@ export default{
     'miami2': miami2,
     'terminal': terminal,
     'torres': torres,
-    'abastoPhone': abastoPhone,
-    'ezePhone': ezePhone,
-    'miamiPhone': miamiPhone,
-    'miami2Phone': miami2Phone,
-    'terminalPhone': terminalPhone,
-    'torresPhone': torresPhone,
     'interiorn2':interiorn2,
-    'interior3':interior3
+    'interior3':interior3,
+
+    'torreAbasto':torreAbasto,
+    'torreAbasto2':torreAbasto2,
+    'reservaUrbana1':reservaUrbana1,
+    'reservaUrbana2':reservaUrbana2,
+    'fisherIsland':fisherIsland,
+    'cocoWalk':cocoWalk,
+    'torres2':torres2,
+    'construccion':construccion,
+    'construccionPileta':construccionPileta,
+    'piletaFinalCarrousel':piletaFinalCarrousel,
+    'construccion':construccion
 }
 

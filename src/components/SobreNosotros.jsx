@@ -14,7 +14,48 @@ useEffect(() => {
       function gtag(){window.dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'AW-16497254972');
-  }
+
+
+      const startCarouselInterval = (carouselId, interval) => {
+        const carousel = document.getElementById(carouselId);
+    
+        // Limpia cualquier intervalo existente en este carousel
+        if (carousel.dataset.intervalId) {
+            clearInterval(carousel.dataset.intervalId);
+        }
+    
+        const carouselInterval = setInterval(() => {
+            const activeIndex = Array.from(carousel.querySelectorAll('.carousel-item')).findIndex(item => item.classList.contains('active'));
+            const nextIndex = (activeIndex + 1) % carousel.querySelectorAll('.carousel-item').length;
+    
+            carousel.querySelector(`[data-bs-slide-to="${nextIndex}"]`).click();
+        }, interval);
+    
+        // Almacena el ID del intervalo en el dataset del carousel
+        carousel.dataset.intervalId = carouselInterval;
+    
+        return () => clearInterval(carouselInterval);
+    };
+    
+    // Iniciar intervalos para cada carousel con intervalos específicos
+    const clearIntervals = [
+        startCarouselInterval('carouselExampleIndicators1', 10000), // 10 segundos
+        startCarouselInterval('carouselExampleIndicators2', 12000), // 12 segundos
+        startCarouselInterval('carouselExampleIndicators3', 8000), // 8 segundos
+        startCarouselInterval('carouselExampleIndicators4', 9000), // 9 segundos
+        startCarouselInterval('carouselExampleIndicators5', 11000), // 11 segundos
+        startCarouselInterval('carouselExampleIndicators6', 12000)  // 12 segundos
+    ];
+    
+    // Función para limpiar todos los intervalos (por si necesitas detenerlos en algún momento)
+    const clearAllIntervals = () => {
+        clearIntervals.forEach(clearIntervalFn => clearIntervalFn());
+    };
+
+
+    }
+
+  
 
     return () => {
         // Elimina el script del DOM al desmontar el componente
@@ -40,7 +81,36 @@ useEffect(() => {
                         <div class="ellipse-2"></div>
                         <div class="ellipse-3"></div>
                         <div className="col-12 col-lg-6 imgStart img400 ">
-                            <img src={assets.abasto} height='400px' alt="Imagen del abasto" />
+
+
+                            {/* Carrousel 1 */}
+                            <div id="carouselExampleIndicators1" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src={assets.abasto} height='400px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.torreAbasto} height='400px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.torreAbasto2} height='400px' alt='Imagen de Miami' />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
                         </div>
                         <div className="col-12 col-lg-6">
                             <h3>
@@ -62,23 +132,74 @@ useEffect(() => {
                         Trabajando en <b>Dinsa</b> tuvimos el privilegio de participar en la obra que daría apertura en el 98 a uno de los centros comerciales más importantes y con más historia, el <b>Abasto Shopping</b>. <br />
                         Los veredones de la <b>reserva urbana de puerto Madero</b>, y al año siguiente en el 2000, antes del estallido social, participamos en las reformas del aeropuerto de <b>Ezeiza</b> que conllevaron planta baja, primer piso y baños.
                         </p>
-
                         </div>
+                        {/* Carrousle 2 */}
                         <div className="col-12 col-lg-6 order-lg-2 order-1 imgEnd img300">
-                            <img src={assets.eze} height='300px' alt="Imagen del aeropuerto ezeiza" />
+                            <div id="carouselExampleIndicators2" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src={assets.reservaUrbana1} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.eze} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.reservaUrbana2} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
 
                     <div className="row row1">
+                        {/* Carrousel 3 */}
                         <div className="col-12 col-lg-6 imgStart img300 ">
-                            <img src={assets.miami2} height='300px' alt="Imagen de Coconut Grove" />
+                            <div id="carouselExampleIndicators3" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src={assets.miami2} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.fisherIsland} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.cocoWalk} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
                         <div className="col-12 col-lg-6">
                             <h3>
                                 01’ - 08’
                             </h3>
                             <p>
-                            En el 2001 emprendimos un viaje a los <b>Estados Unidos</b> que duraría hasta el 2008, durante este período trabajamos para la constructora <b>Kingston Holding</b>, recorriendo lugares como Fishing Island, Coconut Grove, entre otros. Además trabajamos con <b>xxx marmolera</b>.
+                            En el 2001 emprendimos un viaje a los <b>Estados Unidos</b> que duraría hasta el 2008, durante este período trabajamos para la constructora <b>Kingston Holding</b>, recorriendo lugares como Fisher Island, Coconut Grove, entre otros. Además trabajamos con <b>xxx marmolera</b>.
                             </p>
                         </div>
                     </div>
@@ -95,13 +216,64 @@ useEffect(() => {
 
                         </div>
                         <div className="col-12 col-lg-6 order-lg-2 order-1 imgEnd img400">
-                            <img src={assets.torres} height='400px' alt='Imagen de las torres "Yacht"' />
+                            {/* Carrousel 4 */}
+
+                            <div id="carouselExampleIndicators4" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src={assets.torres} height='400px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.torres2} height='400px' alt='Imagen de Miami' />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
                         </div>
                     </div>
 
                     <div className="row row1">
                         <div className="col-12 col-lg-6  imgStart img300">
-                            <img src={assets.terminal} height='300px' alt='Imagen de terminal C de Ezeiza"' />
+
+                        {/* Carrousel 5 */}
+                        <div id="carouselExampleIndicators5" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src={assets.terminal} height='300px' alt='Imagen de Miami' />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={assets.construccion} height='300px' alt='Imagen de Miami' />
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
                         </div>
                         <div className="col-12 col-lg-6">
                             <h3>
@@ -124,7 +296,38 @@ useEffect(() => {
                             </p>
                         </div>
                         <div className="col-12 col-lg-6 order-lg-2 order-1 imgEnd img300">
-                            <img src={assets.miami} height='300px' alt='Imagen de Miami' />
+
+                            {/* Carrousel 6 */}
+
+
+                            <div id="carouselExampleIndicators6" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src={assets.miami} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.construccionPileta} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src={assets.piletaFinalCarrousel} height='300px' alt='Imagen de Miami' />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                            
                         </div>
                     </div>
                 </div>
