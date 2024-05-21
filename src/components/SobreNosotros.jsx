@@ -85,7 +85,7 @@ useEffect(() => {
 
                             {/* Carrousel 1 */}
                             <div id="carouselExampleIndicators1" class="carousel slide">
-                                <div class="carousel-indicators">
+                                <div class="carousel-indicators d-none">
                                     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -101,14 +101,7 @@ useEffect(() => {
                                         <img src={assets.torreAbasto2} height='400px' alt='Imagen de Miami' />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+
                             </div>
 
                         </div>
@@ -136,7 +129,7 @@ useEffect(() => {
                         {/* Carrousle 2 */}
                         <div className="col-12 col-lg-6 order-lg-2 order-1 imgEnd img300">
                             <div id="carouselExampleIndicators2" class="carousel slide">
-                                <div class="carousel-indicators">
+                                <div class="carousel-indicators d-none">
                                     <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -152,14 +145,7 @@ useEffect(() => {
                                         <img src={assets.reservaUrbana2} height='300px' alt='Imagen de Miami' />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+ 
                             </div>
                         </div>
                     </div>
@@ -168,7 +154,7 @@ useEffect(() => {
                         {/* Carrousel 3 */}
                         <div className="col-12 col-lg-6 imgStart img300 ">
                             <div id="carouselExampleIndicators3" class="carousel slide">
-                                <div class="carousel-indicators">
+                                <div class="carousel-indicators d-none">
                                     <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -184,14 +170,7 @@ useEffect(() => {
                                         <img src={assets.cocoWalk} height='300px' alt='Imagen de Miami' />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+
                             </div>
                         </div>
                         <div className="col-12 col-lg-6">
@@ -219,7 +198,7 @@ useEffect(() => {
                             {/* Carrousel 4 */}
 
                             <div id="carouselExampleIndicators4" class="carousel slide">
-                                <div class="carousel-indicators">
+                                <div class="carousel-indicators d-none">
                                     <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -232,14 +211,7 @@ useEffect(() => {
                                         <img src={assets.torres2} height='400px' alt='Imagen de Miami' />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+
                             </div>
 
                         </div>
@@ -250,7 +222,7 @@ useEffect(() => {
 
                         {/* Carrousel 5 */}
                         <div id="carouselExampleIndicators5" class="carousel slide">
-                            <div class="carousel-indicators">
+                            <div class="carousel-indicators d-none">
                                 <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -264,14 +236,7 @@ useEffect(() => {
                                 </div>
 
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+
                         </div>
 
                         </div>
@@ -301,7 +266,7 @@ useEffect(() => {
 
 
                             <div id="carouselExampleIndicators6" class="carousel slide">
-                                <div class="carousel-indicators">
+                                <div class="carousel-indicators d-none">
                                     <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -317,14 +282,7 @@ useEffect(() => {
                                         <img src={assets.piletaFinalCarrousel} height='300px' alt='Imagen de Miami' />
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+
                             </div>
 
                             
