@@ -232,7 +232,10 @@ useEffect(() => {
                                     <img src={assets.terminal} height='300px' alt='Imagen de Miami' />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src={assets.construccion} height='300px' alt='Imagen de Miami' />
+                                    <img src={assets.construccionCasas1} height='300px' alt='Imagen de Miami' />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={assets.construccionCasas2} height='300px' alt='Imagen de Miami' />
                                 </div>
 
                             </div>

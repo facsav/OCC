@@ -62,7 +62,8 @@ import torres from './images/aboutUs/torres.jpg'
 import torres2 from './images/aboutUs/torres2.jpg'
 //Quinto carrousel
 import terminal from './images/aboutUs/terminal.jpg'
-import construccion from './images/aboutUs/construccion.jpg'
+import construccionCasas1 from './images/aboutUs/construccionCasas1.jpg'
+import construccionCasas2 from './images/aboutUs/construccionCasas2.jpg'
 //Sexto carrousel
 import miami from './images/aboutUs/miami.jpg'
 import construccionPileta from './images/aboutUs/construccionPileta.jpg'
@@ -131,9 +132,11 @@ export default{
     'fisherIsland':fisherIsland,
     'cocoWalk':cocoWalk,
     'torres2':torres2,
-    'construccion':construccion,
+
     'construccionPileta':construccionPileta,
     'piletaFinalCarrousel':piletaFinalCarrousel,
-    'construccion':construccion
+    "construccionCasas1":construccionCasas1,
+    "construccionCasas2":construccionCasas2
+
 }
 
