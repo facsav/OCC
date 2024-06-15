@@ -2,6 +2,7 @@ import { ItemDetailCarrousel } from "./ItemDetailCarrousel";
 import assets from "../assets/assets";
 import React, { useEffect, useState } from 'react';
 import ReproductorVideos from "./reactselacome";
+import itemDetail from "../styles/ItemDetail.css"
 
 const Icono = ({ imagen, nombre, onClick }) => {
 

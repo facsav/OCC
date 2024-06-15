@@ -1,0 +1,335 @@
+/* -------------------------------------*/
+/* -                                   -*/
+/* -    ITEMDETAIL , CARROUSEL ,       -*/
+/* -   ITEMDETAIL2 Y CARROUSEL2 .JSX   -*/
+/* -          CARPETA PILETAS          -*/
+/* -       CARPETA REVESTIMIENTOS      -*/
+/* -                                   -*/
+/* ------------------------------------ */
+
+
+#contenedor-portada {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 6px;
+    position: relative;
+  }
+  @media(max-width:600px){
+    #contenedor-portada{
+      max-height: 65vh;
+    }
+  }
+
+  .portada-video{
+    width: auto;
+    height: 62vh;
+  }
+  #contenedor-portada-videos{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: max-content;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Ancho y color de la barra de desplazamiento */
+  .trabajos::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .trabajos::-webkit-scrollbar-thumb {
+    background: #99d6ff;
+    border-radius: 6px;
+  }
+  /* Estilo cuando se pasa el mouse sobre la barra de desplazamiento */
+  .trabajos::-webkit-scrollbar-thumb:hover {
+    background-color: #5785e7;
+  }
+  /* Estilo del fondo de la barra de desplazamiento */
+  .trabajos::-webkit-scrollbar-track {
+    background-color: #D4F1F4;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  /* Estilo de las esquinas de la barra de desplazamiento */
+  .trabajos::-webkit-scrollbar-corner {
+    background-color: #eee;
+    border-radius: 3px;
+  }
+  /* Ancho y color de la barra de desplazamiento */
+  #contenedor-portada::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  #contenedor-portada::-webkit-scrollbar-thumb {
+    background: #C0F5FF;
+    border-radius: 6px;
+  }
+  /* Estilo cuando se pasa el mouse sobre la barra de desplazamiento */
+  #contenedor-portada::-webkit-scrollbar-thumb:hover {
+    background-color: #4B76E6;
+  }
+  /* Estilo del fondo de la barra de desplazamiento */
+  #contenedor-portada::-webkit-scrollbar-track {
+    background-color: #D4F1F4;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  
+  /* Estilo de las esquinas de la barra de desplazamiento */
+  #contenedor-portada::-webkit-scrollbar-corner {
+    background-color: #eee;
+    border-radius: 3px;
+  }
+  #descripcion::before{
+    position: absolute;
+    background-image: url(/public/images/decoracion2.png);
+    background-size: cover;
+    content: "";
+    height: 322px;
+    width: 202px;
+    right: 5vw;
+    top: 40vh;
+    z-index: -10;
+    opacity: 0.6;
+  }
+  #descripcion::after{
+    position: absolute;
+    background-image: url(/public/images/decoracion.png);
+    background-size: cover;
+    content: "";
+    width: 322px;
+    height: 202px;
+    left: 5vw;
+    top: 120vh;
+    z-index: -10;
+    opacity: 0.6;
+  }
+  
+  /* Videos item detail */
+  .video-player-container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+  }
+  .video-player-container button{
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+  }
+  .play-pause-button{
+    top: 50%;
+    left: 50%;
+    transform: translateY(50%) translateX(-50%) scale(200%);
+    background-color: rgba(255, 255, 255, 0.055);
+  }
+  .mute-button{
+    top: 1em;
+    right: 0;
+    transform: scale(150%);
+    background: none;
+  }
+  .opaque {
+    opacity: 0.2; 
+  }
+  .carrusel{
+      height: max-content;
+      overflow: hidden;
+      margin-top: 10px;
+  }
+  
+  .piscina-description .row{
+    position: relative;
+  }
+  .piscina-description .row:nth-child(1)::before{
+    position: absolute;
+    background-image: url(/public/images/decoracion2.png);
+    background-size: cover;
+    content: "";
+    height: 322px;
+    width: 202px;
+    right: 10px;
+    top: -120px;
+    z-index: -10;
+    opacity: 0.6;
+  }
+  
+  .piscina-description .row:nth-child(2)::before{
+    position: absolute;
+    background-image: url(/public/images/decoracion.png);
+    background-size: cover;
+    content: "";
+    width: 322px;
+    height: 202px;
+    left: -70px;
+    bottom: 0vh;
+    z-index: -10;
+    opacity: 0.6;
+  }
+  .piscina-description .row:nth-child(3)::before{
+    position: absolute;
+    background-image: url(/public/images/decoracion2.png);
+    background-size: cover;
+    content: "";
+    height: 322px;
+    width: 202px;
+    right: 0px;
+    top: 0vh;
+    z-index: -10;
+    opacity: 0.6;
+  }
+  .lista-img{
+      display: grid;
+      gap: 18px;
+      overflow-x: auto;
+  }
+  
+  /* Ancho y color de la barra de desplazamiento */
+  .lista-img::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .lista-img::-webkit-scrollbar-thumb {
+    background: #C0F5FF;
+    border-radius: 6px;
+  }
+  
+  /* Estilo cuando se pasa el mouse sobre la barra de desplazamiento */
+  .lista-img::-webkit-scrollbar-thumb:hover {
+    background-color: #4B76E6;
+  }
+  
+  /* Estilo del fondo de la barra de desplazamiento */
+  .lista-imga::-webkit-scrollbar-track {
+    background-color: #D4F1F4;
+  }
+  
+  /* Estilo de las esquinas de la barra de desplazamiento */
+  .lista-img::-webkit-scrollbar-corner {
+    background-color: #eee;
+  }
+  
+  .imagen-item{
+      /* height: 80px; */
+      width: auto;
+      object-fit: cover;   
+      max-height: 20vh;
+  }
+  .slider{
+      position: relative;
+  }
+  .slide-button{
+      position: absolute;
+      top: 40%;
+      height: 10px;
+      width: 10px;
+      color: #000000;
+      border: none;
+      outline: none;
+      font-size: 48px;
+      background-color: transparent;
+      font-size: 1rem;
+      cursor: pointer;
+      transform: translateY(-50%);
+  }
+  
+  #prev-slide{
+      left: 0px;
+      display: none;
+  }
+  #next-slide{
+      right: 20px;
+  }
+  #descripcion{
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 2.5em;
+      white-space:pre-line;
+  }
+  /* -----------Iconos parrafos----------- */
+  .iconos-p {
+    height: 22px;
+    width: auto;
+  }
+  .icono-container {
+    display: inline-flex;
+    margin: 0 5px;
+    cursor: pointer; 
+  }
+  
+  .def-iconos {
+    font-weight: 500;
+    font-size: 14px;
+    transform: scaleX(1);
+    width: max-content;
+    overflow: hidden;
+    display: inline-flex;
+    margin: 0 0 0 0.5em;
+    transform-origin: left;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  .piscina-description{
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+  }
+  .piscina-description .row div{
+    display: grid;
+    align-items: center;
+    margin: 2em 0;
+    text-align: center;
+  }
+  .piscina-description img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+  .piscina-description strong{
+    line-height: 32px;
+  }
+  
+  
+  
+  
+  #descripcion::after{
+    position: absolute;
+    background-image: url(/public/images/decoracion.png);
+    background-size: cover;
+    content: "";
+    width: 322px;
+    height: 202px;
+    left: 5vw;
+    top: 120vh;
+    z-index: -10;
+    opacity: 0.6;
+  }  
+  
+  
+  /* ARREGLO PORQUE ROMPIA EN FOLD BY FACU */
+  @media(max-width:358px){
+  
+    #descripcion::after{
+  
+      /* ESTE ES EL ARREGLO BY FACU */
+      position:relative;
+      /* ESTE ES EL ARREGLO BY FACU */
+  
+  
+      background-image: url(/public/images/decoracion.png);
+      background-size: cover;
+      content: "";
+      width: 322px;
+      height: 202px;
+      left: 5vw;
+      top: 120vh;
+      z-index: -10;
+      opacity: 0.6;
+    }  
+  } 

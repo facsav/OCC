@@ -1,6 +1,8 @@
 import assets from "../assets/assets";
 import '../styles/App.css';
 import { ContactUs } from "./ContactUs";
+import footer from '../styles/Footer.css'
+
 
 export function Footer(){
     return(

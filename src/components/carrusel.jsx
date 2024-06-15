@@ -1,6 +1,7 @@
 import DarkMode from "./DarkMode";
 import assets from "../assets/assets";
 import React, { useState, useEffect } from 'react';
+import carrousel from '../styles/Carrousel.css'
 
 if (DarkMode){
     console.log("esta activo")
