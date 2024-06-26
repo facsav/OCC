@@ -3,6 +3,7 @@ import DarkMode from "./DarkMode";
 import { Carrusel } from "./carrusel";
 import { ContactUs } from "./ContactUs";
 import React, { useState, useEffect } from 'react';
+import home from '../styles/Home.css'
 
 if (DarkMode){
     console.log("esta activo")

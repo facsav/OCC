@@ -3,6 +3,8 @@ import { Trabajos } from "./Trabajos"
 import data from "../utils/pools";
 import { useEffect } from "react";
 
+import masTrabajos from "../styles/MasTrabajos.css"
+
 export function MasTrabajos(){
   // Seguimiento publicidad
   useEffect(() => {

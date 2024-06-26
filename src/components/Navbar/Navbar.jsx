@@ -3,6 +3,7 @@ import NavItemWithImage from './NavItemWithImage.jsx';
 import DarkMode from '../DarkMode';
 import assets from '../../assets/assets'; 
 import { ContactUs } from '../ContactUs.jsx';
+import navbar from '../../styles/Navbar.css'
 
 
 const Navbar = () => {
