@@ -17,6 +17,9 @@ export function Redondeta(){
         desc3={data.pools[0].desc3}
         imgdesc1={data.pools[0].imgdesc1}
         imgdesc2={data.pools[0].imgdesc2}
-        imgdesc3={data.pools[0].imgdesc3} />
+        imgdesc3={data.pools[0].imgdesc3}
+        puentesDeAdherencia={data.pools[0].puentesDeAdherencia}
+        puentesDeAdherenciaLink={data.pools[0].puentesDeAdherenciaLink}
+        caracteristicas={data.pools[0].caracteristicas} />
     )
 }

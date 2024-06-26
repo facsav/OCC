@@ -59,6 +59,34 @@
 
 
 /*pruebas*/
+/* .cont-mastrabajos .row h1{
+  color: #189AB4;
+  width: 100%;
+  font-size: 32px;
+  align-items: center;
+  margin: 0 0 3em 0;
+  text-shadow: 1px 1px 8px #D4F1F4;
+}
+.cont-mastrabajos .row h1 b{
+  color: #05445E;
+  font-weight: 900;
+  font-size: 36px;
+} */
+.cont-mastrabajos {
+  max-width: 1400px;
+}
+.cont-mastrabajos .row h1{
+  color: #05445E;
+  width: 100%;
+  font-size: 24px;
+  align-items: center;
+  margin: 0 0 3em 0;
+  font-weight: 300;
+}
+.cont-mastrabajos .row h1 b{
+  font-weight: 900;
+}
+
 .cont-mastrabajos .row h3{
   color: #05445E;
 }
@@ -445,12 +473,51 @@
 #next-slide{
     right: 20px;
 }
-#descripcion{
-    font-weight: 500;
-    font-size: 14px;
-    margin-top: 2.5em;
-    white-space:pre-line;
+.descripcion{
+  font-size: 14px;
+  margin-top: .5em;
+  white-space:pre-line;
+  color: #05445E;
+  h4{
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0;
+    text-decoration:underline;
+  }
+  p{
+    margin: .2em 0 1em 1em;
+  }
 }
+.cont-button{
+  display:flex;
+  width: 100%;
+  a{
+    text-decoration: none;
+    background-color: #05445E;
+    border-radius: 20px;
+    font-size: 12px;
+    width: max-content;
+    font-weight: 300;
+    padding: .2em 1em;
+    color: white;
+    margin: 0 0em 2em 1em;
+  }
+}
+.cont-button2{
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  p{
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #05445E;
+    padding: 0 0;
+    min-width: max-content;
+  }
+}
+
 /* -----------Iconos parrafos----------- */
 .iconos-p {
   height: 22px;
