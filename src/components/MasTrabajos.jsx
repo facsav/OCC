@@ -28,6 +28,8 @@ export function MasTrabajos(){
     return(
         <div style={{paddingTop:'8rem'}} class="container-fluid cont-mastrabajos" >
           <div className="row">
+            <h1>      Aquí encontraras <b>nuestros trabajos</b> terminados, fotos <b>comparativas</b> o un poco del <b>proceso</b>. <br />
+      Trabajos realizados con <b>venecitas</b> biseladas, <b>mármol</b>, <b>porcelanato</b>, piedra <b>volcánica</b>, entre otros.</h1>
             <h3>Revestimientos en <b>Marmol</b></h3>
             <div className="container-trabajos col">
             <Trabajos imgs={[

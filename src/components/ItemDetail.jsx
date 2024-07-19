@@ -21,11 +21,10 @@ const Icono = ({ imagen, nombre, onClick }) => {
   );
 };
 
-export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiempo, recuadre, ubicacion, cantImgCarrusel, desc1, desc2, desc3, imgdesc1, imgdesc2, imgdesc3}) {
+export function ItemDetail({ titulo, detalleFinal, nivelacion, opcionesPuenteAdherencia, higienizacion, opcionesPuenteAdherenciaLink, imgPortada, caracteristicas, listaDeAssets, cantImgCarrusel, pegamentos, pegamentosLink, preparacionSuperficie, puenteAdherencia, preparacionMaterial, juntas}) {
   const [clickedIcons, setClickedIcons] = useState([]);
   const [portadaHeight, setPortadaHeight] = useState(0);
   const [tipoContenido, setTipoContenido] = useState('imagen');
-  
   
   const parseText = (text) => {
     const parsedText = text.replace(/\*(.*?)\*/g, (_, p1) => `<strong>${p1}</strong>`)
@@ -111,7 +110,7 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
   
       if (esMasAnchaQueAlta) {
         if (window.innerWidth > 600){
-          setPortadaHeight(60);
+          setPortadaHeight(70);
           }else{
           setPortadaHeight(40);
           }
@@ -152,13 +151,13 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
 
   return (
     <>
-      <section style={{ paddingTop: '15vh', height: '100vh', paddingBottom: '10vh', height: 'auto' }}>
+      <section style={{ paddingTop: '15vh', height: '100vh', height: 'auto' }}>
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-7" style={{ marginTop: '1.5em' }}>
-              <h3 id="titulo-pileta">{titulo} 
+              <h1 id="titulo-pileta">{titulo} 
               {/* - {ubicacion} */}
-              <hr /></h3>
+              <hr /></h1>
               <div id="contenedor-portada" style={{ height: `${portadaHeight}vh`}}>
                 {tipoContenido === 'imagen' ? (
                   <img src={imgPortada} alt="" id="Portada" className="portada-img" />
@@ -175,50 +174,118 @@ export function ItemDetail({ titulo, descLarga, imgPortada, listaDeAssets, tiemp
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-5" style={{ marginTop: "1.5em;" }}>
+            <div className="col-12 col-md-5 descripcion" style={{ marginTop: "1.5em;" }}>
               <h3 style={{ color: "transparent" }}>{titulo}
               <hr /></h3>
-              <p id="descripcion">{parseText(descLarga)}</p>
-              <div id="falopa">
-                {/* Usar el componente Icono para cada ícono */}
-                <Icono imagen={assets.ubicacion} nombre={ubicacion} onClick={() => handleIconClick(0)} />
-                <Icono imagen={assets.reloj} nombre={tiempo} onClick={() => handleIconClick(1)} />
-                <Icono imagen={assets.escuadra} nombre={recuadre} onClick={() => handleIconClick(2)} />
+              <h2>Preparación de la superficie:</h2>
+              <ul>
+                {preparacionSuperficie.map((preparacionSuperficie, index) => (
+                  <li key={index}>
+                    {preparacionSuperficie}
+                  </li>
+                ))}
+              </ul>
+              <h2>Colocación del puente de adherencia:</h2>
+                <ul>
+                  {puenteAdherencia.map((puenteAdherencia, index) => (
+                    <li key={index}>
+                      {puenteAdherencia}
+                    </li>
+                  ))}
+                </ul>
+                <div className="cont-button">
+                {opcionesPuenteAdherencia.map(function(opcionesPuenteAdherencia, index) {
+                  return (
+                    <a href={opcionesPuenteAdherenciaLink[index]} key={index} style={{ display: 'block' }} target="_blank" rel="noopener noreferrer">
+                      {opcionesPuenteAdherencia}
+                    </a>
+                  );
+                })}
+              </div>
+              <h2>Preparación de la pieza:</h2>
+                <ul>
+                {preparacionMaterial.map((preparacionMaterial, index) => (
+                  <li key={index} >
+                    {preparacionMaterial}
+                  </li>
+                ))}
+                </ul>
+              <h2>Tomado de juntas:</h2>
+                <ul>
+                {juntas.map((juntas, index) => (
+                  <li key={index}>
+                    {juntas}
+                  </li>
+                ))}
+                </ul>
+                <div className="cont-button">
+                {pegamentos.map((pegamentos, index) => (
+                  <a href={pegamentosLink[index]} key={index} style={{ display: 'block' }} target="_blank" rel="noopener noreferrer">
+                    {pegamentos}
+                  </a>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
       <section>
-            <div class="container piscina-description">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <img src={imgdesc1} alt="" />
+            <div class="container">
+                <div class="row" style={{marginBottom:'20vh'}}> 
+                    <div class="col-12 col-md-6 descripcion">
+                      {/* <h2 style={{marginTop: '2em'}}>Consideracion y Cuidados:</h2>
+                      <p>
+                        {'->'} Fragilidad: <br />
+                        Riesgos de ruptura al cortar {'->'} Solcuion, cuidar la temperatura de trabajo, mano firme pero cuidadosa con las heramientas, herramientas adecuadas. <br />
+                        Riesgo de ruptura en la ciolocacion, si una seccion queda muy fragil,
+                          por ejemplo por su finura o acabado en punta, el riesgo de ruptura enlña colocacion es altisimo, una mano experimentada es la unica solucion. <br /> <br />
+                        {'->'} Pensaralguno mas para pileta, para pisos tengo mas.
+                      </p> */}
+                      <h2>Nivelación:</h2>
+                        <ul>
+                          {nivelacion.map((nivelacion, index) => (
+                            <li key={index}>
+                              {nivelacion}
+                            </li>
+                          ))}
+                        </ul>
+                      <h2>Consideraciones generales:</h2>
+                        <ul>
+                          {caracteristicas.map((caracteristicas, index) => (
+                            <li key={index}>
+                              {caracteristicas}
+                            </li>
+                          ))}
+                        </ul>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <strong>{desc1}</strong>
+                    <div className="col-12 col-md-6 descripcion">
+                      <h2>{detalleFinal}:</h2>
+                        <ul>
+                          {higienizacion.map((higienizacion, index) => (
+                            <li key={index}>
+                              {higienizacion}
+                            </li>
+                          ))}
+                        </ul>
                     </div>
-                </div>
-                <div class="row">
-                    {/* ONLY ON PHONE */}
-                    <div class="col-12 col-md-6 d-md-none d-block">  
-                        <img src={imgdesc2} alt="" />
-                    </div>
-
-                    <div class="col-12 col-md-6  ">
-                        <strong>{desc2}</strong>
-                    </div>
-                    <div class="col-12 col-md-6 d-md-block d-none">  
-                        <img src={imgdesc2} alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <img src={imgdesc3} alt="" />
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <strong>{desc3}</strong>
-                    </div>
+                    {/* <div class="col-12 col-md-7">
+                      <div className="carrusel">
+                        <div className="slider">
+                          <button id="prev-slide" className="slide-button material-symbols-rounded">&lt;</button>
+                          <ItemDetailCarrousel array={listaDeAssets} cantImgCarrusel={cantImgCarrusel}/>
+                          <button id="next-slide" className="slide-button material-symbols-rounded">&gt;</button>
+                        </div>
+                      </div>
+                            <a className="btn btn-primary" href="/nuestrosTrabajos">Nuestros Trabajos</a>
+                      <div className="carrusel">
+                        <div className="slider">
+                          <button id="prev-slide" className="slide-button material-symbols-rounded">&lt;</button>
+                          <ItemDetailCarrousel array={listaDeAssets} cantImgCarrusel={cantImgCarrusel}/>
+                          <button id="next-slide" className="slide-button material-symbols-rounded">&gt;</button>
+                        </div>
+                      </div>
+                            <a className="btn btn-primary" href="/nuestrosTrabajos">Nuestros Trabajos</a>
+                    </div> */}
                 </div>
             </div>
         </section>

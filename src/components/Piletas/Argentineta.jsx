@@ -5,18 +5,21 @@ export function Argentineta(){
     return(
         <ItemDetail 
         titulo={data.pools[2].name} 
-        descLarga={data.pools[2].desc_larga} 
         imgPortada={data.pools[2].portada}
         listaDeAssets={data.pools[2].demas_fotos}
-        tiempo={data.pools[2].tiempo}
-        recuadre={data.pools[2].recuadre}
-        ubicacion={data.pools[2].ubicacion}
+        caracteristicas={data.pools[2].caracteristicas}
         cantImgCarrusel={data.pools[2].demas_fotos.length}
-        desc1={data.pools[2].desc1}
-        desc2={data.pools[2].desc2}
-        desc3={data.pools[2].desc3} 
-        imgdesc1={data.pools[2].imgdesc1}
-        imgdesc2={data.pools[2].imgdesc2}
-        imgdesc3={data.pools[2].imgdesc3}/>
+        opcionesPuenteAdherencia={data.pools[2].opcionesPuenteAdherencia}
+        opcionesPuenteAdherenciaLink={data.pools[2].opcionesPuenteAdherenciaLink}
+        pegamentos={data.pools[2].pastina}
+        pegamentosLink={data.pools[2].pastinaLink}
+        preparacionSuperficie={data.pools[2].preparacionSuperficie}
+        puenteAdherencia={data.pools[2].puenteAdherencia}
+        preparacionMaterial={data.pools[2].preparacionMaterial}
+        juntas={data.pools[2].juntas}
+        detalleFinal={data.pools[2].detalleFinal}
+        higienizacion={data.pools[2].higienizacion}
+        nivelacion={data.pools[2].nivelacion}
+         />
     )
 }
