@@ -42,6 +42,7 @@ import revestimientos3trabajos from './images/trabajos/rev3.jpg'
 import revestimientos4trabajos from './images/trabajos/rev4.jpg'
 import portadaBaño2 from './images/baño2 espejos.jpg'
 import portadaBaño3 from './images/portada baño2.jpg'
+import marmol from './images/revestimientos/marmol.png'
 
 //ABOUT US
 
@@ -75,6 +76,7 @@ import piletaFinalCarrousel from './images/aboutUs/piletaFinalCarrousel.jpg'
 
 export default{
     'homeBanner2':homeBanner2,
+    'marmol': marmol,
     'portadabaño2':portadaBaño2,
     'portadabaño3':portadaBaño3,
     'pileta1trabajos':pileta1trabajos,

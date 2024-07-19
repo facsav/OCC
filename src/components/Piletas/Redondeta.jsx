@@ -5,21 +5,21 @@ export function Redondeta(){
     return(
         <ItemDetail 
         titulo={data.pools[0].name} 
-        descLarga={data.pools[0].desc_larga} 
         imgPortada={data.pools[0].portada}
         listaDeAssets={data.pools[0].demas_fotos}
-        tiempo={data.pools[0].tiempo}
-        recuadre={data.pools[0].recuadre}
-        ubicacion={data.pools[0].ubicacion}
+        caracteristicas={data.pools[0].caracteristicas}
         cantImgCarrusel={data.pools[0].demas_fotos.length}
-        desc1={data.pools[0].desc1}
-        desc2={data.pools[0].desc2}
-        desc3={data.pools[0].desc3}
-        imgdesc1={data.pools[0].imgdesc1}
-        imgdesc2={data.pools[0].imgdesc2}
-        imgdesc3={data.pools[0].imgdesc3}
-        puentesDeAdherencia={data.pools[0].puentesDeAdherencia}
-        puentesDeAdherenciaLink={data.pools[0].puentesDeAdherenciaLink}
-        caracteristicas={data.pools[0].caracteristicas} />
+        opcionesPuenteAdherencia={data.pools[0].opcionesPuenteAdherencia}
+        opcionesPuenteAdherenciaLink={data.pools[0].opcionesPuenteAdherenciaLink}
+        pegamentos={data.pools[0].pastina}
+        pegamentosLink={data.pools[0].pastinaLink}
+        preparacionSuperficie={data.pools[0].preparacionSuperficie}
+        puenteAdherencia={data.pools[0].puenteAdherencia}
+        preparacionMaterial={data.pools[0].preparacionMaterial}
+        juntas={data.pools[0].juntas}
+        detalleFinal={data.pools[0].detalleFinal}
+        higienizacion={data.pools[0].higienizacion}
+        nivelacion={data.pools[0].nivelacion}
+         />
     )
 }

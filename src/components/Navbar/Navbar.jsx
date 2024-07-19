@@ -31,11 +31,11 @@ const Navbar = () => {
               <NavItemWithImage imageSrc={assets.casa} alt="Casa" text="Home" showImageOnMobile={true} ruta='/' />
               <NavItemWithImage imageSrc={assets.info} alt="Info" text="Sobre nosotros" showImageOnMobile={true} ruta='/SobreNosotros' />
               <NavItemWithImage
-                text="Nuestros trabajos"
+                text="Como trabajamos"
                 ruta='/NuestrosTrabajos'
                 dropdownItems={[
-                  { text: 'Nuestros trabajos destacados', link: '/NuestrosTrabajos' },
-                  { text: 'Mas trabajos', link: '/MasTrabajos' },
+                  { text: 'Proceso de instalacion', link: '/NuestrosTrabajos/Piletas' },
+                  { text: 'Nuestros trabajos', link: '/MasTrabajos' },
                 ]}
                 extraClass="d-none d-lg-block"
               />
