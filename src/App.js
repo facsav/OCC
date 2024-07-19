@@ -27,6 +27,7 @@ import {Baños} from './components/Revestimientos/Baños';
 import {MasTrabajos} from './components/MasTrabajos';
 import { SobreNosotros } from './components/SobreNosotros';
 import Reactselacome from './components/reactselacome';
+import { MasTrabajosNew } from './components/MasTrabajosNew';
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
         <Route path="/NuestrosTrabajos/Baño-3" element={<Baño3/>} />
         <Route path="/NuestrosTrabajos/Baños" element={<Baños/>} />
         <Route path="/MasTrabajos" element={<MasTrabajos/>} />
+        <Route path="/MasTrabajosNew" element={<MasTrabajosNew/>} />
         <Route path='/SobreNosotros' element={<SobreNosotros/>} />
       </Routes>
       

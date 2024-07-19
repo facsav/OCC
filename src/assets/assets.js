@@ -42,6 +42,7 @@ import revestimientos3trabajos from './images/trabajos/rev3.jpg'
 import revestimientos4trabajos from './images/trabajos/rev4.jpg'
 import portadaBaño2 from './images/baño2 espejos.jpg'
 import portadaBaño3 from './images/portada baño2.jpg'
+import tropical from './images/piletas/tropical.png'
 
 //ABOUT US
 
@@ -112,6 +113,7 @@ export default{
     'adefinir': adefinir,
     'escaloneta': escaloneta,
     'eggs': eggs,
+    'tropical': tropical,
     'detallado':detallado,
     'exterior':exterior,
     'interior2':interior2,
@@ -136,7 +138,7 @@ export default{
     'construccionPileta':construccionPileta,
     'piletaFinalCarrousel':piletaFinalCarrousel,
     "construccionCasas1":construccionCasas1,
-    "construccionCasas2":construccionCasas2
+    "construccionCasas2":construccionCasas2,
 
 }
 
