@@ -28,33 +28,16 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav d-flex justify-content-md-end align-items-md-center">
-              <NavItemWithImage imageSrc={assets.casa} alt="Casa" text="Home" showImageOnMobile={true} ruta='/' />
-              <NavItemWithImage imageSrc={assets.info} alt="Info" text="Sobre nosotros" showImageOnMobile={true} ruta='/SobreNosotros' />
-              <NavItemWithImage
-                text="Como trabajamos"
-                ruta='/NuestrosTrabajos'
-                dropdownItems={[
-                  { text: 'Proceso de instalacion', link: '/NuestrosTrabajos/Piletas' },
-                  { text: 'Nuestros trabajos', link: '/MasTrabajos' },
-                ]}
-                extraClass="d-none d-lg-block"
-              />
+              <NavItemWithImage imageSrc={assets.casa} alt="Casa" text="Inicio" showImageOnMobile={true} ruta='/' />
               <NavItemWithImage
                 imageSrc={assets.star}
                 alt="Estrella"
                 text="Nuestros trabajos"
                 showImageOnMobile={true}
                 ruta='/NuestrosTrabajos'
-                extraClass="d-lg-none "
               />
-              <NavItemWithImage
-                imageSrc={assets.bolso}
-                alt="Bolso"
-                text="Mas trabajos"
-                showImageOnMobile={true}
-                ruta='/MasTrabajos'
-                extraClass="d-lg-none "
-              />
+              <NavItemWithImage imageSrc={assets.bolso} alt="Info" text="Proceso De instalacion" showImageOnMobile={true} ruta='/NuestrosTrabajos/Piletas' />
+              <NavItemWithImage imageSrc={assets.info} alt="Info" text="Sobre nosotros" showImageOnMobile={true} ruta='/SobreNosotros' />
 
               <NavItemWithImage
                 imageSrc={assets.telefono}

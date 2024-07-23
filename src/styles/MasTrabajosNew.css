@@ -5,6 +5,15 @@
 
 }
 
+@media(max-width:991px){
+    #masTrabajosNew h1{
+        font-size: 35px;
+    }
+    #masTrabajosNew h2{
+        font-size: 25px;
+    }
+  }
+
 
 
 

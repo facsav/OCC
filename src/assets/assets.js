@@ -43,6 +43,9 @@ import revestimientos4trabajos from './images/trabajos/rev4.jpg'
 import portadaBaño2 from './images/baño2 espejos.jpg'
 import portadaBaño3 from './images/portada baño2.jpg'
 
+
+
+
 //ABOUT US
 
 //Primer carrousel
@@ -70,6 +73,7 @@ import construccionPileta from './images/aboutUs/construccionPileta.jpg'
 import piletaFinalCarrousel from './images/aboutUs/piletaFinalCarrousel.jpg'
 
 
+import marmol from './images/revestimientos/interior1.png'
 
 
 
@@ -113,7 +117,7 @@ export default{
     'adefinir': adefinir,
     'escaloneta': escaloneta,
     'eggs': eggs,
-    'tropical': tropical,
+    // 'tropical': tropical,
     'detallado':detallado,
     'exterior':exterior,
     'interior2':interior2,

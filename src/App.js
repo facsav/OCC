@@ -49,7 +49,6 @@ function App() {
         <Route path="/NuestrosTrabajos/Adefinir" element={<Adefinir/>} />
         <Route path="/NuestrosTrabajos/Escaloneta" element={<Escaloneta/>} />
         <Route path="/NuestrosTrabajos/Celeste" element={<Celeste/>} />
-        <Route path="/NuestrosTrabajos" element={<NuestrosTrabajos />} />
         <Route path="/NuestrosTrabajos/Interior" element={<Interior/>} />
         <Route path="/NuestrosTrabajos/Interior2" element={<Interior2/>} />
         <Route path="/NuestrosTrabajos/Interior3" element={<Interior3/>} />
@@ -59,7 +58,7 @@ function App() {
         <Route path="/NuestrosTrabajos/Baño-3" element={<Baño3/>} />
         <Route path="/NuestrosTrabajos/Baños" element={<Baños/>} />
         <Route path="/MasTrabajos" element={<MasTrabajos/>} />
-        <Route path="/MasTrabajosNew" element={<MasTrabajosNew/>} />
+        <Route path="/NuestrosTrabajos" element={<MasTrabajosNew/>} />
         <Route path='/SobreNosotros' element={<SobreNosotros/>} />
       </Routes>
       

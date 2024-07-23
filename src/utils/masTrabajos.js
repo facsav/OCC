@@ -168,9 +168,153 @@ const dataMasTrabajos = {
             'desc_corta':'Trabajo realizado con Venecitas',
             'desc_larga': 'Sumérgete en esta piscina de *720 pies2*, revestida con venecitas biseladas. Su borde atermico de 1 metro cuadrado proporciona *elegancia* y también mejora la seguridad y *comodidad* de tu experiencia. Nuestros *años* de *experiencia* perfeccionando el *arte* de la instalación nos han llevado a realizar este proceso en tan solo *5 días*. \n\n _Procedimiento:_\n Las venecitas se cortan utilizando discos diamantados de 4”, utilizando esto y nuestra *mano* de obra *especializada*, aseguramos cortes *limpios*, *prolijos* y *nunca* una ruptura innecesaria. Luego se colocan utilizando pegamento poxilina o grau epoxi, el material de adherencia es a *decisión* del *cliente*, contamos con la *capacitación* para trabajar con el material de *su* preferencia. \n El borde atermico se instala utilizando cal y como puente de adherencia klaukol, también puede reemplazarse por agua y cemento y el puente de adherencia taculu. Ambas opciones aseguran una conexión *sólida* y *duradera* en el tiempo entre el borde y la superficie de colocación. Al igual que con la adherencia de las venecitas, esto es a *su* completa decisión. En la instalación de venecitas puede utilizarse tambien klaukol para venecitas, estas son algunas de las opciones, pero siempre estamos *disponibles* y listos para *adaptarnos* a *sus* preferencias.',
             'portada': "images/Tropical/tropicalPortada.png",
+            'cara': "images/Tropical/tropicalCara.png"
         },
         
+    ],
+    marmol: [
+        {
+            'name': 'Baño marmolado',
+            'desc_corta':'Trabajo realizado con marmol',
+            'portada': "images/marmol/baños de marmol negro.png",
+            'cara': "images/marmol/baños de marmol negro Cara.png"
+        },
+        {
+            'name': 'Baño porcelanato',
+            'desc_corta':'Trabajo realizado con marmol y porcelanato',
+            'portada': "images/marmol/baños de marmol y porcelanato.png",
+            'cara': "images/marmol/baños de marmol y porcelanato cara.png"
+        },
+        {
+            'name': 'Candelabro',
+            'desc_corta':'Trabajo realizado con marmol',
+            'portada': "images/marmol/candelabro.png",
+            'cara': "images/marmol/candelabro cara.png"
+        },
+        {
+            'name': 'Pisos exteriores en marmol',
+            'desc_corta':'Exterior trabajado con marmol',
+            'portada': "images/marmol/carpeta para marmol.png",
+            'cara': "images/marmol/carpeta para marmol cara.png"
+        },
+        {
+            'name': 'Pisos interiores en marmol',
+            'desc_corta':'Interior trabajado con marmol',
+            'portada': "images/marmol/casas en marmol.png",
+            'cara': "images/marmol/casas en marmol cara.png"
+        },
+        {
+            'name': 'Cortes en marmol',
+            'desc_corta':'Interior trabajado con marmol y cortes en forma',
+            'portada': "images/marmol/cortes en marmol.png",
+            'cara': "images/marmol/cortes en marmol cara.png"
+        },
+        {
+            'name': 'Living en marmol',
+            'desc_corta':'Trabajo realizado en interior trabajado con marmol',
+            'portada': "images/marmol/instalacion de marmol.png",
+            'cara': "images/marmol/instalacion de marmol cara.png"
+        },
+        {
+            'name': 'Pisos de jardín en marmol',
+            'desc_corta':'Trabajo realizado en exterior trabajado con marmol',
+            'portada': "images/marmol/nivelacion de pisos de marmol.png",
+            'cara': "images/marmol/nivelacion de pisos de marmol cara.png"
+        },
+        {
+            'name': 'Pisos de jardín estilo roca ',
+            'desc_corta':'Trabajo realizado en exterior trabajado con marmol',
+            'portada': "images/marmol/piso de roca.png",
+            'cara': "images/marmol/piso de roca cara.png"
+        },
+        {
+            'name': 'Pisos interior liso',
+            'desc_corta':'Interior trabajado en marmol',
+            'portada': "images/marmol/pisos de marmol.png",
+            'cara': "images/marmol/pisos de marmol cara.png"
+        },
+        {
+            'name': 'Jardín en marmol',
+            'desc_corta':'Exterior trabajado en marmol',
+            'portada': "images/marmol/pisos exteriores en marmol.png",
+            'cara': "images/marmol/pisos exteriores en marmol cara.png"
+        },
+        {
+            'name': 'Piso en marmol',
+            'desc_corta':'Piso en interior trabajado en marmol',
+            'portada': "images/marmol/proteccion de pisos.png",
+            'cara': "images/marmol/proteccion de pisos cara.png"
+        }
+    ],
+    pisos: [
+        {
+            'name': 'Piso en porcelanato',
+            'desc_corta':'Piso en interior trabajado en porcelanato',
+            'portada': "images/pisos/casas con porcelanato.png",
+            'cara': "images/pisos/casas con porcelanato cara.png"
+        },
+        {
+            'name': 'Clicker nivelador',
+            'desc_corta':'Trabajo en interior con sus correspondientes clicker para nivelacion',
+            'portada': "images/pisos/clicker nivelador.png",
+            'cara': "images/pisos/clicker nivelador cara.png"
+        },
+        {
+            'name': 'Porcelanato Atermico',
+            'desc_corta':'Trabajo de porcelanato atermico en exterior',
+            'portada': "images/pisos/colocacion de material atermico.png",
+            'cara': "images/pisos/colocacion de material atermico cara.png"
+        },
+        {
+            'name': 'Porcelanato simil madera',
+            'desc_corta':'Trabajo de porcelanato en proceso simil madera',
+            'portada': "images/pisos/cortes en porcelanato.png",
+            'cara': "images/pisos/cortes en porcelanato cara.png"
+        },
+        {
+            'name': 'Diseño interior en porcelanato',
+            'desc_corta':'Trabajo interior con cortes en porcelanato',
+            'portada': "images/pisos/diseños con porcelanato.png",
+            'cara': "images/pisos/diseños con porcelanato cara.png"
+        },
+        {
+            'name': 'Diseño de pisos en porcelanato',
+            'desc_corta':'Trabajo interior con cortes en porcelanato',
+            'portada': "images/pisos/instalacion de porcelanato.png",
+            'cara': "images/pisos/instalacion de porcelanato cara.png"
+        },
+        {
+            'name': 'Porcelanato Atermico Exterior',
+            'desc_corta':'Trabajo de porcelanato atermico en exterior',
+            'portada': "images/pisos/pisos de material atermico.png",
+            'cara': "images/pisos/pisos de material atermico cara.png"
+        },
+        {
+            'name': 'Pisos porcelanato espejo',
+            'desc_corta':'Trabajo de porcelanato interior con acabado brillante',
+            'portada': "images/pisos/pisos de porcelanato.png",
+            'cara': "images/pisos/pisos de porcelanato cara.png"
+        },
+        {
+            'name': 'Pisos simil madera',
+            'desc_corta':'Trabajo de porcelanato en proceso simil madera',
+            'portada': "images/pisos/porcelanato simil madera.png",
+            'cara': "images/pisos/porcelanato simil madera cara.png"
+        },
+        {
+            'name': 'Porcelanatos varios',
+            'desc_corta':'Trabajos varios en porcelanato con spin niveladores',
+            'portada': "images/pisos/spin nivelador.png",
+            'cara': "images/pisos/spin nivelador cara.png"
+        },
+        {
+            'name': 'Juntas de porcelanatos varias',
+            'desc_corta':'Trabajos varios en porcelanato con spin niveladores',
+            'portada': "images/pisos/tomado de juntas.png",
+            'cara': "images/pisos/tomado de juntas cara.png"
+        },
     ]
+
 };
 
 export default dataMasTrabajos;

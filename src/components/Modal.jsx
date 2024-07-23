@@ -4,7 +4,7 @@ const Modal = ({modal, img, titulo, desc, imgModal, esPrimero, esUltimo}) => {
 
 
   // Cambiar el numero al agregar modales para que funcione la funcion de pasar al primero cuando el modal sea el ultimo
-  const totalModales = 6
+  const totalModales = 33
 
   return (
   <>
