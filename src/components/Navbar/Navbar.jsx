@@ -32,11 +32,11 @@ const Navbar = () => {
               <NavItemWithImage
                 imageSrc={assets.star}
                 alt="Estrella"
-                text="Nuestros trabajos"
+                text="Trabajos"
                 showImageOnMobile={true}
                 ruta='/NuestrosTrabajos'
               />
-              <NavItemWithImage imageSrc={assets.bolso} alt="Info" text="Proceso De instalacion" showImageOnMobile={true} ruta='/colocacion-de-revestimientos' />
+              <NavItemWithImage imageSrc={assets.bolso} alt="Info" text="Colocación" showImageOnMobile={true} ruta='/colocacion-de-revestimientos' />
               <NavItemWithImage imageSrc={assets.info} alt="Info" text="Sobre nosotros" showImageOnMobile={true} ruta='/SobreNosotros' />
 
               <NavItemWithImage
