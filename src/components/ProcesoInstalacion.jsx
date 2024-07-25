@@ -11,10 +11,10 @@ export function ProcesoInstalacion(){
                 <h1 style={{fontSize:'42px'}}>Colocación de revestimientos</h1>
                 <hr />
                 <p style={{maxWidth:'700px'}}>
-                    En esta sección les compartiremos cómo <strong>trabajamos</strong> en OCC. <br />
-                    Mostraremos cómo se colocan los distintos <strong>revestimientos</strong> en diversas superficies. <br />
-                    Desde la preparación de <strong>pisos</strong>, <strong>paredes</strong> y otras superficies, pasando por la aplicación del adherente,
-                     hasta la nivelación final del <strong>revestimiento</strong> a colocar.
+                    <span>En esta sección les compartiremos cómo <strong>trabajamos</strong> en OCC.</span> <br />
+                    <span>Mostraremos cómo se colocan los distintos <strong>revestimientos</strong> en diversas superficies.</span> <br />
+                    <span>Desde la preparación de <strong>pisos</strong>, <strong>paredes</strong> y otras superficies, pasando por la aplicación del adherente,
+                    hasta la nivelación final del <strong>revestimiento</strong> a colocar.</span>
                 </p>
 
 
