@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import { Footer } from './components/Footer';
 import './styles/App.css';
 import { BrowserRouter, Route, Routes, Switch } from 'react-router-dom';
-import { Piletas } from './components/Piletas';
+import { ProcesoInstalacion } from './components/ProcesoInstalacion';
 import { Argentineta } from './components/Piletas/Argentineta';
 import { Redondeta } from './components/Piletas/Redondeta';
 import {Finlandesa } from './components/Piletas/Finlandesa';
@@ -36,13 +36,12 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/videosgay" element={<Reactselacome />} />
         <Route path="/" element={<Body />} />
-        <Route path="/NuestrosTrabajos/Piletas" element={<Piletas />} />
+        <Route path="/colocacion-de-revestimientos" element={<ProcesoInstalacion />} />
         <Route path="/NuestrosTrabajos/Revestimientos" element={<Revestimientos />} />
-        <Route path="/NuestrosTrabajos/Argentineta" element={<Argentineta />} />
-        <Route path="/NuestrosTrabajos/Redondeta" element={<Redondeta />} />
-        <Route path="/NuestrosTrabajos/Finlandesa" element={<Finlandesa/>} />
+        <Route path="/colocacion-de-revestimientos/marmol" element={<Argentineta />} />
+        <Route path="/colocacion-de-revestimientos/piscinas" element={<Redondeta />} />
+        <Route path="/colocacion-de-revestimientos/porcelanato-ceramica" element={<Finlandesa/>} />
         <Route path="/NuestrosTrabajos/Fuente" element={<Fuente/>} />
         <Route path="/NuestrosTrabajos/Clasica" element={<Clasica/>} />
         <Route path="/NuestrosTrabajos/Lgbt" element={<Lgbt/>} />

@@ -36,7 +36,7 @@ const Navbar = () => {
                 showImageOnMobile={true}
                 ruta='/NuestrosTrabajos'
               />
-              <NavItemWithImage imageSrc={assets.bolso} alt="Info" text="Proceso De instalacion" showImageOnMobile={true} ruta='/NuestrosTrabajos/Piletas' />
+              <NavItemWithImage imageSrc={assets.bolso} alt="Info" text="Proceso De instalacion" showImageOnMobile={true} ruta='/colocacion-de-revestimientos' />
               <NavItemWithImage imageSrc={assets.info} alt="Info" text="Sobre nosotros" showImageOnMobile={true} ruta='/SobreNosotros' />
 
               <NavItemWithImage
