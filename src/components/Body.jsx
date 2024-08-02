@@ -8,4 +8,5 @@ export function Body (){
             <Home/>
         </body>
     )
+
 }
