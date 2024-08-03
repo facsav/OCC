@@ -1,11 +1,7 @@
-import DarkMode from "./DarkMode";
 import assets from "../assets/assets";
 import React, { useState, useEffect } from 'react';
 import carrousel from '../styles/Carrousel.css'
 
-if (DarkMode){
-    console.log("esta activo")
-}
 
 
 export const Carrusel = () => {
@@ -49,8 +45,8 @@ export const Carrusel = () => {
 
     return (
         <>
-        <div class="scroller" data-direction={direction} data-speed="slow">
-        <div class="scroller__inner">
+        <div className="scroller" data-direction={direction} data-speed="slow">
+        <div className="scroller__inner">
             <img src='/images/Argentineta/portada.jpeg' alt=""/>
             <img src='/images/Fuente/fuente 2.jpeg' alt=""/>
             <img src='/images/Interiores/Portada.jpg' alt=""/>
