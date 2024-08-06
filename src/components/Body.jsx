@@ -4,8 +4,9 @@ import { Home } from './Home'
 
 export function Body (){
     return(
-        <body>
-            <Home/>
-        </body>
+
+        <Home/>
+
     )
+
 }
