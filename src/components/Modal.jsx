@@ -1,4 +1,5 @@
 import React from 'react';
+import CardAnimada from './CardAnimada';
 
 const Modal = ({modal, img, titulo, desc, imgModal, esPrimero, esUltimo}) => {
 
@@ -9,14 +10,9 @@ const Modal = ({modal, img, titulo, desc, imgModal, esPrimero, esUltimo}) => {
   return (
   <>
     <a data-bs-target={`#exampleModalToggle${modal}`} data-bs-toggle="modal">
-      <div className="piletas">
-      <img src={img} alt="" width="100%" height="auto" />
-          <div className="intro">
-              <h4 style={{color:'White'}}>{titulo}</h4>
-              <p style={{color:'white'}}>{desc}</p>
-          </div>
-      </div>
+      <CardAnimada  img={img} titulo={titulo} texto={desc} banner='siBanner' />
     </a>
+
 
     <div className="modal fade" id={`exampleModalToggle${modal}`} aria-hidden="true" aria-labelledby={`exampleModalToggleLabel${modal}`} tabIndex="-1">
       <div className="modal-dialog modal-dialog-centered">

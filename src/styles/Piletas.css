@@ -45,6 +45,27 @@
     padding: 20px 5px 10px 5px;
     transition: .4s ease-in-out;
   }
+  .piletas span::before{
+    content: '';
+    position: absolute;
+    top: 79px;
+    right: 0;
+    height: 35px;
+    width: 30px;
+    background: linear-gradient( rgb(219, 96, 96),rgb(233, 130, 130) );
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 50%);
+  }
+  .piletas span::after{
+    content: '';
+    position: absolute;
+    top: 79px;
+    right: 30px;
+    height: 35px;
+    width: 30px;
+    background: linear-gradient( rgb(219, 96, 96),rgb(233, 130, 130) );
+    clip-path: polygon(0 0, 0 100%, 50% 50%, 100% 0);
+  }
+
   .piletas:hover{
     cursor: pointer;
   }

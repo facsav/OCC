@@ -21,17 +21,22 @@ export function MasTrabajosNew() {
                     <p>Trabajos con veneceitas</p>
                     <div style={{paddingTop:'1.13rem'}} class="container-cards " >
 
-
-                        <Modal modal={1} img={assets.redondeta} titulo={data.pools[0].name} desc={data.pools[0].desc_corta} imgModal={data.pools[0].portada} esPrimero />  
-                        <Modal modal={2} img={assets.escaloneta} titulo={data.pools[7].name} desc={data.pools[7].desc_corta} imgModal={data.pools[7].portada} />  
-                        <Modal modal={3} img={assets.finlandesa} titulo={data.pools[1].name} desc={data.pools[1].desc_corta} imgModal={data.pools[1].portada} />  
-                        <Modal modal={4} img={assets.argentineta} titulo={data.pools[2].name} desc={data.pools[2].desc_corta} imgModal={data.pools[2].portada} />  
-                        <Modal modal={5} img={assets.fuente} titulo={data.pools[3].name} desc={data.pools[3].desc_corta} imgModal={data.pools[3].portada} />  
-                        <Modal modal={6} img={assets.lgbt} titulo={data.pools[5].name} desc={data.pools[5].desc_corta} imgModal={data.pools[5].portada} />  
-                        <Modal modal={7} img={assets.eggs} titulo={data.pools[8].name} desc={data.pools[8].desc_corta} imgModal={data.pools[8].portada} />  
-                        <Modal modal={8} img={data.pools[9].cara} titulo={data.pools[9].name} desc={data.pools[9].desc_corta} imgModal={data.pools[9].portada} />  
-                        <Modal modal={9} img={assets.adefinir} titulo={data.pools[6].name} desc={data.pools[6].desc_corta} imgModal={data.pools[6].portada}/>  
-                        <Modal modal={10} img={assets.clasica} titulo={data.pools[4].name} desc={data.pools[4].desc_corta} imgModal={data.pools[4].portada} />  
+                        <Modal modal={8} img={data.pools[7].portada} titulo={data.pools[7].name} desc={data.pools[7].desc_corta} imgModal={data.pools[7].modal} />  
+                        <Modal modal={12} img={data.pools[11].portada} titulo={data.pools[11].name} desc={data.pools[11].desc_corta} imgModal={data.pools[11].modal} />  
+                        <Modal modal={14} img={data.pools[13].portada} titulo={data.pools[13].name} desc={data.pools[13].desc_corta} imgModal={data.pools[13].modal} />  
+                        <Modal modal={1} img={data.pools[0].portada} titulo={data.pools[0].name} desc={data.pools[0].desc_corta} imgModal={data.pools[0].modal} esPrimero />  
+                        <Modal modal={2} img={data.pools[1].portada} titulo={data.pools[1].name} desc={data.pools[1].desc_corta} imgModal={data.pools[1].modal} />  
+                        <Modal modal={3} img={data.pools[2].portada} titulo={data.pools[2].name} desc={data.pools[2].desc_corta} imgModal={data.pools[2].modal} />  
+                        <Modal modal={4} img={data.pools[3].portada} titulo={data.pools[3].name} desc={data.pools[3].desc_corta} imgModal={data.pools[3].modal} />  
+                        <Modal modal={5} img={data.pools[4].portada} titulo={data.pools[4].name} desc={data.pools[4].desc_corta} imgModal={data.pools[4].modal} />  
+                        <Modal modal={6} img={data.pools[5].portada} titulo={data.pools[5].name} desc={data.pools[5].desc_corta} imgModal={data.pools[5].modal} />  
+                        <Modal modal={7} img={data.pools[6].portada} titulo={data.pools[6].name} desc={data.pools[6].desc_corta} imgModal={data.pools[6].modal} />  
+                        <Modal modal={11} img={data.pools[10].portada} titulo={data.pools[10].name} desc={data.pools[10].desc_corta} imgModal={data.pools[10].modal} />  
+                        <Modal modal={9} img={data.pools[8].portada} titulo={data.pools[8].name} desc={data.pools[8].desc_corta} imgModal={data.pools[8].modal}/>  
+                        <Modal modal={10} img={data.pools[9].portada} titulo={data.pools[9].name} desc={data.pools[9].desc_corta} imgModal={data.pools[9].modal} />  
+                        <Modal modal={13} img={data.pools[12].portada} titulo={data.pools[12].name} desc={data.pools[12].desc_corta} imgModal={data.pools[12].modal} />  
+                        <Modal modal={15} img={data.pools[14].portada} titulo={data.pools[14].name} desc={data.pools[14].desc_corta} imgModal={data.pools[14].modal} />  
+                        <Modal modal={16} img={data.pools[15].portada} titulo={data.pools[15].name} desc={data.pools[15].desc_corta} imgModal={data.pools[15].modal} />  
 
                     </div>
 

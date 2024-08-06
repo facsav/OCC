@@ -1,5 +1,5 @@
-import assets from "../assets/assets"
-import { Pileta } from "./Pileta"
+import assets from "../assets/assets";
+import CardAnimada from "./CardAnimada";
 import data from "../utils/pools";
 
 export function ProcesoInstalacion(){
@@ -19,9 +19,15 @@ export function ProcesoInstalacion(){
 
 
                 <div class="container-cards" >
-                    <Pileta img={assets.redondeta} titulo= 'Revestimientos de piscinas.' texto={data.pools[0].desc_corta} color={data.pools[0].color} ruta='/colocacion-de-revestimientos/piscinas' />
-                    <Pileta img={assets.interiorn2} titulo= 'Recubrimientos en porcelanato, cerámica y más.' texto={data.pools[1].desc_corta} color={data.pools[1].color}ruta='/colocacion-de-revestimientos/porcelanato-ceramica' />
-                    <Pileta img={assets.marmol} titulo= 'Revestimientos en mármol.' texto={data.pools[2].desc_corta} color={data.pools[2].color} ruta='/colocacion-de-revestimientos/marmol' />
+                    <a href='/colocacion-de-revestimientos/piscinas'>
+                        <CardAnimada img={assets.redondeta} titulo= 'Revestimientos de piscinas.' texto={data.pools[0].desc_corta} color={data.pools[0].color} />
+                    </a>
+                    <a href='/colocacion-de-revestimientos/porcelanato-ceramica'>                    
+                        <CardAnimada img={assets.interiorn2} titulo= 'Recubrimientos en porcelanato, cerámica y más.' texto={data.pools[1].desc_corta} color={data.pools[1].color} />
+                    </a>
+                    <a href='/colocacion-de-revestimientos/marmol'>                    
+                        <CardAnimada img={assets.marmol} titulo= 'Revestimientos en mármol.' texto={data.pools[2].desc_corta} color={data.pools[2].color} />
+                    </a>
                 </div>
             </div>
         </section>
