@@ -1,8 +1,10 @@
 import { ItemDetail } from "../ItemDetail";
 import data from "../../utils/pools";
+import { Helmet } from 'react-helmet'
 
-export function Redondeta(){
+export function Piscinas(){
     return(
+        <>
         <ItemDetail 
         titulo={data.pools[0].name} 
         imgPortada={data.pools[0].portada}
@@ -21,5 +23,10 @@ export function Redondeta(){
         higienizacion={data.pools[0].higienizacion}
         nivelacion={data.pools[0].nivelacion}
          />
+         <Helmet>
+            <title>Cómo Instalar Venecitas en Piscinas - Guía de OCC</title>
+            <meta name="description" content="Aprende cómo OCC instala venecitas en piscinas con nuestra guía detallada. Descubre técnicas profesionales para un acabado perfecto y duradero." />
+        </Helmet>
+    </>
     )
 }

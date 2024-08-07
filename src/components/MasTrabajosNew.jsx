@@ -3,12 +3,17 @@ import assets from "../assets/assets";
 import { useEffect } from 'react';
 import Modal from './Modal';
 import data from "../utils/masTrabajos";
+import { Helmet } from 'react-helmet'
 
 export function MasTrabajosNew() {
 
 
     return (
         <section id="masTrabajosNew">
+            <Helmet>
+                <title>Trabajos Realizados por OCC: Expertos en Revestimientos</title>
+                <meta name="description" content="Descubre los proyectos de OCC en cerámicos, porcelanato, mármol y venecitas. Inspírate con nuestros trabajos de revestimiento de piletas, baños y más." />
+            </Helmet>
             <div className="container">
 
                 <div className="row">

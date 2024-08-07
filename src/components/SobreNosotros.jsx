@@ -1,6 +1,8 @@
 import assets from "../assets/assets";
 import '../styles/SobreNosotros.css'
 import { useEffect } from "react";
+import { Helmet} from 'react-helmet';
+
 export function SobreNosotros (){
 // Seguimiento publicidad
 useEffect(() => {
@@ -64,7 +66,10 @@ useEffect(() => {
 }, []);
     return(
         <>
-        
+            <Helmet>
+                <title>Sobre Nosotros - OCC Revestimientos</title>
+                <meta name="description" content="Conoce a OCC Revestimientos: más de 13 años de experiencia en la instalación de mármol, porcelanato y venecitas. Calidad, precisión y atención al detalle en cada proyecto." />
+            </Helmet>
             <section id="sobreNosotros">
 
                 <div style={{paddingTop:'6rem'}} className="container">

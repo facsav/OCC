@@ -1,8 +1,10 @@
 import { ItemDetail } from "../ItemDetail";
 import data from "../../utils/pools";
+import { Helmet } from 'react-helmet'
 
-export function Finlandesa(){
+export function Porcelanato(){
     return(
+        <>
         <ItemDetail 
         titulo={data.pools[1].name} 
         imgPortada={data.pools[1].portada}
@@ -21,5 +23,10 @@ export function Finlandesa(){
         higienizacion={data.pools[1].higienizacion}
         nivelacion={data.pools[1].nivelacion}
          />
+         <Helmet>
+            <title>Cómo Instalar Porcelanato y Cerámicas - Guía de OCC</title>
+            <meta name="description" content="Descubre cómo OCC instala revestimientos de porcelanato y cerámica con precisión y calidad. Sigue nuestra guía para lograr un acabado duradero y estético en cualquier superficie." />
+        </Helmet>
+        </>
     )
 }

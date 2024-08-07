@@ -4,9 +4,9 @@ import { Footer } from './components/Footer';
 import './styles/App.css';
 import { BrowserRouter, Route, Routes, Switch } from 'react-router-dom';
 import { ProcesoInstalacion } from './components/ProcesoInstalacion';
-import { Argentineta } from './components/Piletas/Argentineta';
-import { Redondeta } from './components/Piletas/Redondeta';
-import {Finlandesa } from './components/Piletas/Finlandesa';
+import { Marmol } from './components/Piletas/Marmol';
+import { Piscinas } from './components/Piletas/Piscinas';
+import { Porcelanato } from './components/Piletas/Porcelanato';
 import {Fuente } from './components/Piletas/Fuente';
 import{Clasica} from './components/Piletas/Clasica';  
 import {Lgbt} from './components/Piletas/Lgbt';
@@ -39,9 +39,9 @@ function App() {
         <Route path="/" element={<Body />} />
         <Route path="/colocacion-de-revestimientos" element={<ProcesoInstalacion />} />
         <Route path="/NuestrosTrabajos/Revestimientos" element={<Revestimientos />} />
-        <Route path="/colocacion-de-revestimientos/marmol" element={<Argentineta />} />
-        <Route path="/colocacion-de-revestimientos/piscinas" element={<Redondeta />} />
-        <Route path="/colocacion-de-revestimientos/porcelanato-ceramica" element={<Finlandesa/>} />
+        <Route path="/colocacion-de-revestimientos/Mármol" element={<Marmol />} />
+        <Route path="/colocacion-de-revestimientos/piscinas" element={<Piscinas />} />
+        <Route path="/colocacion-de-revestimientos/porcelanato-ceramica" element={<Porcelanato/>} />
         <Route path="/NuestrosTrabajos/Fuente" element={<Fuente/>} />
         <Route path="/NuestrosTrabajos/Clasica" element={<Clasica/>} />
         <Route path="/NuestrosTrabajos/Lgbt" element={<Lgbt/>} />
