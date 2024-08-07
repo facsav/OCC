@@ -103,38 +103,38 @@ const dataMasTrabajos = {
         {
             'name': 'Baño marmolado',
             'desc_corta':'Trabajo realizado con marmol',
-            'portada': "images/marmol/baños de marmol negro.png",
-            'cara': "images/marmol/baños de marmol negro Cara.png"
+            'portada': "/images/trabajos-en-marmol/baño-revestido-en-marmol-amarillento.png",
+            'cara': "/images/trabajos-en-marmol/baño-en-marmol-amarillento.png"
         },
         {
             'name': 'Baño porcelanato',
             'desc_corta':'Trabajo realizado con marmol y porcelanato',
-            'portada': "images/marmol/baños de marmol y porcelanato.png",
-            'cara': "images/marmol/baños de marmol y porcelanato cara.png"
+            'portada': "/images/trabajos-en-marmol/baño-recubierto-en-marmol-negro-marmoleado.png",
+            'cara': "/images/trabajos-en-marmol/baños-revestido-en-marmol-negro-marmoleado.png"
         },
         {
             'name': 'Candelabro',
             'desc_corta':'Trabajo realizado con marmol',
-            'portada': "images/marmol/candelabro.png",
-            'cara': "images/marmol/candelabro cara.png"
+            'portada': "/images/trabajos-en-marmol/baño-revestido-en-marmol-naranja-detallado.png",
+            'cara': "/images/trabajos-en-marmol/baño-revestido-en-marmol-naranja.png"
         },
         {
             'name': 'Pisos exteriores en marmol',
             'desc_corta':'Exterior trabajado con marmol',
-            'portada': "images/marmol/carpeta para marmol.png",
-            'cara': "images/marmol/carpeta para marmol cara.png"
+            'portada': "/images/trabajos-en-marmol/cortes-en-marmol-precisos-detallado.png",
+            'cara': "/images/trabajos-en-marmol/cortes-en-marmol-precisos.png"
         },
         {
             'name': 'Pisos interiores en marmol',
             'desc_corta':'Interior trabajado con marmol',
-            'portada': "images/marmol/casas en marmol.png",
-            'cara': "images/marmol/casas en marmol cara.png"
+            'portada': "/images/trabajos-en-marmol/piso-de-marmol-amarillo-con-candelabro.png",
+            'cara': "/images/trabajos-en-marmol/piso-de-marmol-con-candelabro.png"
         },
         {
             'name': 'Cortes en marmol',
             'desc_corta':'Interior trabajado con marmol y cortes en forma',
-            'portada': "images/marmol/cortes en marmol.png",
-            'cara': "images/marmol/cortes en marmol cara.png"
+            'portada': "/images/trabajos-en-marmol/piso-en-marmol-blanco-grisaseo.png",
+            'cara': "/images/trabajos-en-marmol/piso-en-marmol-blanco.png"
         },
         {
             'name': 'Living en marmol',
@@ -145,101 +145,85 @@ const dataMasTrabajos = {
         {
             'name': 'Pisos de jardín en marmol',
             'desc_corta':'Trabajo realizado en exterior trabajado con marmol',
-            'portada': "images/marmol/nivelacion de pisos de marmol.png",
-            'cara': "images/marmol/nivelacion de pisos de marmol cara.png"
+            'portada': "/images/trabajos-en-marmol/piso-exterior-revestido-en-marmol-gris-y-marron.png",
+            'cara': "/images/trabajos-en-marmol/piso-exterior-revestido-en-marmol.png"
         },
         {
             'name': 'Pisos de jardín estilo roca ',
             'desc_corta':'Trabajo realizado en exterior trabajado con marmol',
-            'portada': "images/marmol/piso de roca.png",
-            'cara': "images/marmol/piso de roca cara.png"
+            'portada': "/images/trabajos-en-marmol/piso-revestido-en-marmol-blanco-anaranjado.png",
+            'cara': "/images/trabajos-en-marmol/piso-recubierto-con-baldosas-de-marmol-blanco.png"
         },
         {
             'name': 'Pisos interior liso',
             'desc_corta':'Interior trabajado en marmol',
-            'portada': "images/marmol/pisos de marmol.png",
-            'cara': "images/marmol/pisos de marmol cara.png"
-        },
-        {
-            'name': 'Jardín en marmol',
-            'desc_corta':'Exterior trabajado en marmol',
-            'portada': "images/marmol/pisos exteriores en marmol.png",
-            'cara': "images/marmol/pisos exteriores en marmol cara.png"
-        },
-        {
-            'name': 'Piso en marmol',
-            'desc_corta':'Piso en interior trabajado en marmol',
-            'portada': "images/marmol/proteccion de pisos.png",
-            'cara': "images/marmol/proteccion de pisos cara.png"
+            'portada': "/images/trabajos-en-marmol/pisos-revestidos-en-marmol-blanco-anaranjado.png",
+            'cara': "/images/trabajos-en-marmol/piso-recubierto-en-marmol-naranja.png"
         }
     ],
     pisos: [
         {
             'name': 'Piso en porcelanato',
             'desc_corta':'Piso en interior trabajado en porcelanato',
-            'portada': "images/pisos/casas con porcelanato.png",
-            'cara': "images/pisos/casas con porcelanato cara.png"
+            'portada': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-blanco-detallado.png",
+            'cara': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-blanco.png"
         },
         {
             'name': 'Clicker nivelador',
             'desc_corta':'Trabajo en interior con sus correspondientes clicker para nivelacion',
-            'portada': "images/pisos/clicker nivelador.png",
-            'cara': "images/pisos/clicker nivelador cara.png"
+            'portada': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-naranja-zom.png",
+            'cara': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-naranja.png"
         },
         {
             'name': 'Porcelanato Atermico',
             'desc_corta':'Trabajo de porcelanato atermico en exterior',
-            'portada': "images/pisos/colocacion de material atermico.png",
-            'cara': "images/pisos/colocacion de material atermico cara.png"
+            'portada': "/images/trabajos-en-porcelanato/fuente-revestida-en-porcelanato-negro-y-amarillo.png",
+            'cara': "/images/trabajos-en-porcelanato/fuente-revestida-en-porcelanato-negro.png"
         },
         {
             'name': 'Porcelanato simil madera',
             'desc_corta':'Trabajo de porcelanato en proceso simil madera',
-            'portada': "images/pisos/cortes en porcelanato.png",
-            'cara': "images/pisos/cortes en porcelanato cara.png"
+            'portada': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanato-con-patron-hecho-a-mano-cuadriculado.png",
+            'cara': "/images/trabajos-en-porcelanato/piso-con-patron-cuadriculado-en-porcelanato-de-6x6-y-12x6-pulgadas.png"
         },
         {
             'name': 'Diseño interior en porcelanato',
             'desc_corta':'Trabajo interior con cortes en porcelanato',
-            'portada': "images/pisos/diseños con porcelanato.png",
-            'cara': "images/pisos/diseños con porcelanato cara.png"
-        },
-        {
-            'name': 'Diseño de pisos en porcelanato',
-            'desc_corta':'Trabajo interior con cortes en porcelanato',
-            'portada': "images/pisos/instalacion de porcelanato.png",
-            'cara': "images/pisos/instalacion de porcelanato cara.png"
+            'portada': "/images/trabajos-en-porcelanato/piso-de-oficinas-revestido-en-porcelanato-gris.png",
+            'cara': "/images/trabajos-en-porcelanato/piso-de-oficina-revestido-en-porcelanato-gris.png"
         },
         {
             'name': 'Porcelanato Atermico Exterior',
             'desc_corta':'Trabajo de porcelanato atermico en exterior',
-            'portada': "images/pisos/pisos de material atermico.png",
-            'cara': "images/pisos/pisos de material atermico cara.png"
+            'portada': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanato-simil-madera-oscuro.png",
+            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-simil-madera-oscuro.png"
         },
         {
             'name': 'Pisos porcelanato espejo',
             'desc_corta':'Trabajo de porcelanato interior con acabado brillante',
-            'portada': "images/pisos/pisos de porcelanato.png",
-            'cara': "images/pisos/pisos de porcelanato cara.png"
-        },
-        {
-            'name': 'Pisos simil madera',
-            'desc_corta':'Trabajo de porcelanato en proceso simil madera',
-            'portada': "images/pisos/porcelanato simil madera.png",
-            'cara': "images/pisos/porcelanato simil madera cara.png"
+            'portada': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanto-gris-acabado.png",
+            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanto-gris.png"
         },
         {
             'name': 'Porcelanatos varios',
             'desc_corta':'Trabajos varios en porcelanato con spin niveladores',
-            'portada': "images/pisos/spin nivelador.png",
-            'cara': "images/pisos/spin nivelador cara.png"
+            'portada': "/images/trabajos-en-porcelanato/pisos-revestido-en-porcelanato-simil-madera.png",
+            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-simil-madera.png"
+        }
+    ],
+    otros: [
+        {
+            'name': 'Baldosas de Roca',
+            'desc_corta':'Trabajos varios en porcelanato con spin niveladores',
+            'portada': "/images/trabajos-extras/pisos-recubiertos-en-baldosas-de-roca.png",
+            'cara': "/images/trabajos-extras/pisos-revestidos-en-roca.png"
         },
         {
-            'name': 'Juntas de porcelanatos varias',
+            'name': 'Material atermico',
             'desc_corta':'Trabajos varios en porcelanato con spin niveladores',
-            'portada': "images/pisos/tomado de juntas.png",
-            'cara': "images/pisos/tomado de juntas cara.png"
-        },
+            'portada': "/images/trabajos-extras/pisos-escaleras-balcones-columnas-de-material-atermico.png",
+            'cara': "/images/trabajos-extras/revestimientos-de-material-atermico.png"
+        }
     ]
 
 };

@@ -4,6 +4,7 @@ import { Carrusel } from "./carrusel";
 import { ContactUs } from "./ContactUs";
 import React, { useState, useEffect } from 'react';
 import home from '../styles/Home.css'
+import {Helmet} from 'react-helmet';
 
 if (DarkMode){
     console.log("esta activo")
@@ -55,6 +56,13 @@ export function Home (){
   }, []);
     return(
     <>
+    <Helmet>
+      <meta
+      name="description"
+      content="OCC Revestimientos: Expertos en instalación de mármol, porcelanato y venecitas. Calidad y precisión en cada proyecto. Más de 13 años de experiencia transformando espacios con acabados duraderos y estéticos."
+      />
+      <title>OCC Colocación de revestimientos</title>
+    </Helmet>
         <div style={{height:'8vh'}} ></div>
         <section id="home" style={sectionStyle}>
       <div className="container">

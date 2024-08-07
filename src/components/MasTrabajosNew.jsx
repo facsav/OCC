@@ -51,18 +51,17 @@ export function MasTrabajosNew() {
 
                     <div style={{paddingTop:'1.13rem'}} class="container-cards " >
 
-                        <Modal modal={11} img={data.marmol[0].cara} titulo={data.marmol[0].name} desc={data.marmol[0].desc_corta} imgModal={data.marmol[0].portada} />
-                        <Modal modal={12} img={data.marmol[1].cara} titulo={data.marmol[1].name} desc={data.marmol[1].desc_corta} imgModal={data.marmol[1].portada} />
-                        <Modal modal={13} img={data.marmol[2].cara} titulo={data.marmol[2].name} desc={data.marmol[2].desc_corta} imgModal={data.marmol[2].portada} />
-                        <Modal modal={14} img={data.marmol[3].cara} titulo={data.marmol[3].name} desc={data.marmol[3].desc_corta} imgModal={data.marmol[3].portada} />
-                        <Modal modal={15} img={data.marmol[4].cara} titulo={data.marmol[4].name} desc={data.marmol[4].desc_corta} imgModal={data.marmol[4].portada} />
-                        <Modal modal={16} img={data.marmol[5].cara} titulo={data.marmol[5].name} desc={data.marmol[5].desc_corta} imgModal={data.marmol[5].portada} />
-                        <Modal modal={17} img={data.marmol[6].cara} titulo={data.marmol[6].name} desc={data.marmol[6].desc_corta} imgModal={data.marmol[6].portada} />
-                        <Modal modal={18} img={data.marmol[7].cara} titulo={data.marmol[7].name} desc={data.marmol[7].desc_corta} imgModal={data.marmol[7].portada} />
-                        <Modal modal={19} img={data.marmol[8].cara} titulo={data.marmol[8].name} desc={data.marmol[8].desc_corta} imgModal={data.marmol[8].portada} />
-                        <Modal modal={20} img={data.marmol[9].cara} titulo={data.marmol[9].name} desc={data.marmol[9].desc_corta} imgModal={data.marmol[9].portada} />
-                        <Modal modal={21} img={data.marmol[10].cara} titulo={data.marmol[10].name} desc={data.marmol[10].desc_corta} imgModal={data.marmol[10].portada} />
-                        <Modal modal={22} img={data.marmol[11].cara} titulo={data.marmol[11].name} desc={data.marmol[11].desc_corta} imgModal={data.marmol[11].portada} />
+                        <Modal modal={24} img={data.marmol[7].cara} titulo={data.marmol[7].name} desc={data.marmol[7].desc_corta} imgModal={data.marmol[7].portada} />
+                        <Modal modal={18} img={data.marmol[1].cara} titulo={data.marmol[1].name} desc={data.marmol[1].desc_corta} imgModal={data.marmol[1].portada} />
+                        <Modal modal={21} img={data.marmol[4].cara} titulo={data.marmol[4].name} desc={data.marmol[4].desc_corta} imgModal={data.marmol[4].portada} />
+                        <Modal modal={20} img={data.marmol[3].cara} titulo={data.marmol[3].name} desc={data.marmol[3].desc_corta} imgModal={data.marmol[3].portada} />
+                        <Modal modal={26} img={data.marmol[9].cara} titulo={data.marmol[9].name} desc={data.marmol[9].desc_corta} imgModal={data.marmol[9].portada} />
+                        <Modal modal={22} img={data.marmol[5].cara} titulo={data.marmol[5].name} desc={data.marmol[5].desc_corta} imgModal={data.marmol[5].portada} />
+                        <Modal modal={17} img={data.marmol[0].cara} titulo={data.marmol[0].name} desc={data.marmol[0].desc_corta} imgModal={data.marmol[0].portada} />
+                        <Modal modal={19} img={data.marmol[2].cara} titulo={data.marmol[2].name} desc={data.marmol[2].desc_corta} imgModal={data.marmol[2].portada} />
+                        <Modal modal={25} img={data.marmol[8].cara} titulo={data.marmol[8].name} desc={data.marmol[8].desc_corta} imgModal={data.marmol[8].portada} />
+                        <Modal modal={23} img={data.marmol[6].cara} titulo={data.marmol[6].name} desc={data.marmol[6].desc_corta} imgModal={data.marmol[6].portada} />
+
                     </div>
 
                     <hr />
@@ -70,19 +69,27 @@ export function MasTrabajosNew() {
                     <p>Revestimientos realizados en Porcelanato</p>
 
                     <div style={{paddingTop:'1.13rem'}} class="container-cards ">
+                        
+                        <Modal modal={32} img={data.pisos[5].cara} titulo={data.pisos[5].name} desc={data.pisos[5].desc_corta} imgModal={data.pisos[5].portada}  />
+                        <Modal modal={33} img={data.pisos[6].cara} titulo={data.pisos[6].name} desc={data.pisos[6].desc_corta} imgModal={data.pisos[6].portada}  />
+                        <Modal modal={34} img={data.pisos[7].cara} titulo={data.pisos[7].name} desc={data.pisos[7].desc_corta} imgModal={data.pisos[7].portada}  />
+                        <Modal modal={30} img={data.pisos[3].cara} titulo={data.pisos[3].name} desc={data.pisos[3].desc_corta} imgModal={data.pisos[3].portada}  />
+                        <Modal modal={31} img={data.pisos[4].cara} titulo={data.pisos[4].name} desc={data.pisos[4].desc_corta} imgModal={data.pisos[4].portada}  />
+                        <Modal modal={27} img={data.pisos[0].cara} titulo={data.pisos[0].name} desc={data.pisos[0].desc_corta} imgModal={data.pisos[0].portada}  />
+                        <Modal modal={29} img={data.pisos[2].cara} titulo={data.pisos[2].name} desc={data.pisos[2].desc_corta} imgModal={data.pisos[2].portada}  />
+                        <Modal modal={28} img={data.pisos[1].cara} titulo={data.pisos[1].name} desc={data.pisos[1].desc_corta} imgModal={data.pisos[1].portada}  />
+                        
+                    </div>
 
-                        <Modal modal={23} img={data.pisos[0].cara} titulo={data.pisos[0].name} desc={data.pisos[0].desc_corta} imgModal={data.pisos[0].portada}  />
-                        <Modal modal={24} img={data.pisos[1].cara} titulo={data.pisos[1].name} desc={data.pisos[1].desc_corta} imgModal={data.pisos[1].portada}  />
-                        <Modal modal={25} img={data.pisos[2].cara} titulo={data.pisos[2].name} desc={data.pisos[2].desc_corta} imgModal={data.pisos[2].portada}  />
-                        <Modal modal={26} img={data.pisos[3].cara} titulo={data.pisos[3].name} desc={data.pisos[3].desc_corta} imgModal={data.pisos[3].portada}  />
-                        <Modal modal={27} img={data.pisos[4].cara} titulo={data.pisos[4].name} desc={data.pisos[4].desc_corta} imgModal={data.pisos[4].portada}  />
-                        <Modal modal={28} img={data.pisos[5].cara} titulo={data.pisos[5].name} desc={data.pisos[5].desc_corta} imgModal={data.pisos[5].portada}  />
-                        <Modal modal={29} img={data.pisos[6].cara} titulo={data.pisos[6].name} desc={data.pisos[6].desc_corta} imgModal={data.pisos[6].portada}  />
-                        <Modal modal={30} img={data.pisos[7].cara} titulo={data.pisos[7].name} desc={data.pisos[7].desc_corta} imgModal={data.pisos[7].portada}  />
-                        <Modal modal={31} img={data.pisos[8].cara} titulo={data.pisos[8].name} desc={data.pisos[8].desc_corta} imgModal={data.pisos[8].portada}  />
-                        <Modal modal={32} img={data.pisos[9].cara} titulo={data.pisos[9].name} desc={data.pisos[9].desc_corta} imgModal={data.pisos[9].portada}  />
-                        <Modal modal={33} img={data.pisos[10].cara} titulo={data.pisos[10].name} desc={data.pisos[10].desc_corta} imgModal={data.pisos[10].portada} esUltimo />
+                    <hr />
+                    <h2>Otros materiales</h2>
+                    <p>Revestimientos realizados en piedra (o roca) y material atérmico</p>
 
+                    <div style={{paddingTop:'1.13rem'}} class="container-cards ">
+                        
+                        <Modal modal={36} img={data.otros[1].cara} titulo={data.otros[1].name} desc={data.otros[1].desc_corta} imgModal={data.otros[1].portada}  />
+                        <Modal modal={35} img={data.otros[0].cara} titulo={data.otros[0].name} desc={data.otros[0].desc_corta} imgModal={data.otros[0].portada}  />
+                        
                     </div>
 
 
