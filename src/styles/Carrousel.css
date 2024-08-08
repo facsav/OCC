@@ -14,7 +14,7 @@
 }
   
 .scroller__inner {
-    padding-block: 1rem;
+    padding-block: 0rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -60,26 +60,6 @@
     to {
         transform: translate(calc(-50% - 0.5rem));
     }
-}
-  
-  
-.carrusel-button{
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    font-size: 40px;
-    font-weight: 100;
-    opacity: 0.5;
-}
-#left-button{
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-#right-button{
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
 }
   
 @media(max-width:482px){

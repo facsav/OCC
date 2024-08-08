@@ -1,7 +1,7 @@
 import React from 'react';
 import CardAnimada from './CardAnimada';
 
-const Modal = ({modal, img, titulo, desc, imgModal, esPrimero, esUltimo}) => {
+const Modal = ({modal, img, titulo, desc, imgModal, esPrimero, esUltimo, año, mes}) => {
 
 
   // Cambiar el numero al agregar modales para que funcione la funcion de pasar al primero cuando el modal sea el ultimo
@@ -10,7 +10,7 @@ const Modal = ({modal, img, titulo, desc, imgModal, esPrimero, esUltimo}) => {
   return (
   <>
     <a data-bs-target={`#exampleModalToggle${modal}`} data-bs-toggle="modal">
-      <CardAnimada  img={img} titulo={titulo} texto={desc} banner='siBanner' />
+      <CardAnimada  img={img} titulo={titulo} texto={desc} banner='siBanner' año={año} mes={mes}/>
     </a>
 
 

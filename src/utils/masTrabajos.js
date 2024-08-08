@@ -6,97 +6,129 @@ const dataMasTrabajos = {
             'name': 'Florida, USA',
             'desc_corta':'4000 pies cuadrados revestidos en venecitas biseladas. Con secciones en mármol y porcelanato ingletado',
             'portada':'/images/trabajos-en-piscinas/fuente-revestida-con-marmol-porcelanato-y-venecitas.png',
-            'modal': "/images/trabajos-en-piscinas/fuente-recubierta-con-marmol-porcelanato-y-venecitas.png"
+            'modal': "/images/trabajos-en-piscinas/fuente-recubierta-con-marmol-porcelanato-y-venecitas.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Finlandesa',
+            'name': 'Colorado, USA',
             'desc_corta':'Finura trabajada con venecitas biseladas, en piscina y jacuzzi.',
             'portada': '/images/trabajos-en-piscinas/pileta-con-jacuzzi-revesitda-en-porcelanato-y-venecitas.png',
-            'modal':"/images/trabajos-en-piscinas/pileta-con-jacuzzi-revesitda-en-porcelanato-y-venecitas-azules.png"
+            'modal':"/images/trabajos-en-piscinas/pileta-con-jacuzzi-revesitda-en-porcelanato-y-venecitas-azules.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Argentineta',
+            'name': 'Naples, USA',
             'desc_corta':'La inmensidad recubierta en venecitas biseladas y travertina utilizada en todo el piso aledaño.',        
             'portada': "/images/trabajos-en-piscinas/pileta-con-jacuzzi-revestida-con-venecitas-azules-y-violetas.png",
-            'modal':'/images/trabajos-en-piscinas/piscina-con-jacuzzi-revestida-con-venecitas-azules-y-violetas.png'
+            'modal':'/images/trabajos-en-piscinas/piscina-con-jacuzzi-revestida-con-venecitas-azules-y-violetas.png',
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Fuente',
+            'name': 'Miami, USA',
             'desc_corta':'Esta majestuosa fuente utiliza porcelanato, marmol, simil madera y el borde atermico.',
             'portada': "/images/trabajos-en-piscinas/pileta-con-jacuzzi-revestida-en-venecitas-blancas-y-celestes.png",
-            'modal':'/images/trabajos-en-piscinas/pileta-con-jacuzzi-revestida-en-venecitas-blancas-y-celestes-colage.png'
+            'modal':'/images/trabajos-en-piscinas/pileta-con-jacuzzi-revestida-en-venecitas-blancas-y-celestes-colage.png',
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Piscina',
+            'name': 'Colorado, USA',
             'desc_corta':'Trabajo realizado con venecitas biseladas y un borde atermico de 12x4".',
             'portada': "/images/trabajos-en-piscinas/pileta-con-jacuzzi-revestida-en-venecitas-crema-y-negras.png",
-            'modal':"/images/trabajos-en-piscinas/pileta-con-jacuzzi-revestida-en-venecitas-crema-y-negras-colage.png"
+            'modal':"/images/trabajos-en-piscinas/pileta-con-jacuzzi-revestida-en-venecitas-crema-y-negras-colage.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Multicolor',
+            'name': 'Naples, USA',
             'desc_corta':'Arcoiris realizado con venecitas biseladas multicolor y borde atermico de 12x4".',
             'portada': "/images/trabajos-en-piscinas/pileta-curva-revestida-en-venecitas-azules.png",
-            'modal':'/images/trabajos-en-piscinas/pileta-curva-revestida-en-venecitas-azules-con-destellos-blancos.png'
+            'modal':'/images/trabajos-en-piscinas/pileta-curva-revestida-en-venecitas-azules-con-destellos-blancos.png',
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Clasica',
+            'name': 'Naples, USA',
             'desc_corta':'Trabajo realizado con venecitas biseladas y un borde atermico de 2x1 pie.',
             'portada': "/images/trabajos-en-piscinas/pileta-revesitda-en-venecitas-celestes-con-patron-espiralado.png",
-            'modal':'/images/trabajos-en-piscinas/pileta-revesitda-en-venecitas-celestes-con-patron-espiralado-con-borde-atermico.png'
+            'modal':'/images/trabajos-en-piscinas/pileta-revesitda-en-venecitas-celestes-con-patron-espiralado-con-borde-atermico.png',
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Escaloneta',
+            'name': 'Colorado Spring, USA',
             'desc_corta':'Obra realizada con venecitas biseladas y un borde atermico de 12x4".',
             'portada': "/images/trabajos-en-piscinas/pileta-revesitda-en-venecitas-celestes-y-blancas.png",
-            'modal':'/images/trabajos-en-piscinas/pileta-revesitda-en-venecitas-celestes-con-detalles-en-azul.png'
+            'modal':'/images/trabajos-en-piscinas/pileta-revesitda-en-venecitas-celestes-con-detalles-en-azul.png',
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Celeste',
+            'name': 'Miami, USA',
             'desc_corta':'Trabajo realizado con cerecita y marmol',
             'portada':'/images/trabajos-en-piscinas/pileta-revestida-con-venecitas-azules.png',
-            'modal': "/images/trabajos-en-piscinas/pileta-revestida-con-venecitas-azules-y-borde-atermico.png"
+            'modal': "/images/trabajos-en-piscinas/pileta-revestida-con-venecitas-azules-y-borde-atermico.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Tropical',
+            'name': 'Orlando florida, USA',
             'desc_corta':'Trabajo realizado con Venecitas',
             'portada': "/images/trabajos-en-piscinas/pileta-revestida-con-venecitas-biseladas-azules.png",
-            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-biseladas-azules.png"
+            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-biseladas-azules.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Tropical',
+            'name': 'Miami, USA',
             'desc_corta':'Trabajo realizado con Venecitas',
             'portada': "/images/trabajos-en-piscinas/pileta-revestida-con-venecitas-violetas.png",
-            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-violetas.png"
+            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-violetas.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Tropical',
+            'name': 'Naples, USA',
             'desc_corta':'Trabajo realizado con Venecitas',
             'portada': "/images/trabajos-en-piscinas/piscina-con-cascada-revestida-con-venecitas-celestes.png",
-            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-celestes.png"
+            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-celestes.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Tropical',
+            'name': 'Colorado, USA',
             'desc_corta':'Trabajo realizado con Venecitas',
             'portada': "/images/trabajos-en-piscinas/piscina-con-jacuzzi-revestida-con-venecitas-celestes (1).png",
-            'modal': "/images/trabajos-en-piscinas/piscina-con-jacuzzi-revestida-con-venecitas-celestes.png"
+            'modal': "/images/trabajos-en-piscinas/piscina-con-jacuzzi-revestida-con-venecitas-celestes.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Tropical',
+            'name': 'Florida, USA',
             'desc_corta':'Trabajo realizado con Venecitas',
             'portada': "/images/trabajos-en-piscinas/piscina-recubierta-con-venecitas-azules (1).png",
-            'modal': "/images/trabajos-en-piscinas/pisicna-rectangular-revestida-con-venecitas-azules.png"
+            'modal': "/images/trabajos-en-piscinas/pisicna-rectangular-revestida-con-venecitas-azules.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Tropical',
+            'name': 'Miami, USA',
             'desc_corta':'Trabajo realizado con Venecitas',
             'portada': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-azules (1).png",
-            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-azules.png"
+            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-azules.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
-            'name': 'Tropical',
+            'name': 'Naples, USA',
             'desc_corta':'Trabajo realizado con Venecitas',
             'portada': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-azules-con-borde-atermico.png",
-            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-azules-con-borde-atermico-collage.png"
+            'modal': "/images/trabajos-en-piscinas/piscina-revestida-con-venecitas-azules-con-borde-atermico-collage.png",
+            'año': '2018',
+            'mes': 'OCT',
         }
     ],
     marmol: [
@@ -104,61 +136,81 @@ const dataMasTrabajos = {
             'name': 'Baño marmolado',
             'desc_corta':'Trabajo realizado con marmol',
             'portada': "/images/trabajos-en-marmol/baño-revestido-en-marmol-amarillento.png",
-            'cara': "/images/trabajos-en-marmol/baño-en-marmol-amarillento.png"
+            'cara': "/images/trabajos-en-marmol/baño-en-marmol-amarillento.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Baño porcelanato',
             'desc_corta':'Trabajo realizado con marmol y porcelanato',
             'portada': "/images/trabajos-en-marmol/baño-recubierto-en-marmol-negro-marmoleado.png",
-            'cara': "/images/trabajos-en-marmol/baños-revestido-en-marmol-negro-marmoleado.png"
+            'cara': "/images/trabajos-en-marmol/baños-revestido-en-marmol-negro-marmoleado.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Candelabro',
             'desc_corta':'Trabajo realizado con marmol',
             'portada': "/images/trabajos-en-marmol/baño-revestido-en-marmol-naranja-detallado.png",
-            'cara': "/images/trabajos-en-marmol/baño-revestido-en-marmol-naranja.png"
+            'cara': "/images/trabajos-en-marmol/baño-revestido-en-marmol-naranja.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Pisos exteriores en marmol',
             'desc_corta':'Exterior trabajado con marmol',
             'portada': "/images/trabajos-en-marmol/cortes-en-marmol-precisos-detallado.png",
-            'cara': "/images/trabajos-en-marmol/cortes-en-marmol-precisos.png"
+            'cara': "/images/trabajos-en-marmol/cortes-en-marmol-precisos.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Pisos interiores en marmol',
             'desc_corta':'Interior trabajado con marmol',
             'portada': "/images/trabajos-en-marmol/piso-de-marmol-amarillo-con-candelabro.png",
-            'cara': "/images/trabajos-en-marmol/piso-de-marmol-con-candelabro.png"
+            'cara': "/images/trabajos-en-marmol/piso-de-marmol-con-candelabro.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Cortes en marmol',
             'desc_corta':'Interior trabajado con marmol y cortes en forma',
             'portada': "/images/trabajos-en-marmol/piso-en-marmol-blanco-grisaseo.png",
-            'cara': "/images/trabajos-en-marmol/piso-en-marmol-blanco.png"
+            'cara': "/images/trabajos-en-marmol/piso-en-marmol-blanco.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Living en marmol',
             'desc_corta':'Trabajo realizado en interior trabajado con marmol',
             'portada': "images/marmol/instalacion de marmol.png",
-            'cara': "images/marmol/instalacion de marmol cara.png"
+            'cara': "images/marmol/instalacion de marmol cara.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Pisos de jardín en marmol',
             'desc_corta':'Trabajo realizado en exterior trabajado con marmol',
             'portada': "/images/trabajos-en-marmol/piso-exterior-revestido-en-marmol-gris-y-marron.png",
-            'cara': "/images/trabajos-en-marmol/piso-exterior-revestido-en-marmol.png"
+            'cara': "/images/trabajos-en-marmol/piso-exterior-revestido-en-marmol.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Pisos de jardín estilo roca ',
             'desc_corta':'Trabajo realizado en exterior trabajado con marmol',
             'portada': "/images/trabajos-en-marmol/piso-revestido-en-marmol-blanco-anaranjado.png",
-            'cara': "/images/trabajos-en-marmol/piso-recubierto-con-baldosas-de-marmol-blanco.png"
+            'cara': "/images/trabajos-en-marmol/piso-recubierto-con-baldosas-de-marmol-blanco.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Pisos interior liso',
             'desc_corta':'Interior trabajado en marmol',
             'portada': "/images/trabajos-en-marmol/pisos-revestidos-en-marmol-blanco-anaranjado.png",
-            'cara': "/images/trabajos-en-marmol/piso-recubierto-en-marmol-naranja.png"
+            'cara': "/images/trabajos-en-marmol/piso-recubierto-en-marmol-naranja.png",
+            'año': '2018',
+            'mes': 'OCT',
         }
     ],
     pisos: [
@@ -166,49 +218,65 @@ const dataMasTrabajos = {
             'name': 'Piso en porcelanato',
             'desc_corta':'Piso en interior trabajado en porcelanato',
             'portada': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-blanco-detallado.png",
-            'cara': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-blanco.png"
+            'cara': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-blanco.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Clicker nivelador',
             'desc_corta':'Trabajo en interior con sus correspondientes clicker para nivelacion',
             'portada': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-naranja-zom.png",
-            'cara': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-naranja.png"
+            'cara': "/images/trabajos-en-porcelanato/baño-revestido-en-porcelanato-naranja.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Porcelanato Atermico',
             'desc_corta':'Trabajo de porcelanato atermico en exterior',
             'portada': "/images/trabajos-en-porcelanato/fuente-revestida-en-porcelanato-negro-y-amarillo.png",
-            'cara': "/images/trabajos-en-porcelanato/fuente-revestida-en-porcelanato-negro.png"
+            'cara': "/images/trabajos-en-porcelanato/fuente-revestida-en-porcelanato-negro.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Porcelanato simil madera',
             'desc_corta':'Trabajo de porcelanato en proceso simil madera',
             'portada': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanato-con-patron-hecho-a-mano-cuadriculado.png",
-            'cara': "/images/trabajos-en-porcelanato/piso-con-patron-cuadriculado-en-porcelanato-de-6x6-y-12x6-pulgadas.png"
+            'cara': "/images/trabajos-en-porcelanato/piso-con-patron-cuadriculado-en-porcelanato-de-6x6-y-12x6-pulgadas.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Diseño interior en porcelanato',
             'desc_corta':'Trabajo interior con cortes en porcelanato',
             'portada': "/images/trabajos-en-porcelanato/piso-de-oficinas-revestido-en-porcelanato-gris.png",
-            'cara': "/images/trabajos-en-porcelanato/piso-de-oficina-revestido-en-porcelanato-gris.png"
+            'cara': "/images/trabajos-en-porcelanato/piso-de-oficina-revestido-en-porcelanato-gris.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Porcelanato Atermico Exterior',
             'desc_corta':'Trabajo de porcelanato atermico en exterior',
             'portada': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanato-simil-madera-oscuro.png",
-            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-simil-madera-oscuro.png"
+            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-simil-madera-oscuro.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Pisos porcelanato espejo',
             'desc_corta':'Trabajo de porcelanato interior con acabado brillante',
             'portada': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanto-gris-acabado.png",
-            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanto-gris.png"
+            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-porcelanto-gris.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Porcelanatos varios',
             'desc_corta':'Trabajos varios en porcelanato con spin niveladores',
             'portada': "/images/trabajos-en-porcelanato/pisos-revestido-en-porcelanato-simil-madera.png",
-            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-simil-madera.png"
+            'cara': "/images/trabajos-en-porcelanato/piso-revestido-en-simil-madera.png",
+            'año': '2018',
+            'mes': 'OCT',
         }
     ],
     otros: [
@@ -216,13 +284,17 @@ const dataMasTrabajos = {
             'name': 'Baldosas de Roca',
             'desc_corta':'Trabajos varios en porcelanato con spin niveladores',
             'portada': "/images/trabajos-extras/pisos-recubiertos-en-baldosas-de-roca.png",
-            'cara': "/images/trabajos-extras/pisos-revestidos-en-roca.png"
+            'cara': "/images/trabajos-extras/pisos-revestidos-en-roca.png",
+            'año': '2018',
+            'mes': 'OCT',
         },
         {
             'name': 'Material atermico',
             'desc_corta':'Trabajos varios en porcelanato con spin niveladores',
             'portada': "/images/trabajos-extras/pisos-escaleras-balcones-columnas-de-material-atermico.png",
-            'cara': "/images/trabajos-extras/revestimientos-de-material-atermico.png"
+            'cara': "/images/trabajos-extras/revestimientos-de-material-atermico.png",
+            'año': '2018',
+            'mes': 'OCT',
         }
     ]
 

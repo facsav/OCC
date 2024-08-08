@@ -1,4 +1,4 @@
-const CardAnimada = ({ img, titulo, texto, ruta, color, banner }) => {
+const CardAnimada = ({ img, titulo, texto, ruta, color, banner, año, mes }) => {
     const estiloTexto1 = {
       color: color,
       fontSize: '21px',
@@ -45,8 +45,8 @@ const CardAnimada = ({ img, titulo, texto, ruta, color, banner }) => {
             <h4 style={estiloTexto2}>{texto}</h4>
           </div>
           <span style={styleBanner}>
-            <p style={styleBannerP}>2024</p>
-            <p style={styleBannerP}>OCT</p>
+            <p style={styleBannerP}>{año}</p>
+            <p style={styleBannerP}>{mes}</p>
           </span>
         </div>
       // </a>

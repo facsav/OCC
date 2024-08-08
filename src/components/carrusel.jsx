@@ -6,7 +6,7 @@ import carrousel from '../styles/Carrousel.css'
 
 export const Carrusel = () => {
   //flechitas
-    const [direction, setDirection] = useState('right'); 
+    const [direction, setDirection] = useState('left'); 
     const toggleDirection = () => {
       // Cambiar la dirección al hacer clic en el botón
       setDirection(direction === 'right' ? 'left' : 'right');
@@ -47,19 +47,21 @@ export const Carrusel = () => {
         <>
         <div className="scroller" data-direction={direction} data-speed="slow">
         <div className="scroller__inner">
-            <img src='/images/Argentineta/portada.jpeg' alt=""/>
-            <img src='/images/Fuente/fuente 2.jpeg' alt=""/>
-            <img src='/images/Interiores/Portada.jpg' alt=""/>
-            <img src='/images/Finlandesa/adentro.jpeg' alt=""/>
-            <img src='/images/Escaloneta/detalle 2.jpeg' alt=""/>
-            <img src='/images/Detallado/proceso.jpg' alt=""/>
+            <img src='/images/carrusel-home/pileta-revestida-en-venecitas-biseladas.png' alt="Piscina revestida con venecitas"/>
+            <img src='/images/carrusel-home/piso-revestido-en-marmol-blanco.png' alt="Pisos revestidos en mármol"/>
+            <img src='/images/carrusel-home/venecitas-biseladas.png' alt="Piscina revestida con venecitas"/>
+            <img src='/images/carrusel-home/piso-revestido-en-porcelanato-gris.png' alt="Pisos revestidos en porcelanato"/>
+            <img src='/images/carrusel-home/piscina-ovalada.png' alt="Piscina revestida con venecitas"/>
+            <img src='/images/carrusel-home/pileta-con-cascada-revestida-en-venecitas.png' alt="Piscina revestida con venecitas"/>
+            <img src='/images/carrusel-home/piso-revestido-en-simil-madera.png' alt="Pisos revestido en simil madera oscuro"/>
+            <img src='/images/carrusel-home/fuente-revestida-en-marmol-y-venecitas.png' alt="Fuente revestida con venecitas"/>
+            <img src='/images/carrusel-home/pileta-con-jacuzzi-estilo-tropical.png' alt="Piscina revestida con venecitas"/>
+            <img src='/images/carrusel-home/baño-revestido-en-marmol-marmoleado-marron.png' alt="Baños revestidos en mármol"/>
+            <img src='/images/carrusel-home/piscina-con-jacuzzi-revestida-con-venecitas-celestes.png' alt="Piscina revestida con venecitas"/>
+            <img src='/images/carrusel-home/piso-exterior-revestido-en-marmol.png' alt="Pisos exteriores en mármol"/>
+            <img src='/images/carrusel-home/pileta-con-venecitas.png' alt="Piscina revestida con venecitas"/>
         </div>
         </div>
-         {/* Flecha izquierda */}
-        <button onClick={toggleDirection} className="carrusel-button" id="left-button">{"<"}</button>
-
-        {/* Flecha derecha */}
-        <button onClick={toggleDirection} className="carrusel-button" id="right-button">{">"}</button>
   </>
     );
   };
