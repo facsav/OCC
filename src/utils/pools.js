@@ -5,7 +5,7 @@ const data = {
         {
             'name': 'Colocación de venecitas.',
             'desc_corta':'Expertos colocadores de venecitas',
-            'portada': '/images/Piscinas/preparacion de pileta para colocar venecitas.jpg',
+            'portada': '/images/Piscinas/preparacion de pileta para colocar venecitas.webp',
             'caracteristicas':
                 ['Aunque desde OCC recomendemos proveedores o marcas, contamos con el conocimiento y experiencia para trabajar con los materiales de su preferencia.',
                 'Tanto como para materiales de adherencia o tomado de juntas, como el revestimiento en general. Podria ser por ejemplo piedra Bali en vez de venecitas, piedra volcanica, mármol, etc.'
@@ -35,11 +35,11 @@ const data = {
             'higienizacion':
                 ['Para terminar, en caso de ser necesario se higieniza la piscina con una mezcla de 80/20, agua – ácido muriático.'],
             'demas_fotos':
-                ['/images/Piscinas/preparacion de pileta para colocar venecitas.jpg','/images/Piscinas/pileta revestida con venecitas.png','/images/Piscinas/colocadorDeVenecitas.png',
-                '/images/Piscinas/piletaEnVenecitas.png','/images/Piscinas/colocacionDeVenecitas.png','/images/Piscinas/pileta recubierta en venecitas.png',
-                '/images/Piscinas/instalador de venecitas.png','/images/Piscinas/pileta con cascada.png','/images/Piscinas/como colocar venecitas.png',
-                '/images/Piscinas/pileta con jacuzzi + fuente marmol venecitas.png',
-                '/images/Piscinas/piscina con jacuzzi.png','/images/Piscinas/jacuzzi revestido en pileta.png','/images/Piscinas/nivelacion de venecitas en piletas.png',
+                ['/images/Piscinas/preparacion de pileta para colocar venecitas.webp','/images/Piscinas/pileta revestida con venecitas.webp','/images/Piscinas/colocadorDeVenecitas.webp',
+                '/images/Piscinas/piletaEnVenecitas.webp','/images/Piscinas/colocacionDeVenecitas.webp','/images/Piscinas/pileta recubierta en venecitas.webp',
+                '/images/Piscinas/instalador de venecitas.webp','/images/Piscinas/pileta con cascada.webp','/images/Piscinas/como colocar venecitas.webp',
+                '/images/Piscinas/pileta con jacuzzi + fuente marmol venecitas.webp',
+                '/images/Piscinas/piscina con jacuzzi.webp','/images/Piscinas/jacuzzi revestido en pileta.webp','/images/Piscinas/nivelacion de venecitas en piletas.webp',
                 ],
             'nivelacion':
                 ['La nivelación debe realizarse al momento de hacerse el revoque. En caso de que lo desee se puede realizar una inspección con un ajuste psosterior, nivelando con masilla o lijando.',
@@ -49,7 +49,7 @@ const data = {
         {
             'name': 'Colocación de porcelanato y cerámica.',
             'desc_corta':'Así recubrimos pisos y paredes',
-            'portada': '/images/pisos/como preparar el piso para porcelanato.png',
+            'portada': '/images/pisos/como preparar el piso para porcelanato.webp',
             'caracteristicas':
                 ['Aunque desde OCC recomendemos proveedores o marcas, contamos con el conocimiento y experiencia para trabajar con los materiales de su preferencia.',
                 'Todas las herramientas que utilizamos son de primera calidad, importadas desde los Estados Unidos, para asegurar instalaciones con mayor fiabilidad.'
@@ -83,11 +83,11 @@ const data = {
                 'En caso de ser necesario se colocan planchas de fenólico de 6mm dando asi una mayor protección ante cualquier incidente.'
                 ],
             'demas_fotos':
-                ['/images/pisos/como preparar el piso para porcelanato.png','/images/pisos/cortes en porcelanato.png','/images/pisos/porcelanato simil madera.png',
-                '/images/pisos/colocacion porcelanato.png','/images/pisos/pisos de porcelanato.png','/images/pisos/casas con porcelanato.png',
-                '/images/pisos/colocacion de material atermico.png','/images/pisos/tomado de juntas.png','/images/pisos/pisos de material atermico.png',
-                '/images/pisos/instalacion de porcelanato.png','/images/pisos/diseños con porcelanato.png','/images/pisos/spin nivelador.png',
-                '/images/pisos}/clicker nivelador.png',
+                ['/images/pisos/como preparar el piso para porcelanato.webp','/images/pisos/cortes en porcelanato.webp','/images/pisos/porcelanato simil madera.webp',
+                '/images/pisos/colocacion porcelanato.webp','/images/pisos/pisos de porcelanato.webp','/images/pisos/casas con porcelanato.webp',
+                '/images/pisos/colocacion de material atermico.webp','/images/pisos/tomado de juntas.webp','/images/pisos/pisos de material atermico.webp',
+                '/images/pisos/instalacion de porcelanato.webp','/images/pisos/diseños con porcelanato.webp','/images/pisos/spin nivelador.webp',
+                '/images/pisos/clicker nivelador.webp',
                 ],
             'nivelacion':
                 ['La nivelación se realiza previamente en la carpeta sobre la cual colocaremos el revestimiento.',
@@ -98,7 +98,7 @@ const data = {
         {
             'name': 'Colocación de mármol',
             'desc_corta':'¿Como cuidamos el mármol?',       
-            'portada': '/images/marmol/carpeta para marmol.png',
+            'portada': '/images/marmol/carpeta para marmol.webp',
             'caracteristicas':
                 ['Aunque desde OCC recomendemos proveedores o marcas, contamos con el conocimiento y experiencia para trabajar con los materiales de su preferencia.',
                 'Todas las herramientas que utilizamos son de primera calidad, importadas desde los Estados Unidos, para asegurar instalaciones con mayor fiabilidad.'
@@ -133,12 +133,12 @@ const data = {
                 'En caso de ser necesario se colocan planchas de fenólico de 6mm dando asi una mayor protección ante cualquier incidente.'
                 ],
             'demas_fotos':
-                ['/images/marmol/carpeta para marmol.png','/images/marmol/piso de roca.png','/images/marmol/colocador-de-marmol.png',
-                '/images/marmol/pisos de marmol.png','/images/marmol/cortes en marmol.png',
-                '/images/marmol/casas en marmol.png','/images/marmol/instalacion de marmol.png',
-                '/images/marmol/nivelacion con cemento de pisos de marmol.png','/images/marmol/nivelacion de pisos de marmol.png',
-                '/images/marmol/pisos exteriores en marmol.png','/images/marmol/proteccion de pisos.png','/images/marmol/baños de marmol negro.png',
-                '/images/marmol/baños de marmol y porcelanato.png'
+                ['/images/marmol/carpeta para marmol.webp','/images/marmol/piso de roca.webp','/images/marmol/colocador-de-marmol.webp',
+                '/images/marmol/pisos de marmol.webp','/images/marmol/cortes en marmol.webp',
+                '/images/marmol/casas en marmol.webp','/images/marmol/instalacion de marmol.webp',
+                '/images/marmol/nivelacion con cemento de pisos de marmol.webp','/images/marmol/nivelacion de pisos de marmol.webp',
+                '/images/marmol/pisos exteriores en marmol.webp','/images/marmol/proteccion de pisos.webp','/images/marmol/baños de marmol negro.webp',
+                '/images/marmol/baños de marmol y porcelanato.webp'
                 ],
             'nivelacion':
                 ['La nivelación se realiza al momento de colocar la cal (o cemento en caso de que lo desee).',
@@ -149,7 +149,7 @@ const data = {
         {
             'name': 'Baños',
             'desc_corta':'Remodelación completa de baños',
-            'portada': "/images/Interiores/portada 2.2.jpg",
+            'portada': "/images/Interiores/portada 2.2.webp",
             'caracteristicas':
                 ['La nivelación se realiza llevando la altura al nivel del exterior, utilizando tanto nivel manual, como láser para mayor precisión.',
                 'Aunque desde OCC recomendemos proveedores o marcas, contamos con el conocimiento y experiencia para trabajar con los materiales de su preferencia.',
@@ -183,9 +183,9 @@ const data = {
                 'En caso de ser necesario se colocan planchas de fenólico de 6mm dando asi una mayor protección ante cualquier incidente.'
                 ],
             'demas_fotos':
-                ["/images/Interior 2/barrido.jpg","/images/Interior 2/sellado.jpg","/images/Interior 3/inicio.jpg","/images/Interiores/origenes.jpg",
-                "/images/Interiores/proteccion.jpg","/images/Interior 2/procedimiento (13).jpg","/images/Detallado/proceso.jpg","/images/Interior 2/corte.png",
-                "/images/Interiores/portada 2.2.jpg",
+                ["/images/Interior 2/barrido.webp","/images/Interior 2/sellado.webp","/images/Interior 3/inicio.webp","/images/Interiores/origenes.webp",
+                "/images/Interiores/proteccion.webp","/images/Interior 2/procedimiento (13).webp","/images/Detallado/proceso.webp","/images/Interior 2/corte.webp",
+                "/images/Interiores/portada 2.2.webp",
                 ]
         }
     ]
