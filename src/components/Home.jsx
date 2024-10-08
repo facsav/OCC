@@ -5,6 +5,7 @@ import { ContactUs } from "./ContactUs";
 import React, { useState, useEffect } from 'react';
 import home from '../styles/Home.css'
 import {Helmet} from 'react-helmet';
+import { useNavigate } from 'react-router-dom';
 
 if (DarkMode){
     console.log("esta activo")
@@ -14,24 +15,23 @@ if (DarkMode){
 export function Home (){
     const [backgroundPosition, setBackgroundPosition] = useState(0);
      const [showFirstImage, setShowFirstImage] = useState(true);
+     const navigate  = useNavigate();
+
+     const redirigirTrabajos = () => {
+      navigate ('/NuestrosTrabajos'); // Redirige a la ruta /about
+    };
+
+    // useEffect(() => {
+    //   const interval = setInterval(() => {
+    //     // Alternar entre las dos imágenes
+    //     setShowFirstImage((prevShowFirstImage) => !prevShowFirstImage);
+    //   }, 5000);
   
-    useEffect(() => {
-      const interval = setInterval(() => {
-        // Alternar entre las dos imágenes
-        setShowFirstImage((prevShowFirstImage) => !prevShowFirstImage);
-      }, 5000);
-  
-      return () => clearInterval(interval); // Limpiar el intervalo al desmontar el componente
-    }, []);
+    //   return () => clearInterval(interval); // Limpiar el intervalo al desmontar el componente
+    // }, []);
   
     const sectionStyle = {
       backgroundImage: `url(${showFirstImage ? assets.homeBanner : assets.homeBanner2})`,
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-      backgroundColor: 'var(--background-color)',
-      paddingTop: '6rem',
-      height: '80vh',
       color: 'var(--text-color)',
       transition: 'background-image 1s ease-in-out', // Añadir transición
     };
@@ -65,21 +65,28 @@ export function Home (){
     </Helmet>
         <div style={{height:'8vh'}} ></div>
         <section id="home" style={sectionStyle}>
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col">
-            <h1 className="d-md-none">
-              Experiencia
-              <br />
-              internacional
-            </h1>
-            <h3 className="d-md-none">en trabajos de precisión</h3>
+          <div className="container h-100">
+            <div className="row align-items-center h-100">
+              <div className="col-sm-12 col-md-6 justify-content-center">
+                <div id="cont-banner">
+                  <h1>Colocación de <br /> revestimientos</h1>
+                  <p>Expertos en la instalación de revestimientos de alta calidad.
+                     Transformamos cualquier espacio con mármol, porcelanato, venecitas y más,
+                      ofreciendo soluciones duraderas para proyectos residenciales y comerciales.
+                  </p>
+                  <button onClick={redirigirTrabajos}>Conocer Más</button>
+                  <button>¡Consultanos!</button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <img src={assets.homeBannerPhone} alt="" />
+          <img src={assets.homeBannerPhone} alt="" />
     </section>
-
+    <div className="caracteristicasOcc">
+      <div><img src="/images/reloj.webp" alt="lupa" />Máxima eficiencia</div>
+      <div><img src="/images/ondas.webp" alt="ondas" />Acabados más suaves</div>
+      <div><img src="/images/lupa.webp" alt="reloj" />Especializados en el detalle</div>
+    </div>
         <section id="home2">
             <div className="container">
                 <div className="row">
@@ -101,6 +108,128 @@ export function Home (){
         </section>
         <section id="carrousel-home">
             <Carrusel/>
+        </section>
+        <section id="home3">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6" id="porque">
+                <h2>¿Porque revestir tu piscina?</h2>
+                <p>Revestir las superficies de tu hogar no solo añade un toque moderno y elegante,
+                     sino que también protege tus paredes y pisos contra el desgaste.
+                      Con la elección de materiales adecuados, puedes transformar cualquier espacio
+                       en uno funcional y visualmente atractivo.</p>
+                <ul>
+                <li>
+                    <h4>Durabilidad:</h4>
+                    <p>
+                    Protege las paredes de tu piscina contra el desgaste y la corrosión.
+                    </p>
+                    <strong>
+                    <b>Durabilidad:</b> Protege contra el desgaste y la corrosión.  
+                    </strong>  
+                  </li>
+                  <li>
+                    <h4>Fácil mantenimiento:</h4>
+                    <p>
+                    Superficies más lisas que facilitan la limpieza y reducen la acumulación de suciedad.
+                    </p>
+                    <strong>
+                    <b>Fácil mantenimiento:</b> Superficies más lisas, menos suciedad, limpieza más facil.
+                    </strong>  
+                  </li>
+                  <li>
+                    <h4>Estética:</h4>
+                    <p>
+                    Mejora visualmente tu espacio, haciéndolo más atractivo y moderno.                   
+                    </p>
+                    <strong>
+                      <b>Estética:</b> Espacios más atractivos y modernos.
+                    </strong>  
+                  </li>
+                  <li>
+                    <h4>Ahorro en costos:</h4>
+                    <p>
+                    Evita reparaciones mayores al prevenir daños estructurales.
+                    </p>  
+                    <strong>
+                    <b>Ahorro en costos:</b> Evita reparaciones por daños estructurales.
+                    </strong>
+                  </li>
+                  <li>
+                    <h4>Seguridad:</h4>
+                    <p>
+                    Superficies antideslizantes que minimizan riesgos de accidentes.
+                    </p>  
+                    <strong>
+                      <b>Seguridad:</b> Superficies antideslizantes, menos accidentes.
+                    </strong>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-12 col-md-6">
+                <img src="/images/Piscinas/piscina con jacuzzi.webp" alt="" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12 col-md-6">
+                <h2>¿Porque revestir tu hogar?</h2>
+                <p>Revestir las superficies de tu hogar no solo añade un toque moderno y elegante,
+                     sino que también protege tus paredes y pisos contra el desgaste.
+                      Con la elección de materiales adecuados, puedes transformar cualquier espacio
+                       en uno funcional y visualmente atractivo.</p>
+                <ul>
+                <li>
+                    <h4>Protección:</h4>
+                    <p>
+                    Protege tus superficies de la humedad, el desgaste y otros daños.
+                    </p>  
+                    <strong>
+                      <b>Protección:</b> Protege contra la humedad, el desgaste y otros daños.
+                    </strong>
+                  </li>
+                  <li>
+                    <h4>Estética renovada:</h4>
+                    <p>
+                    Mejora el aspecto de tus interiores con acabados de alta calidad.
+                    </p>  
+                    <strong>
+                      <b>Estética renovada:</b> Mejora tus interiores con acabados de alta calidad.
+                    </strong>
+                  </li>
+                  <li>
+                    <h4>Durabilidad:</h4>
+                    <p>
+                    Aumenta la vida útil de las paredes y pisos.                    
+                    </p>  
+                    <strong>
+                      <b>Durabilidad:</b> Aumenta la vida útil de las paredes y pisos. 
+                    </strong>
+                  </li>
+                  <li>
+                    <h4>Fácil limpieza:</h4>
+                    <p>
+                    Superficies más resistentes a manchas y fáciles de mantener.
+                    </p>  
+                    <strong>
+                      <b>Fácil limpieza:</b> Superficies menos absorbentes y fáciles de mantener.
+                    </strong>
+                  </li>
+                  <li>
+                    <h4>Aumento del valor:</h4>
+                    <p>
+                    Incrementa el valor de tu hogar con revestimientos de materiales duraderos y atractivos.
+                    </p> 
+                    <strong>
+                      <b>Aumento del valor:</b> Con materiales para revestir duraderos y atractivos.
+                    </strong> 
+                  </li>
+                </ul>
+              </div>
+              <div className="col-12 col-md-6">
+                <img src="/images/trabajos-en-porcelanato/piso-revestido-en-porcelanto-gris-acabado.webp" alt="" />
+              </div>
+            </div>
+          </div>
         </section>
         <section id="contact">
             <div className="container">

@@ -61,7 +61,12 @@
         transform: translate(calc(-50% - 0.5rem));
     }
 }
-  
+
+@media (max-width: 991px){
+    .scroller[data-animated="true"] {
+        mask:none;
+    }
+}
 @media(max-width:482px){
     #carrousel-home{
         margin-top: 5em;
