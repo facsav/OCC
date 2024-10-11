@@ -17,7 +17,24 @@ nav{
     font-weight: 400;
     color:var(--darkBlue);
   }
-  
+  /* .nav-link:hover{
+    background: radial-gradient(#05435e4c 15%, transparent 80%);
+    background: red;
+    animation: pintar 2s forwards ease;
+    text-shadow: 0 0 .7em #05445E;
+    border-radius: 1em;
+    color: #75E6DA;
+  } */
+  /* @keyframes pintar{
+    0%{
+      background: transparent;
+    }
+    0%{
+      background: red;
+    }
+  } */
+
+
   .navbar-nav{
     height: auto;
     width: 100%;

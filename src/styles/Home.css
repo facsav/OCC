@@ -31,10 +31,33 @@ p{
         white-space: pre-line;
         font-size: 75px;
         font-weight: 800;
+        line-height: 1;
     }
     p{
         font-size: 20px;
+        line-height: 1.2;
+        font-weight: 520;
     }
+}
+#cont-banner h1{
+    transform: translateX(-100vw);
+    animation: deslizamientoIzq 1.3s forwards ease-out;
+    animation-delay: 200ms; 
+}
+#cont-banner p{
+    transform: translateX(-100vw);
+    animation: deslizamientoIzq 1.7s forwards ease-out;
+    animation-delay: .8s;
+}
+#cont-banner button:nth-of-type(1){
+    transform: translateY(-100vh);
+    animation: deslizamientoAba 1.3s forwards ease-out;
+    animation-delay: .9s;
+}
+#cont-banner button:nth-of-type(2){
+    transform: translateY(-100vh);
+    animation: deslizamientoAba .9s forwards ease-out;
+    animation-delay: 1.3s;
 }
 #cont-banner button{
     margin: 0 1em;
@@ -385,5 +408,56 @@ ul{
     }
     #boton2{
         margin-top: auto;
+    }
+}
+
+/* --------------------------------------------------------- Animation ---------------------------------------------------------  */
+#cont-banner h1{
+    transform: translateX(-100vw);
+    animation: deslizamientoIzq 1.3s forwards ease-out;
+    animation-delay: 200ms; 
+}
+#cont-banner p{
+    transform: translateX(-100vw);
+    animation: deslizamientoIzq 1.7s forwards ease-out;
+    animation-delay: .8s;
+}
+#cont-banner button:nth-of-type(1){
+    transform: translateY(-100vh);
+    animation: deslizamientoAba 1.3s forwards ease-out;
+    animation-delay: .9s;
+}
+#cont-banner button:nth-of-type(2){
+    transform: translateY(-100vh);
+    animation: deslizamientoAba .9s forwards ease-out;
+    animation-delay: 1.3s;
+}
+
+@keyframes deslizamientoIzq {
+    0%{
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(-25vw);
+        opacity: .1;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes deslizamientoAba {
+    0%{
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    25%{
+        transform: translateY(25vh);
+        opacity: .1;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
     }
 }
