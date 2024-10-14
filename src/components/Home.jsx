@@ -2,7 +2,7 @@ import assets from "../assets/assets";
 import DarkMode from "./DarkMode";
 import { Carrusel } from "./carrusel";
 import { ContactUs } from "./ContactUs";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import home from '../styles/Home.css'
 import {Helmet} from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
@@ -20,7 +20,44 @@ export function Home (){
      const redirigirTrabajos = () => {
       navigate ('/NuestrosTrabajos'); // Redirige a la ruta /about
     };
+    const ulRef = useRef(null);
+    const ulRef2 = useRef(null);
 
+    useEffect(() => {
+      // Configurar el Intersection Observer
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // Añade la clase 'animar' cuando la sección esté visible
+              entry.target.classList.add('animar');
+            }
+          });
+        },
+        {
+          threshold: 0.3, // Se activa cuando el 40% de la sección es visible
+        }
+      );
+  
+      // Observar el <ul>
+      const currentUl = ulRef.current;
+      if (currentUl) {
+        observer.observe(currentUl);
+      }
+      const currentUl2 = ulRef2.current;
+      if (currentUl2) {
+        observer.observe(currentUl2);
+      }
+      // Limpiar el observer al desmontar el componente
+      return () => {
+        if (currentUl) {
+          observer.unobserve(currentUl);
+        }
+        if (currentUl2) {
+          observer.unobserve(currentUl2);
+        }
+      };
+    }, []);
     // useEffect(() => {
     //   const interval = setInterval(() => {
     //     // Alternar entre las dos imágenes
@@ -35,6 +72,7 @@ export function Home (){
       color: 'var(--text-color)',
       transition: 'background-image 1s ease-in-out', // Añadir transición
     };
+    
     // Seguimiento publicidad
     useEffect(() => {
       // Agrega aquí el código del script del Google Tag Manager
@@ -61,7 +99,7 @@ export function Home (){
       name="description"
       content="OCC Revestimientos: Expertos en instalación de mármol, porcelanato y venecitas. Calidad y precisión en cada proyecto. Más de 13 años de experiencia transformando espacios con acabados duraderos y estéticos."
       />
-      <title>OCC Colocación de revestimientos</title>
+      <title>Instalaciones OCC </title>
     </Helmet>
         <div style={{height:'8vh'}} ></div>
         <section id="home" style={sectionStyle}>
@@ -69,8 +107,8 @@ export function Home (){
             <div className="row align-items-center h-100">
               <div className="col-sm-12 col-md-6 justify-content-center">
                 <div id="cont-banner">
-                  <h1>Colocación de <br /> revestimientos</h1>
-                  <p>Expertos en la instalación de revestimientos de alta calidad.
+                  <h1>Instalación de <br /> revestimientos</h1>
+                  <p>Expertos en la instalaciónes de revestimientos de alta calidad.
                      Transformamos cualquier espacio con mármol, porcelanato, venecitas y más,
                       ofreciendo soluciones duraderas para proyectos residenciales y comerciales.
                   </p>
@@ -94,10 +132,11 @@ export function Home (){
                         <h2>¿A que nos dedicamos?</h2>
                         <div>
                             <p>
-                            En OCC, nos especializamos en la <b>perfección de revestimientos</b>, abarcando una amplia gama de superficies que van desde <b>paredes y suelos</b>, tanto internos como externos de hogares, hasta sofisticados revestimientos para <b>piscinas</b>. Nuestra destreza se refleja en la aplicación de <b>diversos métodos de adherencia</b>, como pegamento epoxi, Klaukol, cal entre otros, siempre garantizando la máxima durabilidad.
-                            Trabajamos con el material de su preferencia, adaptándonos hábilmente al entorno en el que realizaremos la instalación. Nos enorgullece destacar la <b>precisión y finura</b> excepcionales de nuestros acabados.
-                            En OCC, <b>no existen límites</b> cuando se trata de revestir superficies. Ya sea que esté planificando una renovación en su hogar o que sea un arquitecto buscando pericia en revestimientos, estamos aquí para superar sus expectativas. Contáctenos para cualquier consulta; en OCC, la consigna es clara: <b>¡no hay superficie que no pueda ser revestida!</b>
-
+                            En OCC nos especializamos en la <b>instalación de revestimientos</b> de alta calidad, transformando espacios y llevando cada proyecto a su <b>máximo potencial. </b> <br />
+                            Desde la <b>modernización de interiores</b>, pasando por <b>exteriores</b> con un estilo rústico, hasta zonas de alto tráfico como <b>veredas</b> u <b>oficinas</b>, sabemos adaptarnos a cualquier diseño que desees para tu proyecto. <br />
+                            Nos mantenemos a la <b>vanguardia</b> de las tendencias y <b>técnicas más innovadoras</b>, trabajando con materiales delicados como <b>mármol</b> o <b>porcelanato</b>, hasta opciones más comunes como el <b>piso flotante</b>. <br />
+                            En OCC, <b>cada detalle cuenta</b>. Si buscas calidad, innovación y un equipo comprometido, <b>Instalaciónes OCC</b> es tu mejor opción. <br />
+                            <b>¡Si una superficie existe, en OCC la revestimos!</b>
                             </p>
                             <a className="btn btn-primary" href="/nuestrosTrabajos">Nuestros Trabajos</a>
                         </div>
@@ -118,7 +157,7 @@ export function Home (){
                      sino que también protege tus paredes y pisos contra el desgaste.
                       Con la elección de materiales adecuados, puedes transformar cualquier espacio
                        en uno funcional y visualmente atractivo.</p>
-                <ul>
+                <ul ref={ulRef}>
                 <li>
                     <h4>Durabilidad:</h4>
                     <p>
@@ -167,6 +206,8 @@ export function Home (){
                 </ul>
               </div>
               <div className="col-12 col-md-6">
+                {/* <div className="img-home-fixed">
+                </div> */}
                 <img src="/images/Piscinas/piscina con jacuzzi.webp" alt="" />
               </div>
             </div>
@@ -177,7 +218,7 @@ export function Home (){
                      sino que también protege tus paredes y pisos contra el desgaste.
                       Con la elección de materiales adecuados, puedes transformar cualquier espacio
                        en uno funcional y visualmente atractivo.</p>
-                <ul>
+                <ul  ref={ulRef2}>
                 <li>
                     <h4>Protección:</h4>
                     <p>
@@ -226,6 +267,8 @@ export function Home (){
                 </ul>
               </div>
               <div className="col-12 col-md-6">
+                {/* <div className="img-home-fixed2">
+                </div> */}
                 <img src="/images/trabajos-en-porcelanato/piso-revestido-en-porcelanto-gris-acabado.webp" alt="" />
               </div>
             </div>
