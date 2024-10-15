@@ -1,39 +1,24 @@
 /* -------------------------------------*/
 /* -                                   -*/
-/* -              FOOTER               -*/
+/* -              Nav                  -*/
 /* -                                   -*/
 /* ------------------------------------ */
 
 nav{
-    box-shadow: 0px 4px 13.8px 0px rgba(0, 0, 0, 0.25);
     z-index: 500;
     position: fixed !important;
     width: 100%;
+    animation: animationColor  ease forwards;
+    animation-timeline: scroll();
+    animation-range: 0 80vh;
   }
-  
+
   .nav-link{
     font-size: 20px;
     font-family:Inter;
     font-weight: 400;
     color:var(--darkBlue);
   }
-  /* .nav-link:hover{
-    background: radial-gradient(#05435e4c 15%, transparent 80%);
-    background: red;
-    animation: pintar 2s forwards ease;
-    text-shadow: 0 0 .7em #05445E;
-    border-radius: 1em;
-    color: #75E6DA;
-  } */
-  /* @keyframes pintar{
-    0%{
-      background: transparent;
-    }
-    0%{
-      background: red;
-    }
-  } */
-
 
   .navbar-nav{
     height: auto;
@@ -49,10 +34,52 @@ nav{
   
   }
 
-
 @media (max-width: 991px) {
   #modalTamaño{
     max-width: 100%;
   }  
 }
   
+
+@keyframes animationColor{
+  0%{
+    background: transparent !important;
+    box-shadow: 0px 4px 13.8px 0px rgba(0, 0, 0, 0);
+  }
+  100%{
+    background: rgb(248, 249, 250);
+    box-shadow: 0px 4px 13.8px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+@keyframes deslizamientoIzqCorto {
+  0%{
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+nav li{
+  animation: deslizamientoIzqCorto 1.5s ease-out forwards;
+  opacity: 0;
+}
+nav li:nth-of-type(4){
+  animation-delay: .3s;
+}
+nav li:nth-of-type(3){
+  animation-delay: .6s;
+}
+nav li:nth-of-type(2){
+  animation-delay: .9s;
+}
+nav li:nth-of-type(1){
+  animation-delay: 1.2s;
+}
+@media(max-width:991px){
+  nav{
+    background: rgb(248, 249, 250);
+    box-shadow: 0px 4px 13.8px 0px rgba(0, 0, 0, 0.25);
+  }
+}

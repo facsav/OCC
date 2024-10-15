@@ -101,7 +101,7 @@ export function Home (){
       />
       <title>Instalaciones OCC </title>
     </Helmet>
-        <div style={{height:'8vh'}} ></div>
+        {/* <div style={{height:'8vh'}} ></div> */}
         <section id="home" style={sectionStyle}>
           <div className="container h-100">
             <div className="row align-items-center h-100">
