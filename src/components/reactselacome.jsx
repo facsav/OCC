@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import './../styles/ReproductorVideos.css';
 
 export default function Reactselacome({video}) { // Cambia export function Videos() por export default function Videos()
   const videoRef = useRef(null);
