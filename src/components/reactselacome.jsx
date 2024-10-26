@@ -29,7 +29,7 @@ export default function Reactselacome({video}) { // Cambia export function Video
         onClick={togglePlayPause}
        className="portada-video"
       >
-        <source src={video} type="video/mp4" />
+        <source src={video} type="video/webM" />
         Your browser does not support the video tag.
       </video>
       <button
