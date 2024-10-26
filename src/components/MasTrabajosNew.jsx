@@ -21,7 +21,7 @@ export function MasTrabajosNew() {
                     <div className="video-grid">
                         <div className='cont-rep'>
                             <div className="video">
-                            <ReproductorVideos video={'/videos/Baños.webM'} id="RepVideo" />
+                            <ReproductorVideos video={'/videos/Baños.webm'} id="RepVideo" />
                             </div>
                             <div className="descripcion-video">
                                 <h4>Baño en Porcelanato:</h4>
@@ -36,7 +36,7 @@ export function MasTrabajosNew() {
                         </div>
                         <div className='cont-rep'>
                             <div className="video">
-                            <ReproductorVideos video={'/videos/Fuente.webM'} id="RepVideo" />
+                            <ReproductorVideos video={'/videos/Fuente.webm'} id="RepVideo" />
                             </div>
                             <div className="descripcion-video">
                                 <h4>Fuente:</h4>
@@ -52,7 +52,7 @@ export function MasTrabajosNew() {
                         </div>
                         <div className='cont-rep'>
                             <div className="video">
-                            <ReproductorVideos video={'/videos/Baño marmol.webM'} id="RepVideo" />
+                            <ReproductorVideos video={'/videos/Baño marmol.webm'} id="RepVideo" />
                             </div>
                             <div className="descripcion-video">
                                 <h4>Baño mármoleado:</h4>
